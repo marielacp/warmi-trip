@@ -21,7 +21,7 @@ li{
 	/*outline: 1px solid red;*/
 }
 li span{
-	color: purple;
+	color:#E404BC;
 	font-size: 1.2em;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -61,3 +61,15 @@ li span{
 	font-size: 5em;
 }
 
+.div-vertical{
+	height:500px;
+	/*outline: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.color-button{
+	background-color: #F9088A;
+}
