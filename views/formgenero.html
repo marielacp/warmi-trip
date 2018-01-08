@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+  <title>Base de datos</title>  
+</head>
+
+<body> 
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <form class="">
+          <div class="row">
+            <div class="col-xs-12 ">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  </div>
+                      <select class="form-control" id="select-genero">
+                        <option value="fem">Femenimo</option>
+                        <option value="man">Masculino</option>
+                      </select>                  
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  </div>
+                  <input type="text" class="form-control" id="address" placeholder="Ingrese su direcciòn" required>
+                </div>
+              </div>
+          <div class="checkbox">
+            <label color="color-txt1">
+              <input type="checkbox" id="inp-check">
+              <a> Confirma tus datos.
+                <strong> Mas info click aqui </strong>
+              </a>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default btn-lg btn-block margin-button next-disabled" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js">
+</script>
+<script src="../js/formgenero.js"></script>
+</body>
+</html>
