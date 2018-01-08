@@ -1,20 +1,20 @@
 .container-img{
  /*background: black;*/
-background-image: url('assets/img/fondo-mujer.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- height: 100vh;
- background-position: bottom;
- width: 100%;
+  background-image: url('assets/img/fondo-mujer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom;
+  width: 100%;
 }   
 
 .background {
-    background: linear-gradient(to right, rgb(67,206,162), rgb(24,90,157));
+  background: linear-gradient(to right, rgb(67,206,162), rgb(24,90,157));
 }
 
 body {
-    font-family: 'Raleway', sans-serif !important;
-    background: red;
+  font-family: 'Raleway', sans-serif !important;
+  background: red;
 }
 
 .heigth {
@@ -22,17 +22,15 @@ body {
 }
 
 .container-flex-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 }
 
-.logo-width {}
-
 .logo {
-    animation-duration: 5s;
-    animation-name: slidein;
+  animation-duration: 5s;
+  animation-name: slidein;
 }
 
 @keyframes slidein {
