@@ -13,6 +13,7 @@
 <body>
 <!--....................NAVBAR.............................-->
 						<!---BARRA DE NAVEGACION-->
+	<header>
 		<nav class="navbar-default navbar-fixed-top background-nav" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -41,27 +42,71 @@
 				</div>
 			</div>
 		</nav>
-		<header  class="container-fluid conteiner-principal">
-			<div class="section">
-				<div class="row">
-					<div class="col-xs-3 col-sm-4 col-md-3">
-						<div class="div-vertical">
-							<div class="text-center"><img src="../assets/images/login-modal.png"></div>
-							<span>Nombre de usuario</span>
-							<a href="#planificar" class="btn btn-default btn-lg color-button" data-toggle="modal">Editar perfil</a>
-							<a href="#planificar" class="btn btn-default btn-lg color-button" data-toggle="modal">Boton de emergencia</a>
-							<div>
-								<h1>cuenta regresiva</h1>
-							</div>
-							<h1>monedero viajero</h1>
-							<div>
-								$500
-							</div>
-							<a href="#planificar" class="btn btn-default btn-lg color-button" data-toggle="modal">Cerrar sesion</a>
+	</header>
+	<main  class="container-fluid conteiner-principal main-margin">
+		<section class="section">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<div class="div-vertical">
+						<img width="150" class="center-block  img-responsive" src="../assets/images/login-modal.png">
+						<span class="text-center">Nombre de usuario</span>
+						<a href="#editar-perfil" class="btn btn-default color-button" data-toggle="modal">Editar perfil</a>
+						<a href="#emergencia" class="btn btn-default  color-button text-center" data-toggle="modal">Boton de emergencia</a>
+						<div class="dias-faltantes">
+							<span class="text-center">Cuenta regresiva</span>
+							<span>10 dias</span>
 						</div>
+						<div class="col-xs-6 col-sm-4 col-md-6">
+							<span class="text-center">Monedero viajero</span>
+							<span class="text-center monedero">$500</span>					
+						</div>
+						<a href="#cerrar" class="btn btn-default color-button" data-toggle="modal">Cerrar sesion</a>
 					</div>
 				</div>
-			</div>	
+	
+				<!-- MODALES -->
+				<div class="modal fade" id="editar-perfil" role="dialog">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								Tu Perfil
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="col xs-12">
+										<div class="form-group">
+										    <label for="exampleInputEmail1">Nombre completo</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+										</div>
+										<div class="form-group">
+										    <label for="exampleInputPassword1">Nombre de usuario</label>
+										    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Usuario">
+										</div>
+										<div class="form-group">
+										    <label for="exampleInputEmail1">Correo Electronico</label>
+										    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+										</div>
+										<button type="button" class="btn btn-lg btn-block aqua">ENVIAR</button>
+									</div>
+								</form>
+							</div>			
+						</div> <!--modal content-->
+					</div> <!--modal dialog-->
+				</div> <!--modal fade-->
+						<!-- FIN DE MODAL REGISTRATE -->
+
+				<div class="col-sm-9 col-md-9">
+							<div class="friend">
+								<span>WELCOME</span><span>Nombre</span>
+								<div class="form-group">
+ 									<textarea class="form-control" rows="5" id="comment" placeholder="¿Donde estas?"></textarea>
+								</div>
+
+							</div>
+						</div>
+		</div>
+	</section>	
 <!-- 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-6">
 					<a href="#planificar" class="btn btn-default btn-lg" data-toggle="modal">Planificar viaje</a>
@@ -72,11 +117,12 @@
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							holaaa
+							<h1>Tu Perfil</h1>
+
 					</div>
 				</div>
 			</div>
-		</header>
+		</main>
 		
 
 	    <!-- Js de bootstrap-->

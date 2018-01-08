@@ -48,6 +48,10 @@ li span{
 	/*align-items: center;*/
 	}
 
+.main-margin{
+	margin-top: 20px;
+	/*outline: 1px solid red;*/
+}
 /*posicionar el menu hamburgueza*/
 .display-menu-principal{
 	display: flex;
@@ -61,8 +65,12 @@ li span{
 	font-size: 5em;
 }
 
+/*menu vertical*/
 .div-vertical{
-	height:500px;
+	background-color: black;
+	padding: 0.5em;
+	
+	/*height:500px;*/
 	/*outline: 1px solid red;*/
 	display: flex;
 	flex-direction: column;
@@ -72,4 +80,16 @@ li span{
 
 .color-button{
 	background-color: #F9088A;
+	margin: 5px;
+}
+
+.monedero{
+	border-radius: 50%;
+	padding: 15px;
+	margin: 30px;
+	background-color: aqua;
+}
+
+h3{
+	font-size: 1.5em;
 }
