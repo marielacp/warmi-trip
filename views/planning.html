@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warmi-Trip</title>
+    <!-- Hojas de estilo para iconos -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/icons/lyft-icon.png" type="image/x-icon">
+    <!-- Hojas de estilo de Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- Fuentes externas  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Hojas de estilo personalizadas este proyecto  -->
+    <link href="../css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Menú navegador-->
+    <nav class="navbar navbar-default ">
+      <div class="container-fluid space-between align-items-center">
+        <div class="row align-self-start">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="main.html">
+              <i class="glyphicon glyphicon-menu-left"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="navbar-text text-center">LOGO</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4 class="navbar-text">Planifica tu próximo destino</h4>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Formulario de registro-->
+    <main>
+      <div class="container">
+        <div class="row">
+            <form class="container  space-between align-items-center">
+                <label for="txt-money">Asignar presupuesto</label>
+              <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input id="txt-money" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                
+              </div>
+                
+              <div class="panel panel-default" >
+                  <div class="panel-heading">
+                      
+                       <div class="row ">
+                               <div class="col-md-12">
+                                   <input type="text" class="form-control" placeholder="Enter Card Number" />
+                               </div>
+                           </div>
+                      <div class="row ">
+                               <div class="col-md-3 col-sm-3 col-xs-3">
+                                   <span class="help-block text-muted small-font" > Expiry Month</span>
+                                   <input type="text" class="form-control" placeholder="MM" />
+                               </div>
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                                   <span class="help-block text-muted small-font" >  Expiry Year</span>
+                                   <input type="text" class="form-control" placeholder="YY" />
+                               </div>
+                         <div class="col-md-3 col-sm-3 col-xs-3">
+                                   <span class="help-block text-muted small-font" >  CCV</span>
+                                   <input type="text" class="form-control" placeholder="CCV" />
+                               </div>
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                 <img src="assets/img/1.png" class="img-rounded" />
+                          </div>
+                           </div>
+                      <div class="row ">
+                               <div class="col-md-12 pad-adjust">
+                 
+                                   <input type="text" class="form-control" placeholder="Name On The Card" />
+                               </div>
+                           </div>
+                      <div class="row">
+                 <div class="col-md-12 pad-adjust">
+                     <div class="checkbox">
+                     <label>
+                       <input type="checkbox" checked class="text-muted"> Save details for fast payments <a href="#"> learn how ?</a>
+                     </label>
+                   </div>
+                 </div>
+                      </div>
+                        <div class="row ">
+                             <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                  <input type="submit"  class="btn btn-danger" value="CANCEL" />
+                               </div>
+                               <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                   <input type="submit"  class="btn btn-warning btn-block" value="PAY NOW" />
+                               </div>
+                           </div>
+                      
+                                    </div>
+                               </div>
+                
+                
+                
+              </form>
+          
+         
+        </div>
+      </div>
+      
+  <!-- Advertencia de código  erróneo-->
+  <div class="container">
+      <div class="row">
+        <div class="col-xs-12  text-center">
+          <div id="danger" class="alert alert-danger alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Warning!</strong> El dato ingresado es incorrecto.
+          </div>
+        </div>
+      </div>
+    </div>
+     
+      <!-- Botón Next-->
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12  text-center">
+              <button id="btn-next" type="button" class="btn btn-default btn-lg btn-block text-uppercase bg-purple">next</button>
+            </div>
+          </div>
+        </div>
+    </main>
+    <!-- Js de Jquery-->
+    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <!-- Js de bootstrap-->
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Js para la página-->
+    <script type="text/javascript" src="../js/register-email.js"></script>
+  </body>
+</html>
