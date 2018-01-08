@@ -22,7 +22,7 @@ function saveData(user) {
 
   };
   // probando es el nombre de tu rama
-  firebase.database().ref('probando/' + user.uid).set(userToSave); // push añade un registro 
+  firebase.database().ref('bd/' + user.uid).set(userToSave); // push añade un registro 
 }
 
 
@@ -36,7 +36,7 @@ $('#guardar').click(function() {
 
 // Aqui estoy leyendo la base data, recolectando a todos los usuarios que han iniciado sesion 
 
-firebase.database().ref('probando').on('child_added', function(snap) {
+firebase.database().ref('bd').on('child_added', function(snap) {
   var user=snap.val();
   $('#root').append('<img width="100px" src=' + user.photo + '>'); // vas a jalar de la bd
 });

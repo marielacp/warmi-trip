@@ -7,14 +7,16 @@
  
 }
 
+
+
 .help{
   display:flex;
   flex-direction:column;
   justify-content:space-between;
   align-items:center;
 }
-
-/*Clases reutilizables*/
+/*
+/*Clases reutilizables
 .flex-center{
   display:flex;
   align-items:center;
@@ -61,7 +63,7 @@ justify-content:space-between;
   background-color:#FF00BF;
   margin-top:18vh;
 }
-/*Estilo del index*/
+/*Estilo del index
 .gradient{
   background: linear-gradient(#76278F, #FF00BF);
   height:100vh;
@@ -69,7 +71,7 @@ justify-content:space-between;
   
 }
 
-/*Estilo del signup*/
+/*Estilo del signup
 .signup{
   background-image:url('../assets/images/main-image.jpg');
   background-position:center;
@@ -91,7 +93,7 @@ justify-content:space-between;
   justify-content:space-around;
 
 }
-/*Estilos de register-email*/
+/*Estilos de register-email
 .blue{
   color:#72a3cc;
   font-weight:bold;
@@ -106,7 +108,7 @@ justify-content:space-between;
   border:0;
 }
 
-/*Estilo que nos indica que hay un error en el texto ingresado*/
+/*Estilo que nos indica que hay un error en el texto ingresado
 .error{
   border:solid 1px red;
 }
@@ -116,3 +118,4 @@ justify-content:space-between;
   
   
 }
+*/
