@@ -12,6 +12,8 @@
   <link rel="shortcut icon" href="../assets/icons/lyft-icon.png" type="image/x-icon">
   <!-- Hojas de estilo de Bootstrap  -->
   <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  
   <!-- Fuentes externas  -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <!-- Hojas de estilo personalizadas este proyecto  -->
@@ -100,8 +102,8 @@
               <div class="row">
                 <div class='col-xs-6 margin-top'>
                   <div class="form-group">
-                    <div class='input-group date' id='datetimepicker1'>
-                      <input type='text' class="form-control" />
+                    <div class='input-group date'>
+                      <input id="datepicker1" type='text' class="form-control datepicker" readonly />
                       <span class="input-group-addon">
                         <span class="glyphicon glyphicon-calendar"></span>
                       </span>
@@ -150,6 +152,7 @@
   <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
   <!-- Js de bootstrap-->
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
   <!-- Js para la página-->
   <script type="text/javascript" src="../js/planning.js"></script>
 </body>
