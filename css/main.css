@@ -28,7 +28,15 @@
 .margin-top{
   margin-top: 4vh;
 }
-
+.coin{
+  height:10rem;
+  width:10rem;
+  border: 3px dotted #ffff00;
+  border-radius: 25rem;
+  background: linear-gradient(to bottom right, #ccff33 0%, #ffff66 100%);
+  font-size:3em;
+  padding-top:0.5em;
+}
 
 
 
