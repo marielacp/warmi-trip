@@ -2,11 +2,11 @@ $(document).ready(function() {
   // Cargamos los datepickers en todos aquellos elementos que tengan la clase datepicker
   $('.datepicker').datepicker();
   // Obtenemos la ciudad elegida
-  var city = 'Cuzco';
+  var city = 'Ica';
 
   // Obtenemos la data según la ciudad elegida
   firebase.database().ref('place/' + city + '/hotels').on('value', function(snap) {
-    console.log(snap.val());
+    // console.log(snap.val());
     var hotels = Object.keys(snap.val());
     // Cargamos los hoteles según la ciudad elegida
     for (var i = 0; i < hotels.length; i++) {
@@ -14,6 +14,18 @@ $(document).ready(function() {
       $('#hotels').append($option);
     }
   });
+
+  // Obtenemos transporte según la ciudad elegida
+  
+  firebase.database().ref('transport').on('value', function(snap) {
+    var arrayTransport = Object.keys(snap.val());
+    // Cargamos los hoteles según la ciudad elegida
+    for (var i = 0; i < arrayTransport.length; i++) {
+      var $option = $('<option value="' + arrayTransport[i] + '">' + arrayTransport[i] + '</option>');
+      $('#list-transport').append($option);
+    }
+  });
+
 
   // Obteniendo los datos según el hotel seleccionado
   $('#hotels').on('change', function() {
@@ -64,5 +76,16 @@ $(document).ready(function() {
     } else {
       $('#btn-search').prop('disabled', false);
     }*/
+  });
+  $('#list-transport').on('change', function() {
+    var companyName = $(this).val();
+
+    
+    firebase.database().ref('transport/' + companyName+'/destination-place/'+city).on('value', function(snap) {
+      
+      var $transportPrice=snap.val();
+      console.log($transportPrice);
+       $('#txt-price-transport').val($transportPrice);
+    });
   });
 }); 
