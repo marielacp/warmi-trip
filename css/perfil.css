@@ -9,31 +9,40 @@
   
 }
 
+.container-img {
+ 
+  background-image: url(../assets/img/puntasal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100vh;
+  background-position: bottom;
+  /*me posiciona la imagen en el bottom*/
+}
 
 /*--------------NAV-----------------*/
-	nav {
+/*	nav {
 	position: fixed;
 	top: 0%;
 	width: 100%;
 	z-index: 10000;
 	height: 20%;
 }
-
-ul{
+*/
+/*ul{
 	padding-top: 10px;
-}
-li{
+}*/
+/*li{
 	margin-left:10px;
 	margin-right: 10px;
-	/*outline: 1px solid red;*/
-}
-li span{
+	/*outline: 1px solid red;
+}*/
+/*li span{
 	color:white;
 	font-size: 1.2em;
 	font-weight: 700;
 	text-transform: capitalize;
 
-}
+}*/
 
 li span:hover{
 color:#df017c;
@@ -62,16 +71,6 @@ border-bottom: 1px solid #df017c;
 
 /*FONDO PRINCIPAL*/
 
-.container-img{
-	height: 80vh;
-	background-image: url(../assets/img/puntasal.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-  	background-position: bottom; /*me posiciona la imagen en el bottom*/
-	background-attachment: fixed;
-
-	}
-
 
 /*posicionar el menu hamburgueza
 .display-menu-principal{
@@ -79,24 +78,15 @@ border-bottom: 1px solid #df017c;
 	justify-content: space-around;
 }
 */
-.welcome{
+/*.welcome{
 	font-family: 'Roboto', sans-serif;
 	color: darkblue;
 	font-weight: 700;
 	font-size: 5em;
-}
+}/*
 
 /*menu vertical*/
-.div-vertical{
-	display: inline-block;
-	position: absolute;
-	margin-top:-150%;
-	background-color:transparent;
-	border: 1px solid #df017c;
-	border-radius: 2rem;
-	padding: 2rem;	
 
-}
 
 .color-button{
 	background-color: #F9088A;
@@ -113,3 +103,175 @@ border-bottom: 1px solid #df017c;
 h3{
 	font-size: 1.5em;
 }
+
+/* main*/
+
+.style-main{
+margin-top: 0;
+}
+
+
+
+.text{
+color: blue;
+}
+
+.border-post{
+border-radius: 5rem;
+border: 1px solid #df017c;
+padding: 2rem;
+margin: 0 4rem 4rem 4rem; 
+
+}
+
+  .post {
+  border: 0;
+  width: 100%;
+  height: 10rem;
+  outline: 2px solid #df017c;
+  font-size: 12px;
+  color: rgb(2, 18, 29);
+}
+.main-fondo {
+  height: 120vh;
+  background-image: url(../assets/img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*me posiciona la imagen en el bottom*/
+}
+
+.position-flex {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.form-fondo-one {
+  margin-top: 40%;
+  width:100%;
+  height: auto;
+  padding: 2%;
+  display: inline-block;
+}
+/*fondo 3*/
+.container-img3 {
+  height: 100vh;
+  background-image: url(../assets/img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*me posiciona la imagen en el bottom*/
+}
+
+.position-face-friends{
+position:absolute;
+top:-30%;
+left: -5%;
+}
+
+.border-data-friends{
+  border-radius: 1rem;
+  padding: 2rem;
+
+}
+
+.width-icono-login {
+width: 10%;
+}
+.button-style-friends{
+background-color: #F9088A;
+color: white;
+}
+.button-style-friends:hover{
+color : #F9088A;
+background-color:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.container-footer{
+ 
+    height: 120vh;
+    background-image: url(../assets/img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*me posiciona la imagen en el bottom*/
+  
+
+}
+
+  .border-post1 {
+  border-radius: 5rem;
+  border: 1px solid #df017c;
+  padding: 2rem;
+  ;
+}
+
+ .cont-footer {
+   width: 100%;
+   background-col:r-transparente;
+   display: inline-block;
+   padding: 2rem 1rem 1rem 1rem;
+ }
+
+ .date-footer {
+   color: white;
+ }
+
+ .list i {
+   color: white;
+ }
+
+ .list {
+   display: inline-block;
+   text-decoration: none;
+ }
+
+ ul li {
+   float: left;
+   padding: 0.5rem;
+   text-decoration: none;
+   list-style: none;
+ }
+
+ .img-footer {
+   margin-top: 2rem;
+ }
+
+ .img-footer-sm {
+   margin-top: 9rem;
+ }
+
+ .footer-date {
+   color: white;
+ }
+
+ .list-sm {
+   padding: 2rem 0 0 0;
+ }
+
+ .spacing {
+   width: 15%;
+   height: 100px;
+ }
