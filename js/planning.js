@@ -1,6 +1,8 @@
 $(document).ready(function() {
   // Cargamos los datepickers en todos aquellos elementos que tengan la clase datepicker
   $('.datepicker').datepicker();
+  // Habilitamos los popovers
+  $('[data-toggle="popover"]').popover();   
   // Obtenemos la ciudad elegida
   var city = 'Ica';
 
