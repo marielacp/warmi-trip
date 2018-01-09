@@ -19,9 +19,11 @@ $(document).ready(function() {
   $('#list-hotels').on('input', function() {
 
     var $nameHotel = $(this).val();
-    // Limpiando el span de estrellas
+    // Limpiando los campos cada vez que elegimos una nueva opcion  
     $('#stars').html('');
-
+    $('#wifi').html('');
+    $('#tripadvisor').html('');
+    $('#price-hotel').html('');
     //Obteniendo costo del hotel
     $hotelPrice=0;
   
@@ -38,6 +40,8 @@ $(document).ready(function() {
       var $tripadvisor= snap.val()['tripadvisor'];
       $('#tripadvisor').append('<p><a target="_blank" href="' + $tripadvisor + '"> Míralo en Tripadvisor</a></p>');
       var $hotelPrice= snap.val()['precio-dia'];
+      console.log($hotelPrice);
+      $('#price-hotel').append($hotelPrice);
     });
 
     
