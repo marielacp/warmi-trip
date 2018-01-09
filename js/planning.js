@@ -10,16 +10,16 @@ $(document).ready(function() {
     var hotels = Object.keys(snap.val());
     // Cargamos los hoteles según la ciudad elegida
     for (var i = 0; i < hotels.length; i++) {
-      var $option = $('<option value="' + hotels[i] + '"></option>');  
+      var $option = $('<option value="' + hotels[i] + '">' + hotels[i] + '</option>');
       $('#hotels').append($option);
     }
   });
 
   // Obteniendo los datos según el hotel seleccionado
-  $('#list-hotels').on('input', function() {
+  $('#hotels').on('change', function() {
     var $nameHotel = $(this).val();
     // Limpiando los campos cada vez que elegimos una nueva opcion 
-    
+
     $('#title-modal').html('');
     $('#modal-map').html('');
     $('#stars').html('');
@@ -27,19 +27,18 @@ $(document).ready(function() {
     $('#tripadvisor').html('');
     $('#price-hotel').html('');
     $('#breakfast').html('');
-   $('#address').html('');
+    $('#address').html('');
     // Obteniendo costo del hotel
     $hotelPrice = 0;
-  
-    firebase.database().ref('place/' + city + '/hotels/' + $nameHotel).on('value', function(snap) {
 
+    firebase.database().ref('place/' + city + '/hotels/' + $nameHotel).on('value', function(snap) {
       $('#title-modal').html(snap.val()['name']);
-     
+
       $('#modal-map').append(snap.val()['iframe']);
       var rating = snap.val()['rating'];
       // Insertando iconos de stars según la bd
       for (var i = 0; i < rating; i++) {
-        var $stars = $('<span class="glyphicon glyphicon-star"></span>');  
+        var $stars = $('<span class="glyphicon glyphicon-star"></span>');
         $('#stars').append($stars);
       }
 
@@ -55,11 +54,11 @@ $(document).ready(function() {
 
       var $address = snap.val()['address'];
       var $iframe = snap.val()['iframe'];
-      $('#address').append('<p><a target="" href="#">'+ $address +'</a></p>');
+      $('#address').append('<p><a target="" href="#">' + $address + '</a></p>');
     });
 
-//Llamando al  modal
-$('#modal-hotel').modal('show');
+    // Llamando al  modal
+    $('#modal-hotel').modal('show');
     /* if ($('#list-kind-of-food').val().length === 0) {
       $('#btn-search').prop('disabled', true);
     } else {
