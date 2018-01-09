@@ -1,0 +1,74 @@
+{
+  "bd" : {
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "email" : "ayajahuanca@gmail.com",
+      "name" : "Ada Yajahuanca Chupa",
+      "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
+      "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
+    },
+    "butpRjVemeUYCcYBQzHLrVxwQyi1" : {
+      "email" : "marysicp@gmail.com",
+      "name" : "Mariela Deysi Cerna Peralta",
+      "photo" : "https://lh5.googleusercontent.com/-0dAI0olDOgM/AAAAAAAAAAI/AAAAAAAAB70/W10yoXc2UZ4/photo.jpg",
+      "uid" : "butpRjVemeUYCcYBQzHLrVxwQyi1"
+    }
+  },
+  "hotels" : {
+    "h001" : {
+      "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
+      "link" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html",
+      "name" : "La Posada del Viajero",
+      "precio" : 133
+    }
+  },
+  "place" : {
+    "Cajamarca" : {
+      "ID" : "P003",
+      "dangplace" : "Barrios de Lucmacucho y Santa Elena",
+      "location" : "Localidad andina situada en la región montañosa del norte de Perú.",
+      "name" : "Cajamarca",
+      "platetypic" : {
+        "Chicharrón con mote" : "Carne de cerdo cocinada en su propia grasa y acompañada de mote o maíz desgranado.",
+        "Humitas" : "Masa dulce o salada de maíz rellena con canela y pasas, envuelta en hojas de maíz y cocida al vapor.",
+        "Picante de papa con cuy frito" : "Guiso de cuy cocinado en salsa de maní y ají panca acompañado de papas."
+      },
+      "price" : {
+        "breakfast" : "$17",
+        "dinner" : "$35",
+        "lunch" : "$40"
+      }
+    },
+    "Cuzco" : {
+      "ID" : "P001",
+      "dangplace" : "Puente Santiago, calle Belén y en general zonas del distrito de Santiago.",
+      "location" : "Ubicada en la vertiente oriental de la cordillera de los Andes, en la cuenca del río Huatanay, afluente del Vilcanota.",
+      "name" : "CUZCO",
+      "platetypic" : {
+        "CHUÑO COLA" : "Es una comida típica que se consume en cualquier fecha del año",
+        "ROCOTO RELLENO" : "El relleno se prepara con carne molida, maní, pasas y arvejitas",
+        "TIMPO O PUCHERO" : "Plato que se prepara durante los martes de carnaval"
+      },
+      "price" : {
+        "breakfast" : "$15",
+        "dinner" : "$20",
+        "lunch" : "$25"
+      }
+    },
+    "Ica" : {
+      "ID" : "P002",
+      "dangplace" : "Barrio Mollendo",
+      "location" : "Ubicado al centro oeste del país, limitando al norte con Lima, al este con Huancavelica y Ayacucho, al sur con Arequipa y al oeste con el Océano ",
+      "name" : "ICA",
+      "platetypic" : {
+        "Carapulcra" : "Papa seca sancochada y guisada con carnes de chancho y gallina, ají panca y mirasol, ajos y otras especias.",
+        "Morusa y picante de pallares" : "La sabrosa morusa se prepara a base de puré de papa o yuca con asado de res o cerdo. ",
+        "Sopa Seca" : "Es un plato está elaborado a base de tallarines y gallina en trozos."
+      },
+      "price" : {
+        "breakfast" : "$17",
+        "dinner" : "$38",
+        "lunch" : "$28"
+      }
+    }
+  }
+}
