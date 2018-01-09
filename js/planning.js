@@ -17,12 +17,32 @@ $(document).ready(function() {
 
   // Obteniendo los datos según el hotel seleccionado
   $('#list-hotels').on('input', function() {
-    var nameHotel = $(this).val();
+
+    var $nameHotel = $(this).val();
+    // Limpiando el span de estrellas
+    $('#stars').html('');
+
+    //Obteniendo costo del hotel
+    $hotelPrice=0;
   
-    firebase.database().ref('place/' + city + '/hotels/' + nameHotel).on('value', function(snap) {
+    firebase.database().ref('place/' + city + '/hotels/' + $nameHotel).on('value', function(snap) {
       var rating = snap.val()['rating'];
-      
+      // Insertando iconos de stars según la bd
+      for (var i = 0; i < rating; i++) {
+        var $stars = $('<span class="glyphicon glyphicon-star"></span>');  
+        $('#stars').append($stars);
+      }
+
+      var $wifi= snap.val()['Wi-fi'];
+      $('#wifi').append($wifi);
+      var $tripadvisor= snap.val()['tripadvisor'];
+      $('#tripadvisor').append('<p><a target="_blank" href="' + $tripadvisor + '"> Míralo en Tripadvisor</a></p>');
+      var $hotelPrice= snap.val()['precio-dia'];
     });
+
+    
+
+
 
     /* if ($('#list-kind-of-food').val().length === 0) {
       $('#btn-search').prop('disabled', true);
