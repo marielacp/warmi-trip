@@ -18,7 +18,10 @@ $(document).ready(function() {
   // Obteniendo los datos según el hotel seleccionado
   $('#list-hotels').on('input', function() {
     var $nameHotel = $(this).val();
-    // Limpiando los campos cada vez que elegimos una nueva opcion  
+    // Limpiando los campos cada vez que elegimos una nueva opcion 
+    
+    $('#title-modal').html('');
+    $('#modal-map').html('');
     $('#stars').html('');
     $('#wifi').html('');
     $('#tripadvisor').html('');
@@ -29,6 +32,10 @@ $(document).ready(function() {
     $hotelPrice = 0;
   
     firebase.database().ref('place/' + city + '/hotels/' + $nameHotel).on('value', function(snap) {
+
+      $('#title-modal').html(snap.val()['name']);
+     
+      $('#modal-map').append(snap.val()['iframe']);
       var rating = snap.val()['rating'];
       // Insertando iconos de stars según la bd
       for (var i = 0; i < rating; i++) {
