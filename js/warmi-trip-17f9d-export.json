@@ -41,6 +41,46 @@
     "Cuzco" : {
       "ID" : "P001",
       "dangplace" : "Puente Santiago, calle Belén y en general zonas del distrito de Santiago.",
+      "hotels" : {
+        "La Posada del Viajero" : {
+          "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
+          "id" : "h001",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.30184511115!2d-71.98002693583179!3d-13.517058574666178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd6735d4dbbed%3A0x30ef1c84482da226!2sLa+Posada+del+Viajero+Hostal!5e0!3m2!1ses-419!2spe!4v1515479647431\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "La Posada del Viajero",
+          "precio-dia" : 133,
+          "rating" : 4,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        },
+        "Hotel Sonnenthal Cusco" : {
+          "address" : "San Borja I - 7, Cuzco Cusco 084, Perú",
+          "id" : "h002",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.116276249003!2d-71.96710788583148!3d-13.528455074908292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5e4ba2892cb%3A0xe6641398c011ac05!2sHotel+Sonnenthal+Cusco!5e0!3m2!1ses-419!2spe!4v1515480784873\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Hotel Sonnenthal Cusco",
+          "precio-dia" : 64,
+          "rating" : 5,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d3380126-Reviews-Hotel_Sonnenthal_Cusco-Cusco_Cusco_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        },
+        "Wayra Dreams Hotel" : {
+          "address" : "Jr. Espinar K2 | Urb. Progreso, Cuzco, Perú",
+          "id" : "h003",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.0840463881814!2d-71.96186858583157!3d-13.530433474950303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5fa4920176f%3A0xd7bd9e96006a74c6!2sWayra+Dreams+Hotel!5e0!3m2!1ses-419!2spe!4v1515481018559\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Wayra Dreams Hotel",
+          "precio-dia" : 60,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d11970263-Reviews-Wayra_Dreams_Hotel-Cusco_Cusco_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        }
+
+      
+      },
       "location" : "Ubicada en la vertiente oriental de la cordillera de los Andes, en la cuenca del río Huatanay, afluente del Vilcanota.",
       "name" : "CUZCO",
       "platetypic" : {
@@ -55,6 +95,20 @@
       }
     },
     "Ica" : {
+      "hotels" : {
+        "La Posada del Viajero" : {
+          "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
+          "id" : "h001",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.30184511115!2d-71.98002693583179!3d-13.517058574666178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd6735d4dbbed%3A0x30ef1c84482da226!2sLa+Posada+del+Viajero+Hostal!5e0!3m2!1ses-419!2spe!4v1515479647431\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "La Posada del Viajero",
+          "precio-dia" : 133,
+          "rating" : 4,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        }
+      },
       "ID" : "P002",
       "dangplace" : "Barrio Mollendo",
       "location" : "Ubicado al centro oeste del país, limitando al norte con Lima, al este con Huancavelica y Ayacucho, al sur con Arequipa y al oeste con el Océano ",
