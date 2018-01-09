@@ -119,34 +119,41 @@
                   </div>
                 </div>
                 <div class="col-xs-6">
-                    <label for="txt-budget">¿Cuándo llegamos?</label>
-  
-                    <div class="input-group">
-                      <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                      </span>
-                      <input id="datepicker1" type='text' class="form-control datepicker" readonly />
-                    </div>
+                  <label for="txt-budget">¿Cuándo llegamos?</label>
+
+                  <div class="input-group">
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    <input id="datepicker1" type='text' class="form-control datepicker" readonly />
                   </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="panel panel-default">
-              <div class="panel-heading">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <label for="txt-hotel">¿Elijamos el hotel?</label>
-  
-                    <input id="list-hotels" list="hotels" name="kind-of-food" class="col-xs-12 form-control">
-                    <datalist id="hotels">
-        
-                    </datalist>
-  
-                      
-                      
-                    
-                  </div>
-  
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-12">
+                  <label for="txt-hotel">¿Elijamos el hotel?</label>
+
+                  <input id="list-hotels" list="hotels" name="kind-of-food" class="col-xs-12 form-control">
+                  <datalist id="hotels">
+
+                  </datalist>
+
+
+                  <span class="help-block text-muted small-font margin-top"> Rating</span>
+                  <span id="stars">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </span>
+
+
+
+
+
+
                 </div>
               </div>
             </div>
@@ -155,29 +162,29 @@
         </form>
 
 
+        </div>
       </div>
-    </div>
 
-    <!-- Advertencia de código  erróneo-->
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12  text-center">
-          <div id="danger" class="alert alert-danger alert-dismissible">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <strong>Warning!</strong> El dato ingresado es incorrecto.
+      <!-- Advertencia de código  erróneo-->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12  text-center">
+            <div id="danger" class="alert alert-danger alert-dismissible">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong>Warning!</strong> El dato ingresado es incorrecto.
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Botón Next-->
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12  text-center">
-          <button id="btn-next" type="button" class="btn btn-default btn-lg btn-block text-uppercase bg-purple">next</button>
+      <!-- Botón Next-->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12  text-center">
+            <button id="btn-next" type="button" class="btn btn-default btn-lg btn-block text-uppercase bg-purple">next</button>
+          </div>
         </div>
       </div>
-    </div>
   </main>
   <!-- Js de Jquery-->
   <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
@@ -185,7 +192,7 @@
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
   <!-- Js de bootstrap para datetimepicker-->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-  
+
   <!-- Js de Firebase-->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script>
