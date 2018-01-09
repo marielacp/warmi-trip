@@ -19,6 +19,9 @@
   /*me posiciona la imagen en el bottom*/
 }
 
+.publish{
+  font-size: 20px;
+}
 /*--------------NAV-----------------*/
 /*	nav {
 	position: fixed;
@@ -72,33 +75,12 @@ border-bottom: 1px solid #df017c;
 /*FONDO PRINCIPAL*/
 
 
-/*posicionar el menu hamburgueza
-.display-menu-principal{
-	display: flex;
-	justify-content: space-around;
-}
-*/
-/*.welcome{
-	font-family: 'Roboto', sans-serif;
-	color: darkblue;
-	font-weight: 700;
-	font-size: 5em;
-}/*
-
-/*menu vertical*/
-
-
 .color-button{
 	background-color: #F9088A;
 	margin: 5px;
 }
 
-.monedero{
-	border-radius: 50%;
-	padding: 15px;
-	margin: 30px;
-	background-color: aqua;
-}
+
 
 h3{
 	font-size: 1.5em;
@@ -134,7 +116,7 @@ margin: 0 4rem 4rem 4rem;
 }
 .main-fondo {
   height: 120vh;
-  background-image: url(../assets/img/fondo2.jpg);
+  background-image: url(../assets/img/fondo5.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,7 +138,7 @@ margin: 0 4rem 4rem 4rem;
 }
 /*fondo 3*/
 .container-img3 {
-  height: 100vh;
+  height: 120vh;
   background-image: url(../assets/img/fondo3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,7 +212,7 @@ background-color:pink;
 
  .cont-footer {
    width: 100%;
-   background-col:r-transparente;
+   background-color:transparente;
    display: inline-block;
    padding: 2rem 1rem 1rem 1rem;
  }
@@ -275,3 +257,20 @@ background-color:pink;
    width: 15%;
    height: 100px;
  }
+
+ .background {
+   display: inline-block;
+   width: 100%;
+   background-color: rgb(7, 0, 0);
+   opacity: 0.7;
+ }
+
+.form-fondo-one-sm {
+
+  margin-top: 15%;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  display: inline-block;
+
+}
