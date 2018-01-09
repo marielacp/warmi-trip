@@ -1,0 +1,115 @@
+ /*GENERALES------------*/
+
+  *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  
+}
+
+
+/*--------------NAV-----------------*/
+	nav {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	z-index: 10000;
+	height: 20%;
+}
+
+ul{
+	padding-top: 10px;
+}
+li{
+	margin-left:10px;
+	margin-right: 10px;
+	/*outline: 1px solid red;*/
+}
+li span{
+	color:white;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-transform: capitalize;
+
+}
+
+li span:hover{
+color:#df017c;
+border-bottom: 1px solid #df017c;
+}
+
+.text-center:hover {
+color:#df017c;
+}
+.logo-login{
+width: 17%;
+border-radius: 180%;
+margin: 2rem;
+border:2px solid #df017c;
+
+}
+
+.background-nav{
+	background-color: transparent;
+}
+
+.style-btn:hover{
+color:#df017c;
+border-bottom: 1px solid #df017c;
+}
+
+/*FONDO PRINCIPAL*/
+
+.container-img{
+	height: 80vh;
+	background-image: url(../assets/img/puntasal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: bottom; /*me posiciona la imagen en el bottom*/
+	background-attachment: fixed;
+
+	}
+
+
+/*posicionar el menu hamburgueza
+.display-menu-principal{
+	display: flex;
+	justify-content: space-around;
+}
+*/
+.welcome{
+	font-family: 'Roboto', sans-serif;
+	color: darkblue;
+	font-weight: 700;
+	font-size: 5em;
+}
+
+/*menu vertical*/
+.div-vertical{
+	display: inline-block;
+	position: absolute;
+	margin-top:-150%;
+	background-color:transparent;
+	border: 1px solid #df017c;
+	border-radius: 2rem;
+	padding: 2rem;	
+
+}
+
+.color-button{
+	background-color: #F9088A;
+	margin: 5px;
+}
+
+.monedero{
+	border-radius: 50%;
+	padding: 15px;
+	margin: 30px;
+	background-color: aqua;
+}
+
+h3{
+	font-size: 1.5em;
+}
