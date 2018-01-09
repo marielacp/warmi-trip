@@ -19,33 +19,9 @@
   /*me posiciona la imagen en el bottom*/
 }
 
-.publish{
-  font-size: 20px;
-}
-/*--------------NAV-----------------*/
-/*	nav {
-	position: fixed;
-	top: 0%;
-	width: 100%;
-	z-index: 10000;
-	height: 20%;
-}
-*/
-/*ul{
-	padding-top: 10px;
-}*/
-/*li{
-	margin-left:10px;
-	margin-right: 10px;
-	/*outline: 1px solid red;
-}*/
-/*li span{
-	color:white;
-	font-size: 1.2em;
-	font-weight: 700;
-	text-transform: capitalize;
 
-}*/
+/*--------------NAV-----------------*/
+
 
 li span:hover{
 color:#df017c;
@@ -105,7 +81,6 @@ padding: 2rem;
 margin: 0 4rem 4rem 4rem; 
 
 }
-
   .post {
   border: 0;
   width: 100%;
@@ -159,7 +134,7 @@ left: -5%;
 }
 
 .width-icono-login {
-width: 10%;
+width: 20%;
 }
 .button-style-friends{
 background-color: #F9088A;

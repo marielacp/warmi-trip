@@ -13,120 +13,133 @@
 </head>
 <body>
 <!--Navbar-->
-	<header class="container-img">
-		<nav class="navbar-default navbar-fixed-top background-nav" role="navigation">
-      <div class="container-fluid">
-				<div class="navbar-header">				
-						<button type="button" class="navbar-toggle navbar-right collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-							<span class="sr-only">navegacion</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-              <span class="icon-bar"></span>              
-						</button>
-			</div>
-				<!--MENU-->
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li ><a href="#"><span>mis viajes</span></a></li>
-						<li><a href="#"><span>mis amigos</span></a></li>          
-            <li class="logo-login"><a href="#"><span><img class="img-responsive" src="../assets/img/user-female-icon.png" alt=""></span></a></li>
-          </ul>
-				</div>
-      </div>
-     <br>
-    <br>
-  </nav>
+	<div class="container-img">    
+      <nav class="navbar-default navbar-fixed-top background-nav" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">				
+              <button type="button" class="navbar-toggle navbar-right collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                <span class="sr-only">navegacion</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>              
+              </button>
+          </div>
+          <!--MENU-->
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li ><a href="#"><span>Mis viajes</span></a></li>
+              <li><a href="#"><span>Mis amigos</span></a></li>          
+              <li ><a href="#"><span>Perfil</span></a></li>
+            </ul>
+          </div>
+        </div><br><br>
+      </nav>
+
     <div class="col-xs-12">
       <div class="form-fondo-one visible-xs-block">       
-        <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1>
-        <br>
+        <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1><br>
         <h1 class="text-center"> Great Destination for first time travellers</h1>
           <div>
-          <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+            <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
           </div>
           <div class="input-group center-block">
-            <div class="input-group-addon">            
-            </div>
+            <div class="input-group-addon"></div>
               <select class="form-control" id="select-ciudad">
               <option value="fem">Lima </option>
               <option value="man">Arequipa</option>
               </select>
           </div>
-        </div>
-       
       </div>
+    </div>
+  <main>
       <!---->
         <div class="container-fluid">
           <div class="row ">
-            <div class="col-xs-12 ">             
+            <div class="col-sm-12 ">             
               <div class="form-fondo-one-sm visible-sm-block visible-md-block visible-lg-block">
                 <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1>
-                <br>
-                <h1 class="text-center"> Great Destination for first time travellers</h1>
-                <div>
-                  <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
-                </div>
-                <div class="input-group center-block">
-                  <div class="input-group-addon">
+                  <br>
+                  <h1 class="text-center"> Great Destination for first time travellers</h1>
+                    <div>
+                      <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+                    </div>
+                      <div class="input-group center-block">
+                        <div class="input-group-addon">
+                      </div>
+                      <select class="form-control" id="select-ciudad">
+                        <option value="fem">Lima </option>
+                        <option value="man">Arequipa</option>
+                      </select>
                   </div>
-                  <select class="form-control" id="select-ciudad">
-                    <option value="fem">Lima </option>
-                    <option value="man">Arequipa</option>
-                  </select>
                 </div>
-              </div>
-              </div>
             </div>
-      </div>    
-	</header>
-
-<main >  
-    
-
-<!--1rea seccion- Post-->
+          </div>
+      </div>   
+  </main>
+</div>
+<!--1rea seccion Formulario de Perfil y Post-->
 <section class="main-fondo style-main">
   <br><br>
-  <div class="container-fluid text border-post">
-    <div class="row">
-      <div class="col-xs-12 ">
-            
-        <h1 class="text text-center">Postea mi muro!!!!</h1>
-          <ul  class="nav nav-pills nav-justified publish">
-          <li role="presentation" class="active"><span class="glyphicon glyphicon-pencil"><a href="#">  Publiquemos!!!</a></span></li>
-          <li role="presentation"><span class="glyphicon glyphicon-camera"><a href="#">  Sube Fotos...</a> </span></li>
-          <li role="presentation"><span class="glyphicon glyphicon-facetime-video"><a href="#">  Video</a></span></li>
-          </ul>
-
-        <div class="container-post">
-          <textarea name="" id="" class="post"></textarea>
+  <div class="container text">
+    <div class="row">             
+      <div class="col-sm-2 col-md-2 col-lg-2 visible-sm-block visible-md-block visible-lg-block"> 
+        <h4 class="text-center">Login</h4>
+        <div class="display">
+          <img class="img-responsive width-icono-login center-block" src="../assets/img/user-female-icon.png" alt="">
         </div>
-
-        <div>
-               
-          <img class="img-responsive width-icono-login " src="../assets/img/manos.png" alt="">
-        </div>
+          <form action="" class="form-horizontal">
+            <div class="form-group">
+              <label for="inputPassword1" class="sr-only">Nombre de Usuario</label>
+              <input type="nombre" class="form-control" id="inputPassword1" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="inputPassword2" class="sr-only">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-default">Editar Perfil</button>  
+            <hr>
+          </form>
+          <div>
+            <button type="submit" class="btn btn-default">Boton de emergencia</button>
+            <hr>
+            <h3> Cuenta regresiva</h3>
+            <hr>
+            <input type="text" placeholder="Solo quedan 10 dias">
+            <hr>
+            <h3> Monedero</h3>
+            <hr>
+            <input type="text" placeholder="$500">
+            <hr>
+            <button type="submit" class="btn btn-default">Cerrar Sesiòn</button>
+          </div>
       </div>
-   <!--   <div class="row">
-        <div class="col-xs-4">
-          <div class="photo  text ">
-            <h3>Sube tu Photo</h3>
-            <img class="img-responsive center-block logo-login" src="../assets/img/user-female-icon.png" alt="">
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-5 col-xs-12 col-md-5  col-lg-5 visible-xs-block visible-sm-block visible-md-block visible-lg-block">
+          <div>
+            <img class="img-responsive width-icono-login center-block" src="../assets/img/postea.png" alt="">
           </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="video center-block text">
-            <h3>Sube tu video</h3>
-            <img class="img-responsive center-block logo-login" src="../assets/img/user-female-icon.png" alt="">
-          </div>
-        </div>
-      </div>-->
+           <h3 class="text text-center">Postea mi muro!!!!</h3>
+            <ul  class="nav nav-pills nav-justified publish">
+              <li role="presentation" class="active"><span class="glyphicon glyphicon-pencil"><a href="#">  Publiquemos!!!</a></span></li>
+              <li role="presentation"><span class="glyphicon glyphicon-camera"><a href="#">  Sube Fotos...</a> </span></li>
+              <li role="presentation"><span class="glyphicon glyphicon-facetime-video"><a href="#">  Video</a></span></li>
+            </ul>
+          <div class="container-post">
+            <textarea name="" id="" class="post"></textarea>
+          </div>       
+      </div>
+      <div class="col-sm-4 col-md-4  col-lg-4">
+        <h2> Noticias</h2>
+
+
+      </div>
     </div>
   </div>
-</section>    
+</section>  
   <!--seccion amigos-->
 <section class="container-img3">
  <div class="container-fluid ">
- 
   <div class="row">
     <h2 class="text-center"> Lugares Turisticos que puedes visitar...animate...</h2>
     <div class="col-sm-4 visible-sm-block visible-md-block visible-lg-block">
