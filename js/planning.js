@@ -85,7 +85,13 @@ $(document).ready(function() {
       
       var $transportPrice=snap.val();
       console.log($transportPrice);
-       $('#txt-price-transport').val($transportPrice);
+
+       
+       if($transportPrice){
+        $('#txt-price-transport').val($transportPrice);
+       }else{
+        $('#txt-price-transport').val('Destino no disponible');
+       }
     });
   });
 }); 
