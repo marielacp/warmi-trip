@@ -96,18 +96,44 @@
     },
     "Ica" : {
       "hotels" : {
-        "La Posada del Viajero" : {
-          "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
-          "id" : "h001",
-          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.30184511115!2d-71.98002693583179!3d-13.517058574666178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd6735d4dbbed%3A0x30ef1c84482da226!2sLa+Posada+del+Viajero+Hostal!5e0!3m2!1ses-419!2spe!4v1515479647431\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-          "name" : "La Posada del Viajero",
-          "precio-dia" : 133,
+        "Hotel Challaca" : {
+          "address" : "Calle Loreto 177, Ica 11000, Perú",
+          "id" : "h004",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Hotel Challaca",
+          "precio-dia" : 58,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g304040-d8099526-Reviews-Hotel_Challaca-Ica_Ica_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"No"
+
+        },
+        "Matryoshka" : {
+          "address" : "Calle los Pacaes k 16 Urb San Jose | a media cuadra de la discoteca The Who, Ica 11000, Perú",
+          "id" : "h005",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Hotel Challaca",
+          "precio-dia" : 58,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g304040-d8333115-Reviews-Matryoshka-Ica_Ica_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        },
+        "Duna Dorada Hotel" : {
+          "address" : "Urbanización Divino Maestro B-14, Ica 11000, Perú",
+          "id" : "h006",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Duna Dorada Hotel",
+          "precio-dia" : 61,
           "rating" : 4,
-          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html",
+          "tripadvisor" : "hhttps://www.tripadvisor.com.pe/Hotel_Review-g304040-d10039915-Reviews-Duna_Dorada_Hotel-Ica_Ica_Region.html",
           "Wi-fi":"Sí",
           "Desayuno-incluido":"Sí"
 
         }
+
+
       },
       "ID" : "P002",
       "dangplace" : "Barrio Mollendo",
