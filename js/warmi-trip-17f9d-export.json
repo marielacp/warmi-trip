@@ -13,16 +13,47 @@
       "uid" : "butpRjVemeUYCcYBQzHLrVxwQyi1"
     }
   },
-  "hotels" : {
-    "h001" : {
-      "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
-      "link" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html",
-      "name" : "La Posada del Viajero",
-      "precio" : 133
-    }
-  },
   "place" : {
     "Cajamarca" : {
+      "hotels" : {
+        "Hotel Balcones Plaza" : {
+          "address" : "Jr. Bambamarca 287 | Esquina Jr. Bambamarca y Jr Tayabamba, Cajamarca, Perú",
+          "id" : "h007",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.779598363923!2d-78.51847968592227!3d-7.151463672142416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25af73ee31663%3A0x349f9baaa580db2f!2sBalcones+Plaza+Hotel!5e0!3m2!1ses-419!2spe!4v1515482822849\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Hotel Balcones Plaza",
+          "precio-dia" :82,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d12364812-Reviews-Hotel_Balcones_Plaza-Cajamarca_Cajamarca_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        },
+        "Yuraq Hotel" : {
+          "address" : "Avenida Atahualpa 661 | Vía que une Cajamarca y los Baños del Inca, Cajamarca 060, Perú",
+          "id" : "h008",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.657895484668!2d-78.50377868592213!3d-7.165488672296115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25b2864be3989%3A0xa29d533ba002fed0!2sYuraq+Hotel!5e0!3m2!1ses-419!2spe!4v1515483029488\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "Yuraq Hotel",
+          "precio-dia" :79,
+          "rating" : 4,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d6575483-Reviews-Yuraq_Hotel-Cajamarca_Cajamarca_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"Sí"
+
+        },
+        "El Cumbe Inn" : {
+          "address" : "Atahualpa 345, Cajamarca, Perú",
+          "id" : "h009",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7127722769555!2d-78.52318548592221!3d-7.159168072226814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25a55f9ffd807%3A0xc925d580fd9229cf!2sEl+Cumbe+Inn!5e0!3m2!1ses-419!2spe!4v1515483254306\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "name" : "El Cumbe Inn",
+          "precio-dia" :80,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d1122153-Reviews-El_Cumbe_Inn-Cajamarca_Cajamarca_Region.html",
+          "Wi-fi":"Sí",
+          "Desayuno-incluido":"No"
+
+        }
+      
+      },
       "ID" : "P003",
       "dangplace" : "Barrios de Lucmacucho y Santa Elena",
       "location" : "Localidad andina situada en la región montañosa del norte de Perú.",
@@ -111,7 +142,7 @@
         "Matryoshka" : {
           "address" : "Calle los Pacaes k 16 Urb San Jose | a media cuadra de la discoteca The Who, Ica 11000, Perú",
           "id" : "h005",
-          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "iframe" : "<<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1068746171186!2d-75.74264668582191!3d-14.07086578667104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2eba37e3701%3A0x39ccf6996b870fdf!2sHotel+Matryoshka!5e0!3m2!1ses-419!2spe!4v1515482581646\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
           "name" : "Hotel Challaca",
           "precio-dia" : 58,
           "rating" : 3,
@@ -123,7 +154,7 @@
         "Duna Dorada Hotel" : {
           "address" : "Urbanización Divino Maestro B-14, Ica 11000, Perú",
           "id" : "h006",
-          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.990836485105!2d-75.73995798582183!3d-14.07771818682265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2ed50ebb72b%3A0xfb6bc93e82efee04!2sHotel+Duna+Dorada!5e0!3m2!1ses-419!2spe!4v1515482708510\"width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
           "name" : "Duna Dorada Hotel",
           "precio-dia" : 61,
           "rating" : 4,
