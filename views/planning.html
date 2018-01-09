@@ -12,8 +12,9 @@
   <link rel="shortcut icon" href="../assets/icons/lyft-icon.png" type="image/x-icon">
   <!-- Hojas de estilo de Bootstrap  -->
   <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"
+  />
+
   <!-- Fuentes externas  -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <!-- Hojas de estilo personalizadas este proyecto  -->
@@ -52,14 +53,14 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="row">
-                  <div class="col-xs-12 col-md-12">
-                <label for="txt-budget">¿Cuánto es nuestro presupuesto?</label>
-                
-                <div class="input-group">
-                  
-                  <span class="input-group-addon">$</span>
-                  <input id="txt-budget" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                </div>
+                <div class="col-xs-12 col-md-12">
+                  <label for="txt-budget">¿Cuánto es nuestro presupuesto?</label>
+
+                  <div class="input-group">
+
+                    <span class="input-group-addon">$</span>
+                    <input id="txt-budget" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                  </div>
                 </div>
 
               </div>
@@ -71,7 +72,7 @@
 
               <div class="row">
                 <div class="col-xs-12 col-md-12">
-                    <label for="txt-credit-card">¿Cómo lo financiamos?</label>
+                  <label for="txt-credit-card">¿Cómo lo financiamos?</label>
                   <input id="txt-credit-card" type="text" class="form-control" placeholder="Enter Card Number" />
                 </div>
               </div>
@@ -100,13 +101,16 @@
               </div>
 
               <div class="row">
-                <div class='col-xs-6 margin-top'>
+                <div class='margin-top'>
                   <div class="form-group">
+
                     <div class='input-group date'>
-                      <input id="datepicker1" type='text' class="form-control datepicker" readonly />
+                      <label for="datepicker1">Check-in</label>
                       <span class="input-group-addon">
                         <span class="glyphicon glyphicon-calendar"></span>
                       </span>
+                      <input id="datepicker1" type='text' class="form-control datepicker" readonly />
+
                     </div>
                   </div>
                 </div>
@@ -152,6 +156,7 @@
   <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
   <!-- Js de bootstrap-->
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Js de bootstrap para datetimepicker-->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
   <!-- Js para la página-->
   <script type="text/javascript" src="../js/planning.js"></script>
