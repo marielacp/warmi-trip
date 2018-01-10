@@ -16,6 +16,7 @@ $(document).ready(function() {
       description: $description,
       date: $date
     });
+    $(this).hide();
   });
 
   $('#btn-save-post').click(function() {
@@ -28,5 +29,7 @@ $(document).ready(function() {
       date: $date
       
     });
+
+    $(this).hide();
   });
 }); 
