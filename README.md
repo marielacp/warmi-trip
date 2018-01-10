@@ -1,4 +1,4 @@
-#Proyecto:Red social Warmi - Trip
+#Proyecto:Red social WARMI - TRIP
 #Bajo el lema:		Disfruta…viaja…vive.
 
 ![Imagenes](assets/img/logomujerchica.png) 
@@ -60,10 +60,10 @@
 *	Utilizamos framework Bootstrap.
 *	Programación en Jquery
 
-### Elemento de mi red social WARMI-TRIP
+### ELEMENTOS DE MI RE SOCIAL WARMI-TRIP
 *	Se creó un logotipo en photoshop,
 *	Deficiòn de paleta de colores y diseño de cada una de las viewpor.
-*	Se utiliza una nueva herramienta de base de datos online, Firebase, que almacena la base de datos en tiempo real, asi como el login esta vinculado 		directo con la cuenta de usuario en gmail.
+*	Se utiliza una nueva herramienta de base de datos online, Firebase, que almacena la base de       datos en tiempo real, asi como el login esta vinculado directo con la cuenta de usuario en        gmail.
 *	Antes de iniciar un registro previo las vistas están compuestas por:
 *	Splash
 *	Login –Genero.
@@ -75,9 +75,9 @@
 *	Modales de ubicación.
 *	Monedero para presupestar los viajes.
 
-###	Presentaciòn del producto.
+###	PRESENTACION DEL PRODUCTO.
 *	Se crea un repositorio.
-*	Se crea pagina gh-pages para guardar información de commit adicionales por cada colaborador.
+*	Se crea pàgina gh-pages para guardar información de commit adicionales por cada colaborador.
 *	Trabajo grupal.
 
 ## USO DE FIREBASE
