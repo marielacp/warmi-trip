@@ -12,12 +12,6 @@
       "photo" : "https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg",
       "uid" : "3tFDufHxToPoETEeiyit005KIgG2"
     },
-    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
-      "email" : "ayajahuanca@gmail.com",
-      "name" : "Ada Yajahuanca Chupa",
-      "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
-      "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
-    },
     "UUMuwt7Mq8aka81hWdVODRDOw6L2" : {
       "email" : "marielacernap@gmail.com",
       "name" : "Mariela Deysi Cerna Peralta",
@@ -87,7 +81,8 @@
         "breakfast" : "$17",
         "dinner" : "$5",
         "lunch" : "$4"
-      }
+      },
+      "zonasTurist" : 0
     },
     "Cuzco" : {
       "ID" : "P001",
@@ -138,7 +133,8 @@
         "breakfast" : "$5",
         "dinner" : "$8",
         "lunch" : "$5"
-      }
+      },
+      "zonaTurist" : 0
     },
     "Ica" : {
       "ID" : "P002",
@@ -189,8 +185,41 @@
         "breakfast" : "$9",
         "dinner" : "$5",
         "lunch" : "$4"
-      }
+      },
+      "zonaTurist" : 0
     }
+  },
+  "posts" : {
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "-L2WUGbjYh73Qt-lj873" : {
+        "date" : "2018/1/10",
+        "publish" : "dfgbsfbvsb"
+      },
+      "-L2WUKfpSkGXqOHTIjDD" : {
+        "date" : "2018/1/10",
+        "description" : "bsbsdbdsb",
+        "photo" : "credit-card.png"
+      },
+      "-L2Wj96DwQP7jEMY3M5o" : {
+        "date" : "2018/1/10",
+        "publish" : "yrjtrejhnedhn"
+      },
+      "-L2WjCDNuEoQIGuIQNrq" : {
+        "date" : "2018/1/10",
+        "description" : "",
+        "photo" : "appstore.png"
+      },
+      "-L2Wm8eq70pMdPWClr7Z" : {
+        "date" : "2018/1/10",
+        "publish" : "htdghjehetdht"
+      },
+      "-L2WmDeFhHavSVBARYe3" : {
+        "date" : "2018/1/10",
+        "description" : "wetwet",
+        "photo" : "appstore.png"
+      }
+    },
+    "UID" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
   },
   "transport" : {
     "Avianca" : {
@@ -243,6 +272,23 @@
     }
   },
   "trips" : {
-    "prueba" : 1
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "-L2X2Qob7xnTIlBouJ35" : {
+        "budget" : "50",
+        "costoTransporte" : "23",
+        "fechaDeLlegada" : "01/27/2018",
+        "fechaDePartida" : "01/23/2018",
+        "hotel" : "Hotel Balcones Plaza",
+        "transporte" : "Civa"
+      },
+      "-L2X2h842xCMiBZrsDFx" : {
+        "budget" : "30",
+        "costoTransporte" : "30",
+        "fechaDeLlegada" : "01/15/2018",
+        "fechaDePartida" : "01/15/2018",
+        "hotel" : "Hotel Balcones Plaza",
+        "transporte" : "Latam"
+      }
+    }
   }
 }
