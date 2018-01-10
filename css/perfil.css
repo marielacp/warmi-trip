@@ -100,7 +100,7 @@ margin: 0 4rem 4rem 4rem;
 
 .main-fondo {
   height: 120vh;
-  background-image: url(../assets/img/fondo2.png);
+  background-image: url(../assets/img/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -244,3 +244,4 @@ background-color:pink;
   z-index: 1000;
 
 }
+
