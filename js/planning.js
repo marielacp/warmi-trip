@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
   // Obtenemos la ciudad elegida
-  var $city = 'Ica';
+  var $city = window.localStorage.getItem('city');
   // Cargando los platos tipicos en el popover
   firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
     var $tipicalFood = Object.keys(snap.val()['platetypic']);

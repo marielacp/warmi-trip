@@ -15,6 +15,15 @@ $(document).ready(function() {
   })
 
   //
+ // "select-ciudad"
+ 
+
+ $('.btn-plan').click(function() {
+
+  window.localStorage.setItem('city',$('#select-ciudad').val());
+  console.log('botones')
+  alert (window.localStorage.getItem('city'))
+ });
 
   // Obteniendo imagenes del input file
   $('#btn-save-file').click(function() {
