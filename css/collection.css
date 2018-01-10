@@ -1,0 +1,38 @@
+.effect img {
+    opacity: 1;
+    transform: scale(1, 1);
+    transition: all 0.2s ease-in;
+}
+
+.effect .mask {
+    opacity: 0;
+    overflow: visible;
+    border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+    border-style: solid;
+    border-width: 150px;
+    width: 0;
+    height: 0;
+    transform: translateY(-125px);
+    transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+}
+
+.effect a.info {
+    opacity: 0;
+    transform: translateY(-125px);
+    transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+}
+
+.effect:hover img {
+    opacity: 0.7;
+    transform: scale(2, 2);
+}
+
+.effect:hover .mask {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.effect:hover a.info {
+    opacity: 1;
+    transform: translateY(100px);
+}
