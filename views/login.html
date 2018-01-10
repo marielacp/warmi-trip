@@ -3,40 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Hojas de estilo de Bootstrap  -->
 	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+  
+  <!-- Hojas de estilo personalizadas este proyecto  -->
+  <link href="../css/main.css" rel="stylesheet">
   <title>Base de datos</title>  
 </head>
 
 <body> 
-  <div class="container-fluid">    
-    <div class="row">
-      <div class="col-xs-12"></div>
-      <div id="root">
-        <h1>Inicia Sesiòn</h1>
-        <button id="login" > Inicia con Google </button>
-        <button id="guardar" > Guardar </button>       
-      </div>
-    </div>
-  </div>
+    <main>
+        <div class="container-fluid help">
+          <!-- Imagen superior-->
+          <div class="row">
+              <h1>Inicia Sesión</h1>
+          </div>
+          <div class="row">
+            <!-- Imagen principal-->
+            <figure>
+              <div class="col-xs-12">
+                <img src="../assets/img/logomujerchica.png" alt="Logo principal de warmi-trip" class="center-block img-responsive main-image">
+              </div>
+            </figure>
+          </div>
+          <div class="row">
+            <!-- Grupo de botones-->
+            <section>
+              <div class="col-xs-12 group-btn">
+                <a id="login" class="btn btn-default text-uppercase  bg-transparent text-white" href="main.html" role="button">Inicia con Google</a>
+                
+              </div>
+            </section>
+          </div>
+        </div>    
+      </main>
+ 
     
   
 <script src="../vendors/js/jquery-3.2.1.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js">
-</script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBrTZrmws7ldzVUz01pEXfux1uPe5vID3Q",
-    authDomain: "warmi-trip-17f9d.firebaseapp.com",
-    databaseURL: "https://warmi-trip-17f9d.firebaseio.com",
-    projectId: "warmi-trip-17f9d",
-    storageBucket: "",
-    messagingSenderId: "109955586871"
-  };
-  firebase.initializeApp(config);
-</script>
+ <!-- Js de Firebase-->
+ <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+ <script type="text/javascript" src="../js/connect.js"></script>
+
 
 <script src="../js/login.js"></script>
 </body>
