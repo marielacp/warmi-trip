@@ -95,6 +95,8 @@ En este proyecto se hizo  uso de Firebase
 	. cuenta con un select para seleccionar el departamento en que estas planificando viajar
 	. un input  que permita  postear estados, recomedaciones, fotos y videos del lugar en el que estan visitando, de esta manera la persona  que pueda ver su publicación de las expectativas que genera el lugar e interesarse por viajar
 
+![Imagenes](assets/img/pantallasReadme.png) 
+
 ## Detalles adicionales
 -Para esta aplicación se empleó : Framework Bootstrap HTML5, CSS3 y JQuery
 -Se utiliza firebase para la base de datos.-
