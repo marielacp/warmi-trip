@@ -5,7 +5,7 @@
 
 Descripción del proyecto
 
-El siguiente proyecto es el desarrollo de una red social, en el cual nuestros usuarios sean las mujeres, a quienes por este medio le ofrescamos distintas maneras de poder organizarse para su plan turistico, compartir experiencias y consejos para una buena experiencia de viaje, de esta manera tambien pueda elegir mayores alternativas y con buenas ofertas si asi lo requiere.
+El siguiente proyecto es el desarrollo de una red social, en la cual nuestras usuarias sean mujeres, a quienes por este medio les vamos a brindar un medio mediante el cual puedan compartir experiencias y consejos para sus viajes, de esta manera tambien pueda elegir mejores alternativas y  ofertas de viaje.
 
 ## USO DE FIREBASE
 
