@@ -1,4 +1,7 @@
 $(document).ready(function() {
+//result user
+console.log(result.user);
+
   // Obtenemos la ciudad elegida
   var $city = 'Ica';
   // Cargando los platos tipicos en el popover

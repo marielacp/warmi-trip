@@ -7,7 +7,7 @@ $('#login').click(function() { // provider = el proveedor del login
     saveData(result.user);
     // Ya nos otorgaron permisos 
     $(this).hide();
-    $('#root').append('<img src=' + result.user.photoURL + '>');
+  
     console.log(result.user);
   });
 });
@@ -26,20 +26,9 @@ function saveData(user) {
 }
 
 
-$('#guardar').click(function() {
-  firebase.database().ref('probando').set({ // set crea una nueva rama
-    nombre: 'Ada Tatiana YAJAHUANCA',
-    edad: '15',
-    sexo: 'Femenino'
-  });
-});
 
 // Aqui estoy leyendo la base data, recolectando a todos los usuarios que han iniciado sesion 
 
-firebase.database().ref('bd').on('child_added', function(snap) {
-  var user=snap.val();
-  $('#root').append('<img width="100px" src=' + user.photo + '>'); // vas a jalar de la bd
-});
 
 
 /* $(document).ready(function() {
