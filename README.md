@@ -1,13 +1,13 @@
-#Proyecto:Red social WARMI - TRIP
-#Bajo el lema:		Disfruta…viaja…vive.
+# PROYECTO: Red Social WARMI TRIP
+# BAJO EL LEMA: Disfruta…viaja…vive.
 
 ![Imagenes](assets/img/logomujerchica.png) 
 
-#Nombre de participantes:
+# NOMBRE DE PARTICIPANTES
 
 *	Ada Tatiana Yahuanca Chupa : UX  Front End
 
-	-	Encargada de la calidad del producto, además de recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto céntrico donde desarrollamos la idea. Diseño básico solo papel y lápiz para dibujar los sketches.
+	-Encargada de la calidad del producto, además de recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto céntrico donde desarrollamos la idea. Diseño básico solo papel y lápiz para dibujar los sketches.
 
 *	Edit Jurado Quintana: UI. 
 	-	Desarrollo parte del diseño de la experiencia, recopilo los elementos necesarios para realizo maquetado, mejora de los sketches para una presentación profesional.
@@ -15,24 +15,22 @@
 *	Mariela Deysi Cerna Peralta.
 	-	Desarrollo maquetación y entrevistas, recopilación de información sobre experiencias de usuario y sus requerimientos para mejorarlo, Diseño básico solo papel y lápiz para dibujar los sketches.
 
-
-### Cronogramas de Estudio.
+### CRONOGRAMA DE ESTUDIOS.
 ![Imagenes](assets/img/cronograma.png) 
 
-
-### Metodos de levantamiento de informaciòn.
+    
+### METODOS DE LEVANTAMIENTO DE INFORMACION.
 *	Entrevista
 	-	Face to face.
 	-	Via wasap y audios.
 
 *	Herramienta de trabajo.
-	-	Celular lápiz y papel.
+    -	Celular lápiz y papel.
 
 *	Experiencia obtenida
 	-	Muy asertiva, la experiencia salio mejor de lo que se pensó y las ideas aun mejores.
-
-### Nuestro cliente nos informa algunos puntos básicos que debe tener una red social:
-•	Perfiles de usuarios.
+    
+### NUESTRO CLIENTE NOS INFORMO ALGUNOS PUNTOS BASICO QUE DEBE TENER UNA RED SOCIAL
 •	Un newsfeed donde puedes ver las actualizaciones de todos tus contactos.
 •	Un lugar donde poder escribir posts.
 •	Un lugar para subir fotos.
@@ -40,7 +38,7 @@
 •	Ser mobile friendly.
 •	Etc.  
 
-###¿QUÉ SE REQUIERE?
+### ¿QUÉ SE REQUIERE?
 •	Trabajar en parejas
 •	Tener una planificación
 •	La definición del diseño
@@ -48,7 +46,7 @@
 •	Desplegar el producto en Github Pages
 •	Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar Firebase.
 
-### Procesos de Design de la experiencia
+### PROCESOS DE DISEÑO DE LA EXPERIENCIA
 -	Se analiza el fondo un tema que creemos podría ser viable, se llega a un acuerdo y se procede a entrevistar.
 -	La experiencia de usuario es enriquecedora,   se procede a realizar los diseños básicos solo papel y lápiz para dibujar los sketches y volver a revisarlo una o las veces que sea necesario hasta que el producto tome forma y usabilidad.
 -	Volvemos a entrevistar de forma mas detallada y asi profundizar cual es el factor determinante que mejorara la experiencia de usuario.
@@ -63,7 +61,7 @@
 ### ELEMENTOS DE MI RE SOCIAL WARMI-TRIP
 *	Se creó un logotipo en photoshop,
 *	Deficiòn de paleta de colores y diseño de cada una de las viewpor.
-*	Se utiliza una nueva herramienta de base de datos online, Firebase, que almacena la base de       datos en tiempo real, asi como el login esta vinculado directo con la cuenta de usuario en        gmail.
+*	Se utiliza una nueva herramienta de base de datos online, Firebase, que almacena la base de       datos en tiempo        real, asi como el login esta vinculado directo con la cuenta de usuario en        gmail.
 *	Antes de iniciar un registro previo las vistas están compuestas por:
 *	Splash
 *	Login –Genero.
