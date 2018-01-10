@@ -28,8 +28,8 @@ $(document).ready(function() {
       photo: user.photoURL,
     };
     
-    firebase.database().ref('bd/ ' + user.uid)
-      .set(usuario);
+    
+    firebase.database().ref('bd/'+ user.uid).set(usuario);
       
           
   }

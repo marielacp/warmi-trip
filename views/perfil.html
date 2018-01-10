@@ -71,34 +71,32 @@
 <div class="container text main-fondo">
     <div class="row">             
       <div class="col-sm-2 col-md-2 col-lg-2 visible-sm-block visible-md-block visible-lg-block  form-registro"> 
-        <h4 class="text-center">Login</h4>
-        <div class="display">
-          <img class="img-responsive width-icono-login center-block" src="../assets/img/user-female-icon.png" alt="">
+        
+        <div id ="photo-user" class="display">
+          
         </div>
           <form action="" class="form-horizontal">
             <div class="form-group">
               <label for="inputPassword1" class="sr-only">Nombre de Usuario</label>
-              <input type="nombre" class="form-control" id="inputPassword1" placeholder="Ingresa tu nombre">
+              <img  class="img-responsive width-icono-login center-block" src="../assets/img/user-female-icon.png">
+              <input type="nombre" class="form-control" id="txt-user" readonly value="Username" >
             </div>
-            <div class="form-group">
-              <label for="inputPassword2" class="sr-only">Password</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-            </div>            
+                      
             <button type="submit" class="btn btn-default">Perfil</button>  
             <hr>
           </form>
-          <div>
-            <button type="submit" class="btn btn-default">Emergencia</button>
+          <div class="form-group">
+            <button type="submit" class="btn btn-danger col-sm-12">!Peligro¡</button>
             <hr>
             <h3> Cuenta regresiva</h3>
             <hr>
-            <input type="text" placeholder="Dias">
+            <input type="text" placeholder="Dias" class="form-control" readonly value="50 dias">
             <hr>
-            <h3> Monedero</h3>
+            <h3> Monedero viajero</h3>
             <hr>
-            <input type="text" placeholder="$500">
+            <input type="text" placeholder="$500" class="form-control" readonly value="500">
             <hr>
-            <button type="submit" class="btn btn-default">Cerrar Sesiòn</button>
+            <button type="submit" class="btn btn-default col-sm-12">Logout</button>
           </div>
       </div>
        <div class="col-sm-1 col-md-1 col-lg-1 " ></div>
@@ -248,7 +246,7 @@
                         <h3 class="text-center">...Disfruta, viaja, vive...!!!</h3>
                         <br>
                            <div>
-                          <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+                          <button class="btn btn-sm background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
                         </div>
                         <div class="input-group center-block">
                           <div class="input-group-addon">
