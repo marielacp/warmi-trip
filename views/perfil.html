@@ -125,7 +125,7 @@
                 <form>
                     <div class="form-group">
                         <label for="message-text" class="control-label">Post:</label>
-                        <textarea class="form-control" id="message-text"></textarea>
+                        <textarea class="form-control" id="txt-post"></textarea>
                       </div>
                 </form>
             </div>
@@ -139,7 +139,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button id="btn-save-file" type="button" class="btn btn-primary">Save changes</button>
+          <button id="btn-save-post" type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
@@ -447,6 +447,9 @@
     $('#slider').nivoSlider();
   });
 </script>
-<div class="container-fluid">
+
+ <!-- Js de Firebase-->
+ <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+ <script type="text/javascript" src="../js/connect.js"></script>
 </body>
 </html>  

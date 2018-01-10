@@ -22,6 +22,10 @@ $(document).ready(function() {
       .set(usuario);
   }
 
+  var UID = window.localStorage.getItem('storageUID');
+  console.log(UID);
+// Creando el código de usuario en la rama de posts 
+  firebase.database().ref('posts').set({UID});
   
   
 });
