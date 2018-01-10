@@ -14,8 +14,8 @@ $(document).ready(function() {
   // Guardando en el localstorage la ciudad que se elije
   $('.btn-plan').click(function() {
     window.localStorage.setItem('city', $('#select-ciudad').val());
-
-    alert(window.localStorage.getItem('city'));
+    window.location.href = 'planning.html'
+    
   });
 
   // Obteniendo imagenes del input file

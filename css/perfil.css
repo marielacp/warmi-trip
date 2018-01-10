@@ -1,10 +1,5 @@
  /*GENERALES------------*/
-<<<<<<< HEAD
-
- *{
-=======
   *{
->>>>>>> index
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -42,15 +37,7 @@ h3{
 }
 /* main*/
 .style-main{
-<<<<<<< HEAD
-margin-top: 0;
-}
-
-.text{
-color: black;
-=======
   margin-top: 0;
->>>>>>> index
 }
 .border-post{
   border-radius: 5rem;
@@ -200,15 +187,12 @@ color: black;
   padding: 2rem;
   color: black;
 }
-<<<<<<< HEAD
 
 .post-foto{
   height:10rem;
-  
-=======
+}
 /* Perfil de amigos*/
   .widht-img-header{
   width: 30rem;
   position:absolute;
->>>>>>> index
 }
