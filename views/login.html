@@ -13,6 +13,7 @@
 </head>
 
 <body> 
+<<<<<<< HEAD
     <main>
         <div class="container-fluid help">
           <!-- Imagen superior-->
@@ -45,6 +46,33 @@
  <!-- Js de Firebase-->
  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
  <script type="text/javascript" src="../js/connect.js"></script>
+=======
+  <div class="container-fluid">    
+    <div class="row">
+      <div class="col-xs-12"></div>
+      <div id="root">
+        <h1>Inicia Sesiòn</h1>
+        <button id="login" > Inicia con Google </button>
+        <button id="guardar" > Guardar </button>       
+      </div>
+    </div>
+  </div>  
+<script src="../vendors/js/jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBrTZrmws7ldzVUz01pEXfux1uPe5vID3Q",
+    authDomain: "warmi-trip-17f9d.firebaseapp.com",
+    databaseURL: "https://warmi-trip-17f9d.firebaseio.com",
+    projectId: "warmi-trip-17f9d",
+    storageBucket: "",
+    messagingSenderId: "109955586871"
+  };
+  firebase.initializeApp(config);
+</script>
+
+>>>>>>> index
 <script src="../js/login.js"></script>
 </body>
 </html>

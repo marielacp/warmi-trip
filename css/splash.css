@@ -3,8 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-
 body {
   font-family: 'Raleway', sans-serif !important;
 }
@@ -15,23 +13,19 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .heigth {
     height: 50vh;
 }
-
 .container-flex-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
 }
-
 .logo {
   animation-duration: 5s;
   animation-name: slidein;
 }
-
 @keyframes slidein {
     from {
       opacity: .5;
@@ -44,8 +38,12 @@ body {
       box-shadow: 0px 0px 15px 15px #ec731e;
       -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
         background: red;
+<<<<<<< HEAD
       
     }
+=======
+     }
+>>>>>>> index
     to {
       margin-left: 0%;
       width: 100%;
