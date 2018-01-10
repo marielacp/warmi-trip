@@ -26,13 +26,3 @@ function saveData(user) {
 }
 
 
-
-// Aqui estoy leyendo la base data, recolectando a todos los usuarios que han iniciado sesion 
-
-
-
-/* $(document).ready(function() {
-
-});*/
-
-
