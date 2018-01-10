@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Obtenemos la ciudad elegida
-  var $city = 'Cuzco';
+  var $city = 'Ica';
   // Cargando los platos tipicos en el popover
   firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
     var $tipicalFood = Object.keys(snap.val()['platetypic']);
@@ -82,13 +82,9 @@ $(document).ready(function() {
       $('#address').append('<p><a target="" href="#">' + $address + '</a></p>');
     });
 
-    // Llamando al  modal
+    // Llamando al  modal acerca del hotel
     $('#modal-hotel').modal('show');
-    /* if ($('#list-kind-of-food').val().length === 0) {
-      $('#btn-search').prop('disabled', true);
-    } else {
-      $('#btn-search').prop('disabled', false);
-    }*/
+   
   });
   $('#list-transport').on('change', function() {
     var $companyName = $(this).val();
