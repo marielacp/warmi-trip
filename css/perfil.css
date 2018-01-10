@@ -43,27 +43,21 @@ width: 17%;
 border-radius: 180%;
 margin: 2rem;
 border:2px solid #df017c;
-
 }
 
 .background-nav{
 	background-color: transparent;
 }
-
 .style-btn:hover{
 color:#df017c;
 border-bottom: 1px solid #df017c;
 }
 
 /*FONDO PRINCIPAL*/
-
-
 .color-button{
 	background-color: #F9088A;
 	margin: 5px;
 }
-
-
 
 h3{
 	font-size: 1.5em;
@@ -246,5 +240,5 @@ background-color:pink;
 }
 
 .img-width{
-  width: 100%;
+  width: 80%;
 }
