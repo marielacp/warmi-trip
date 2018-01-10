@@ -5,7 +5,7 @@
 	padding: 0px;
 	box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: white;  
+ 
 }
 /*
 .container-img { 
@@ -15,7 +15,7 @@
   height: 70vh;
   background-position: bottom;
   
-}*/
+}
 
 .container-img{
   width: 100%;
@@ -24,8 +24,8 @@
   height: 70vh;
   background-color: pink;
 }
-*/ .container-img {
-}
+*/ 
+
 
 /*--------------NAV-----------------*/
 
@@ -96,15 +96,15 @@ margin: 0 4rem 4rem 4rem;
   font-size: 12px;
   color: rgb(2, 18, 29);
 }
+
+
 .main-fondo {
   height: 120vh;
-  background-image: url(../assets/img/fondo5.png);
+  background-image: url(../assets/img/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*me posiciona la imagen en el bottom*/
 }
-
 .position-flex {
   width: 100%;
   display: flex;
@@ -152,24 +152,12 @@ color : #F9088A;
 background-color:pink;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Bordes de formulario*/
+.form-registro{
+  color: #F9088A;
+  background-color:pink;
+  padding:2rem
+};
 
 /*footer*/
 
@@ -182,7 +170,6 @@ background-color:pink;
     background-position: center;
     /*me posiciona la imagen en el bottom*/
   
-
 }
 
   .border-post1 {
@@ -256,4 +243,8 @@ background-color:pink;
   display: inline-block;
   z-index: 1000;
 
+}
+
+.img-width{
+  width: 100%;
 }
