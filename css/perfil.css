@@ -52,10 +52,10 @@ color: blue;
 }
 
 .border-post{
-border-radius: 5rem;
-border: 1px solid #df017c;
-padding: 2rem;
-margin: 0 4rem 4rem 4rem; 
+  border-radius: 5rem;
+  border: 1px solid #df017c;
+  padding: 2rem;
+  margin: 0 4rem 4rem 4rem; 
 }
 
   .post {
@@ -212,4 +212,17 @@ background-color:pink;
 
 .img-width{
   width: 80%;
+}
+.width-logo{
+  width: 20%;
+}
+.actualidad{
+  float: left;
+}
+
+.style-a{
+    border-radius: 5rem;
+    border: 1px solid #ece9eb;
+    padding: 2rem;
+    color: black;
 }
