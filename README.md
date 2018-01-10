@@ -1,7 +1,7 @@
 # Proyecto:Lyft
 ## PROYECTO FINAL: RED SOCIAL WARMI-TRIP
 
-![Imagenes](assets/images/d2.JPG) 
+![Imagenes](assets/img/logo.png) 
 
 Descripción del proyecto
 
@@ -9,17 +9,19 @@ El siguiente proyecto es el desarrollo de una red social, en la cual nuestras us
 
 ## USO DE FIREBASE
 
-En este proyecto se hizo  uso del firebase
-* Es un servicio de Google para desarrollar aplicaciones para web y y dispositivoscon mayor rapidez con componentes de backend desde lado del cliente.
-* Para el usuario sera más comodo loguearse en una aplicacion atrávez de google, evitando la incomidad  de tener que escribir sus datos personales 
+En este proyecto se hizo  uso de Firebase
+* Es un servicio de Google para desarrollar aplicaciones para web y dispositivoscon mayor rapidez con componentes de back-end desde lado del cliente.
+* Para el usuario será cómodo loguearse en una aplicacion atráves de su cuenta de gmail, evitando la incomodidad  de llenar un formulario de registro. 
 
 
 ## VISTAS DE LA RED SOCIAL WARMI-TRIP
 
--   vista genero
-	El requisito de la red social es que se logueen solo mujeres, solo entonces podra ingrear
-
+-   Vista inicial
+	En esta se presenta el logo en una ventan splash con una duración de 5 segundos.
+-   Vista género
+	El requisito de la red social es que se logueen solo mujeres, por lo tanto se realiza la validación mediante esta ventana.
 -   vista perfil
+	
 	. cuenta con un select para seleccionar el departamento en que estas planificando viajar
 	. un input  que permita  postear estados, recomedaciones, fotos y videos del lugar en el que estan visitando, de esta manera la persona  que pueda ver su publicación de las expectativas que genera el lugar e interesarse por viajar
 - 
