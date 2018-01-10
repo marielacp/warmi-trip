@@ -2,10 +2,12 @@ $(document).ready(function() {
   // Obtenemos la ciudad elegida
   var $city = 'Cuzco';
   // Cargando los platos tipicos en el popover
-  firebase.database().ref('place/' + $city + '/platetypic').on('value', function(snap) {
-    var $tipicalFood = Object.keys(snap.val());
-    $('#typical-food').attr( "data-content", $tipicalFood  );
-    
+  firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
+    var $tipicalFood = Object.keys(snap.val()['platetypic']);
+    $('#typical-food').attr('data-content', $tipicalFood );
+    $('#btn-breakfast').attr('data-content', snap.val()['price']['breakfast']);
+    $('#btn-lunch').attr('data-content', snap.val()['price']['lunch']);
+    $('#btn-dinner').attr('data-content', snap.val()['price']['dinner']);
   });
  
 
@@ -92,17 +94,16 @@ $(document).ready(function() {
     var $companyName = $(this).val();
 
     
-    firebase.database().ref('transport/' + $companyName+'/destination-place/'+$city).on('value', function(snap) {
-      
-      var $transportPrice=snap.val();
+    firebase.database().ref('transport/' + $companyName + '/destination-place/' + $city).on('value', function(snap) {
+      var $transportPrice = snap.val();
       console.log($transportPrice);
 
        
-       if($transportPrice){
+      if ($transportPrice) {
         $('#txt-price-transport').val($transportPrice);
-       }else{
+      }else {
         $('#txt-price-transport').val('Destino no disponible');
-       }
+      }
     });
   });
 }); 
