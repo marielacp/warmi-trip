@@ -1,6 +1,6 @@
  /*GENERALES------------*/
 
-  *{
+ *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -48,7 +48,7 @@ margin-top: 0;
 }
 
 .text{
-color: blue;
+color: black;
 }
 
 .border-post{
@@ -91,6 +91,7 @@ color: blue;
 /*fondo 3*/
 .container-img3 {
   height: 120vh;
+  width:100%;
   background-image: url(../assets/img/fondo3.jpg);
   background-repeat: no-repeat;
   background-size: cover;

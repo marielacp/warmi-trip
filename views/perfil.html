@@ -5,17 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>warmiaap</title>
+	<title>Warmi Trip</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/perfil.css">
     <link rel="stylesheet" href="../css/nivo-slider.css">
     <link rel="stylesheet" href="../css/collection.css">
-<!--Hoja de estilo de fileinput-->
-
- 
-   
 </head>
 <body>
 <!--Navbar-->
@@ -110,74 +106,50 @@
           <div>
           <!--  <img class="img-responsive width-icono-login center-block" src="../assets/img/postea.png" alt="">-->
           </div>
-           <h3 class="text text-center">Compartamos nuestras aventuras</h3>
+           <h3 class="text text-center">¡Compartamos información!</h3>
             <ul  class="nav nav-pills nav-justified publish">
               <li role="presentation" class="active"><span class="glyphicon glyphicon-pencil"><a href="#">  Publiquemos!!!</a></span></li>
               <li role="presentation"><span class="glyphicon glyphicon-camera"><a href="#"  data-toggle="modal" data-target="#myModal">  Sube Fotos...</a> </span></li>
               <li role="presentation"><span class="glyphicon glyphicon-facetime-video"><a href="#">  Video</a></span></li>
             </ul>
-          <div class="container-post">
-              
-          </div> 
 
-
-  
   <!-- Modal  de carga de fotos-->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Subir foto</h4>
-        </div>
-        <div class="modal-body">
-            <div id="page-upload-1">
-                <form>
-                    <label>File:</label>
-                    <input type="file"></input>
-                    <label>Comment:</label>
-                    <input type="text" class="pageselector" placeholder="Describe your file"
-                    ></input>
-                </form>
-            </div>
-            <div id="page-upload-2" class="hide">
-                 <h4>Uploading...</h4>
-    
-                <div class="progress progress-striped active">
-                    <div class="bar" style="width: 0%;"></div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+  <div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Subir foto</h4>
+          </div>
+          <div class="modal-body">
+              <div id="page-upload-1">
+                  <form>
+                      <label>File:</label>
+                      <input type="file"></input>
+                      <label>Comment:</label>
+                      <input type="text" class="pageselector" placeholder="Describe your file"
+                      ></input>
+                  </form>
+              </div>
+              <div id="page-upload-2" class="hide">
+                   <h4>Uploading...</h4>
+      
+                  <div class="progress progress-striped active">
+                      <div class="bar" style="width: 0%;"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-          
-        <div class="col-sm-5 col-xs-12 col-md-5  col-lg-5 visible-xs-block visible-sm-block visible-md-block visible-lg-block">
-         
-            <div class="cptn04">
-              <img src="../assets/img/apurimac1.jpg" class="img-responvive img-width" alt="">
-              <div class="cptn">
-                <h3>Ceviche de algas</h3>
-                <br>
-                <p>Ceviche de Algas, hongos y tarwi, acompañado de choclo fresco y camotes una deliciosa combinaciòn que no dejaras pasar.
-                </p>
-              </div>
-            </div>
-         
-         
-         
-         
-         
-         
-          <h3>Slider</h3>
-
+          <div class="container-post">
+           
+          </div> 
        <!-- <div class="col-sm-5 col-md-5  col-lg-5 visible-sm-block visible-md-block visible-lg-block">-->
                         
           <!--Carrusel de imagenes -->
@@ -430,15 +402,11 @@
     </div>
   </div>
 </footer>
-</main>
-  
 
 	    <!-- Js de bootstrap-->
-  <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-  
+	<script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
- <!-- Js de la página-->
- <script src="../js/perfil.js" type="text/javascript"></script>
+
 <script src="../js/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
   $(window).on('load', function () {
