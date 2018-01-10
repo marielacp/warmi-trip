@@ -1,0 +1,248 @@
+{
+  "bd" : {
+    "2inEwdxnITM1n2ATB8XXfZ1Zvv12" : {
+      "email" : "rominahp@gmail.com",
+      "name" : "Romina Herrera Polo",
+      "photo" : "https://lh4.googleusercontent.com/-zRZLVBRvVNU/AAAAAAAAAAI/AAAAAAAAOGI/1oBlg7m9Ovk/photo.jpg",
+      "uid" : "2inEwdxnITM1n2ATB8XXfZ1Zvv12"
+    },
+    "3tFDufHxToPoETEeiyit005KIgG2" : {
+      "email" : "yosseline.apcho@gmail.com",
+      "name" : "Yosseline Apcho",
+      "photo" : "https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg",
+      "uid" : "3tFDufHxToPoETEeiyit005KIgG2"
+    },
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "email" : "ayajahuanca@gmail.com",
+      "name" : "Ada Yajahuanca Chupa",
+      "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
+      "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
+    },
+    "UUMuwt7Mq8aka81hWdVODRDOw6L2" : {
+      "email" : "marielacernap@gmail.com",
+      "name" : "Mariela Deysi Cerna Peralta",
+      "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "UUMuwt7Mq8aka81hWdVODRDOw6L2"
+    },
+    "butpRjVemeUYCcYBQzHLrVxwQyi1" : {
+      "email" : "marysicp@gmail.com",
+      "name" : "Mariela Deysi Cerna Peralta",
+      "photo" : "https://lh5.googleusercontent.com/-0dAI0olDOgM/AAAAAAAAAAI/AAAAAAAAB70/W10yoXc2UZ4/photo.jpg",
+      "uid" : "butpRjVemeUYCcYBQzHLrVxwQyi1"
+    },
+    "lCJQI4xyESVfUD83FoycEyKkOxq1" : {
+      "email" : "edithjq.21@gmail.com",
+      "name" : "Edith jurado quintana",
+      "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "lCJQI4xyESVfUD83FoycEyKkOxq1"
+    }
+  },
+  "place" : {
+    "Cajamarca" : {
+      "ID" : "P003",
+      "dangplace" : "Barrios de Lucmacucho y Santa Elena",
+      "hotels" : {
+        "El Cumbe Inn" : {
+          "Desayuno-incluido" : "No",
+          "Wi-fi" : "Sí",
+          "address" : "Atahualpa 345, Cajamarca, Perú",
+          "id" : "h009",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7127722769555!2d-78.52318548592221!3d-7.159168072226814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25a55f9ffd807%3A0xc925d580fd9229cf!2sEl+Cumbe+Inn!5e0!3m2!1ses-419!2spe!4v1515483254306\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "El Cumbe Inn",
+          "precio-dia" : 80,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d1122153-Reviews-El_Cumbe_Inn-Cajamarca_Cajamarca_Region.html"
+        },
+        "Hotel Balcones Plaza" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Jr. Bambamarca 287 | Esquina Jr. Bambamarca y Jr Tayabamba, Cajamarca, Perú",
+          "id" : "h007",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.779598363923!2d-78.51847968592227!3d-7.151463672142416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25af73ee31663%3A0x349f9baaa580db2f!2sBalcones+Plaza+Hotel!5e0!3m2!1ses-419!2spe!4v1515482822849\"  frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Hotel Balcones Plaza",
+          "precio-dia" : 82,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d12364812-Reviews-Hotel_Balcones_Plaza-Cajamarca_Cajamarca_Region.html"
+        },
+        "Yuraq Hotel" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Avenida Atahualpa 661 | Vía que une Cajamarca y los Baños del Inca, Cajamarca 060, Perú",
+          "id" : "h008",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.657895484668!2d-78.50377868592213!3d-7.165488672296115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25b2864be3989%3A0xa29d533ba002fed0!2sYuraq+Hotel!5e0!3m2!1ses-419!2spe!4v1515483029488\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Yuraq Hotel",
+          "precio-dia" : 79,
+          "rating" : 4,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g319821-d6575483-Reviews-Yuraq_Hotel-Cajamarca_Cajamarca_Region.html"
+        }
+      },
+      "location" : "Localidad andina situada en la región montañosa del norte de Perú.",
+      "name" : "Cajamarca",
+      "platetypic" : {
+        "Chicharrón con mote" : "Carne de cerdo cocinada en su propia grasa y acompañada de mote o maíz desgranado.",
+        "Humitas" : "Masa dulce o salada de maíz rellena con canela y pasas, envuelta en hojas de maíz y cocida al vapor.",
+        "Picante de papa con cuy frito" : "Guiso de cuy cocinado en salsa de maní y ají panca acompañado de papas."
+      },
+      "price" : {
+        "breakfast" : "$17",
+        "dinner" : "$5",
+        "lunch" : "$4"
+      }
+    },
+    "Cuzco" : {
+      "ID" : "P001",
+      "dangplace" : "Puente Santiago, calle Belén y en general zonas del distrito de Santiago.",
+      "hotels" : {
+        "Hotel Sonnenthal Cusco" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "San Borja I - 7, Cuzco Cusco 084, Perú",
+          "id" : "h002",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.116276249003!2d-71.96710788583148!3d-13.528455074908292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5e4ba2892cb%3A0xe6641398c011ac05!2sHotel+Sonnenthal+Cusco!5e0!3m2!1ses-419!2spe!4v1515480784873\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Hotel Sonnenthal Cusco",
+          "precio-dia" : 64,
+          "rating" : 5,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d3380126-Reviews-Hotel_Sonnenthal_Cusco-Cusco_Cusco_Region.html"
+        },
+        "La Posada del Viajero" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Santa Catalina Ancha 366 | Cusco City Centre, Cuzco 084, Perú",
+          "id" : "h001",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.30184511115!2d-71.98002693583179!3d-13.517058574666178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd6735d4dbbed%3A0x30ef1c84482da226!2sLa+Posada+del+Viajero+Hostal!5e0!3m2!1ses-419!2spe!4v1515479647431\"  frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "La Posada del Viajero",
+          "precio-dia" : 133,
+          "rating" : 4,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d1750466-Reviews-La_Posada_del_Viajero-Cusco_Cusco_Region.html"
+        },
+        "Wayra Dreams Hotel" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Jr. Espinar K2 | Urb. Progreso, Cuzco, Perú",
+          "id" : "h003",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.0840463881814!2d-71.96186858583157!3d-13.530433474950303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5fa4920176f%3A0xd7bd9e96006a74c6!2sWayra+Dreams+Hotel!5e0!3m2!1ses-419!2spe!4v1515481018559\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Wayra Dreams Hotel",
+          "precio-dia" : 60,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g294314-d11970263-Reviews-Wayra_Dreams_Hotel-Cusco_Cusco_Region.html"
+        }
+      },
+      "location" : "Ubicada en la vertiente oriental de la cordillera de los Andes, en la cuenca del río Huatanay, afluente del Vilcanota.",
+      "name" : "CUZCO",
+      "platetypic" : {
+        "CHUÑO COLA" : "Es una comida típica que se consume en cualquier fecha del año",
+        "ROCOTO RELLENO" : "El relleno se prepara con carne molida, maní, pasas y arvejitas",
+        "TIMPO O PUCHERO" : "Plato que se prepara durante los martes de carnaval"
+      },
+      "price" : {
+        "breakfast" : "$5",
+        "dinner" : "$8",
+        "lunch" : "$5"
+      }
+    },
+    "Ica" : {
+      "ID" : "P002",
+      "dangplace" : "Barrio Mollendo",
+      "hotels" : {
+        "Duna Dorada Hotel" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Urbanización Divino Maestro B-14, Ica 11000, Perú",
+          "id" : "h006",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.990836485105!2d-75.73995798582183!3d-14.07771818682265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2ed50ebb72b%3A0xfb6bc93e82efee04!2sHotel+Duna+Dorada!5e0!3m2!1ses-419!2spe!4v1515482708510\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Duna Dorada Hotel",
+          "precio-dia" : 61,
+          "rating" : 4,
+          "tripadvisor" : "hhttps://www.tripadvisor.com.pe/Hotel_Review-g304040-d10039915-Reviews-Duna_Dorada_Hotel-Ica_Ica_Region.html"
+        },
+        "Hotel Challaca" : {
+          "Desayuno-incluido" : "No",
+          "Wi-fi" : "Sí",
+          "address" : "Calle Loreto 177, Ica 11000, Perú",
+          "id" : "h004",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.233162564723!2d-75.73319568582207!3d-14.063404386506082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bc2b9d92c7%3A0xb38682862c37396f!2sHotel+Challaca+%7C+Hoteles+en+Ica!5e0!3m2!1ses-419!2spe!4v1515481830308\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Hotel Challaca",
+          "precio-dia" : 58,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g304040-d8099526-Reviews-Hotel_Challaca-Ica_Ica_Region.html"
+        },
+        "Matryoshka" : {
+          "Desayuno-incluido" : "Sí",
+          "Wi-fi" : "Sí",
+          "address" : "Calle los Pacaes k 16 Urb San Jose | a media cuadra de la discoteca The Who, Ica 11000, Perú",
+          "id" : "h005",
+          "iframe" : "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1068746171186!2d-75.74264668582191!3d-14.07086578667104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2eba37e3701%3A0x39ccf6996b870fdf!2sHotel+Matryoshka!5e0!3m2!1ses-419!2spe!4v1515482581646\" frameborder=\"0\" style=\"border:0\" allowfullscreen class=\"img-responsive\"></iframe>",
+          "name" : "Hotel Challaca",
+          "precio-dia" : 58,
+          "rating" : 3,
+          "tripadvisor" : "https://www.tripadvisor.com.pe/Hotel_Review-g304040-d8333115-Reviews-Matryoshka-Ica_Ica_Region.html"
+        }
+      },
+      "location" : "Ubicado al centro oeste del país, limitando al norte con Lima, al este con Huancavelica y Ayacucho, al sur con Arequipa y al oeste con el Océano ",
+      "name" : "ICA",
+      "platetypic" : {
+        "Carapulcra" : "Papa seca sancochada y guisada con carnes de chancho y gallina, ají panca y mirasol, ajos y otras especias.",
+        "Morusa y picante de pallares" : "La sabrosa morusa se prepara a base de puré de papa o yuca con asado de res o cerdo. ",
+        "Sopa Seca" : "Es un plato está elaborado a base de tallarines y gallina en trozos."
+      },
+      "price" : {
+        "breakfast" : "$9",
+        "dinner" : "$5",
+        "lunch" : "$4"
+      }
+    }
+  },
+  "transport" : {
+    "Avianca" : {
+      "company" : "Avianca",
+      "destination-place" : {
+        "Cuzco" : 50,
+        "Ica" : 10,
+        "Lima" : 28
+      }
+    },
+    "Civa" : {
+      "company" : "Civa",
+      "destination-place" : {
+        "Cajamarca" : 23,
+        "Cuzco" : 37,
+        "Ica" : 15
+      }
+    },
+    "Latam" : {
+      "company" : "Latam",
+      "destination-place" : {
+        "Cajamarca" : 30,
+        "Cuzco" : 50,
+        "Lima" : 60
+      }
+    },
+    "Oltursa" : {
+      "company" : "Oltursa",
+      "destination-place" : {
+        "Cajamarca" : 25,
+        "Cuzco" : 35,
+        "Ica" : 20
+      }
+    },
+    "Tepsa" : {
+      "company" : "Tepsa",
+      "destination-place" : {
+        "Cajamarca" : 28,
+        "Cuzco" : 39,
+        "Lima" : 45
+      }
+    },
+    "Viva Air" : {
+      "company" : "Viva Air",
+      "destination-place" : {
+        "Arequipa" : 70,
+        "Cuzco" : 40,
+        "Lima" : 50
+      }
+    }
+  },
+  "trips" : {
+    "prueba" : 1
+  }
+}

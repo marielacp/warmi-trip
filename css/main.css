@@ -7,6 +7,8 @@
  
 }
 
+
+
 .help{
   display:flex;
   flex-direction:column;
@@ -14,7 +16,50 @@
   align-items:center;
 }
 
-/*Clases reutilizables*/
+.icon{
+  width:3rem;
+  height:3rem;
+  outline: solid 1px red;
+}
+
+.small-font { 
+  font-size:2vh; 
+}
+
+.margin-top{
+  margin-top: 4vh;
+}
+.coin{
+  height:6rem;
+  width:6rem;
+  border: 3px dotted #ffff00;
+  border-radius: 25rem;
+  background: linear-gradient(to bottom right, #ccff33 0%, #ffff66 100%);
+  font-size:2em;
+  padding-top:0.5em;
+}
+
+.outline{
+  outline: solid 1px red;
+}
+
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*
+/*Clases reutilizables
 .flex-center{
   display:flex;
   align-items:center;
@@ -61,7 +106,7 @@ justify-content:space-between;
   background-color:#FF00BF;
   margin-top:18vh;
 }
-/*Estilo del index*/
+/*Estilo del index
 .gradient{
   background: linear-gradient(#76278F, #FF00BF);
   height:100vh;
@@ -69,7 +114,7 @@ justify-content:space-between;
   
 }
 
-/*Estilo del signup*/
+/*Estilo del signup
 .signup{
   background-image:url('../assets/images/main-image.jpg');
   background-position:center;
@@ -91,7 +136,7 @@ justify-content:space-between;
   justify-content:space-around;
 
 }
-/*Estilos de register-email*/
+/*Estilos de register-email
 .blue{
   color:#72a3cc;
   font-weight:bold;
@@ -106,7 +151,7 @@ justify-content:space-between;
   border:0;
 }
 
-/*Estilo que nos indica que hay un error en el texto ingresado*/
+/*Estilo que nos indica que hay un error en el texto ingresado
 .error{
   border:solid 1px red;
 }
@@ -116,3 +161,4 @@ justify-content:space-between;
   
   
 }
+*/
