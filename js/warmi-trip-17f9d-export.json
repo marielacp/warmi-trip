@@ -1,16 +1,40 @@
 {
   "bd" : {
+    "2inEwdxnITM1n2ATB8XXfZ1Zvv12" : {
+      "email" : "rominahp@gmail.com",
+      "name" : "Romina Herrera Polo",
+      "photo" : "https://lh4.googleusercontent.com/-zRZLVBRvVNU/AAAAAAAAAAI/AAAAAAAAOGI/1oBlg7m9Ovk/photo.jpg",
+      "uid" : "2inEwdxnITM1n2ATB8XXfZ1Zvv12"
+    },
+    "3tFDufHxToPoETEeiyit005KIgG2" : {
+      "email" : "yosseline.apcho@gmail.com",
+      "name" : "Yosseline Apcho",
+      "photo" : "https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg",
+      "uid" : "3tFDufHxToPoETEeiyit005KIgG2"
+    },
     "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
       "email" : "ayajahuanca@gmail.com",
       "name" : "Ada Yajahuanca Chupa",
       "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
       "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
     },
+    "UUMuwt7Mq8aka81hWdVODRDOw6L2" : {
+      "email" : "marielacernap@gmail.com",
+      "name" : "Mariela Deysi Cerna Peralta",
+      "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "UUMuwt7Mq8aka81hWdVODRDOw6L2"
+    },
     "butpRjVemeUYCcYBQzHLrVxwQyi1" : {
       "email" : "marysicp@gmail.com",
       "name" : "Mariela Deysi Cerna Peralta",
       "photo" : "https://lh5.googleusercontent.com/-0dAI0olDOgM/AAAAAAAAAAI/AAAAAAAAB70/W10yoXc2UZ4/photo.jpg",
       "uid" : "butpRjVemeUYCcYBQzHLrVxwQyi1"
+    },
+    "lCJQI4xyESVfUD83FoycEyKkOxq1" : {
+      "email" : "edithjq.21@gmail.com",
+      "name" : "Edith jurado quintana",
+      "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "lCJQI4xyESVfUD83FoycEyKkOxq1"
     }
   },
   "place" : {
@@ -61,8 +85,8 @@
       },
       "price" : {
         "breakfast" : "$17",
-        "dinner" : "$35",
-        "lunch" : "$40"
+        "dinner" : "$5",
+        "lunch" : "$4"
       }
     },
     "Cuzco" : {
@@ -111,9 +135,9 @@
         "TIMPO O PUCHERO" : "Plato que se prepara durante los martes de carnaval"
       },
       "price" : {
-        "breakfast" : "$15",
-        "dinner" : "$20",
-        "lunch" : "$25"
+        "breakfast" : "$5",
+        "dinner" : "$8",
+        "lunch" : "$5"
       }
     },
     "Ica" : {
@@ -162,33 +186,29 @@
         "Sopa Seca" : "Es un plato está elaborado a base de tallarines y gallina en trozos."
       },
       "price" : {
-        "breakfast" : "$17",
-        "dinner" : "$38",
-        "lunch" : "$28"
+        "breakfast" : "$9",
+        "dinner" : "$5",
+        "lunch" : "$4"
       }
     }
   },
   "transport" : {
-    "Viva Air" : {
-      "company" : "Viva Air",
-      "destination-place" : {
-        "Arequipa" : 70,
-        "Cuzco" : 40,
-        "Lima" : 50
-      }
-    }
-    ,
     "Avianca" : {
       "company" : "Avianca",
       "destination-place" : {
-        "Ica" : 10,
         "Cuzco" : 50,
+        "Ica" : 10,
         "Lima" : 28
       }
-    }
-    ,
-    
-    
+    },
+    "Civa" : {
+      "company" : "Civa",
+      "destination-place" : {
+        "Cajamarca" : 23,
+        "Cuzco" : 37,
+        "Ica" : 15
+      }
+    },
     "Latam" : {
       "company" : "Latam",
       "destination-place" : {
@@ -213,13 +233,16 @@
         "Lima" : 45
       }
     },
-    "Civa" : {
-      "company" : "Civa",
+    "Viva Air" : {
+      "company" : "Viva Air",
       "destination-place" : {
-        "Cajamarca" : 23,
-        "Cuzco" : 37,
-        "Ica" : 15
+        "Arequipa" : 70,
+        "Cuzco" : 40,
+        "Lima" : 50
       }
     }
+  },
+  "trips" : {
+    "prueba" : 1
   }
 }
