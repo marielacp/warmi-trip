@@ -1,5 +1,5 @@
 $(document).ready(function() {
-//result user
+// result user
 
 
   // Obtenemos la ciudad elegida
@@ -8,7 +8,7 @@ $(document).ready(function() {
   // Cargando los platos tipicos en el popover
   firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
     var $tipicalFood = Object.keys(snap.val()['platetypic']);
-    $('#typical-food').attr('data-content', $tipicalFood );
+    $('#typical-food').attr('data-content', $tipicalFood);
     $('#btn-breakfast').attr('data-content', snap.val()['price']['breakfast']);
     $('#btn-lunch').attr('data-content', snap.val()['price']['lunch']);
     $('#btn-dinner').attr('data-content', snap.val()['price']['dinner']);
@@ -88,7 +88,6 @@ $(document).ready(function() {
 
     // Llamando al  modal acerca del hotel
     $('#modal-hotel').modal('show');
-   
   });
   $('#list-transport').on('change', function() {
     var $companyName = $(this).val();
@@ -101,21 +100,22 @@ $(document).ready(function() {
        
       if ($transportPrice) {
         $('#txt-price-transport').val($transportPrice);
-      }else {
+      } else {
         $('#txt-price-transport').val('Destino no disponible');
       }
     });
   });
 
   $('#btn-save').click(function() {
-
-    console.log($('#txt-budget').val());
-    /*firebase.database().ref('trips/' + $UID).push
-    {
-      budget:$('txt-budget').val(); 
+    firebase.database().ref('trips/' + $UID).push(
+      $UID = {
+        budget: $('#txt-budget').val(),
+        fechaDePartida: $('#datepicker1').val(),
+        fechaDeLlegada: $('#datepicker2').val(),
+        hotel: $('#hotels').val(),
+        transporte: $('#list-transport').val(),
+        costoTransporte: $('#txt-price-transport').val()
       
-    }
-  );*/
+      });
   });
-
 }); 
