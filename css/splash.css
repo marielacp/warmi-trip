@@ -3,13 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-.background {
-  background: linear-gradient(to right, rgb(67,206,162), rgb(24,90,157));
-}
+
 
 body {
   font-family: 'Raleway', sans-serif !important;
-  background: red;
+}
+.main-fondo {
+  height: 120vh;
+  background-image: url(../assets/img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .heigth {

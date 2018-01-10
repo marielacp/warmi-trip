@@ -4,40 +4,9 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
- 
-}
-/*
-.container-img { 
-  background-image: url(../assets/img/puntasal.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-  background-position: bottom;
-  
+  font-family: 'Roboto', sans-serif; 
 }
 
-.container-img{
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-  background-color: pink;
-}
-*/ 
-
-
-/*--------------NAV-----------------*/
-
-
-li span:hover{
-color:#df017c;
-border-bottom: 1px solid #df017c;
-}
-
-.text-center:hover {
-color:#df017c;
-}
 .logo-login{
 width: 17%;
 border-radius: 180%;
@@ -58,6 +27,15 @@ border-bottom: 1px solid #df017c;
 	background-color: #F9088A;
 	margin: 5px;
 }
+.color-button-menu{
+  color: white;
+  border-radius: 3rem;
+    background-color: #F9088A;
+    size: 9rem;
+}
+  .color-button-menu:hover {
+  color: #ffffff; 
+}
 
 h3{
 	font-size: 1.5em;
@@ -69,8 +47,6 @@ h3{
 margin-top: 0;
 }
 
-
-
 .text{
 color: blue;
 }
@@ -80,8 +56,8 @@ border-radius: 5rem;
 border: 1px solid #df017c;
 padding: 2rem;
 margin: 0 4rem 4rem 4rem; 
-
 }
+
   .post {
   border: 0;
   width: 100%;
@@ -106,7 +82,7 @@ margin: 0 4rem 4rem 4rem;
   margin: 0;
 }
 .form-fondo-one {
-  margin-top:50%;
+  margin-top:5%;
   width:100%;
   height: auto;
   padding: 2%;
@@ -119,7 +95,7 @@ margin: 0 4rem 4rem 4rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*me posiciona la imagen en el bottom*/
+ 
 }
 
 .position-face-friends{
@@ -131,7 +107,6 @@ left: -5%;
 .border-data-friends{
   border-radius: 1rem;
   padding: 2rem;
-
 }
 
 .width-icono-login {
@@ -161,16 +136,13 @@ background-color:pink;
     background-image: url(../assets/img/fondo4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    /*me posiciona la imagen en el bottom*/
-  
+    background-position: center; 
 }
 
   .border-post1 {
   border-radius: 5rem;
   border: 1px solid #df017c;
-  padding: 2rem;
-  ;
+  padding: 2rem;  
 }
 
  .cont-footer {
@@ -236,7 +208,6 @@ background-color:pink;
   padding: 2%;
   display: inline-block;
   z-index: 1000;
-
 }
 
 .img-width{
