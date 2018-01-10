@@ -7,9 +7,6 @@ $(document).ready(function() {
 
   // Cargando los datos del usuario 
  
-  // <
-  
-
   firebase.database().ref('bd').on('value', function(data) {
 
     var user = data.val();
@@ -17,6 +14,7 @@ $(document).ready(function() {
     console.log(user);
   })
 
+  //
 
   // Obteniendo imagenes del input file
   $('#btn-save-file').click(function() {
