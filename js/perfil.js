@@ -11,7 +11,9 @@ $(document).ready(function() {
     $('#container-post').append('<img class="img-responsive img-rounded post-foto center-block" src="../assets/img/' + $fileName + '">');
     
     $('#container-post').append('<p class="text-center">' + $description + '</p>');
-    firebase.database().ref('posts/' + UID).push({
+    firebase.database().ref('posts/' + UID).push(
+      
+      {
       photo: $fileName,
       description: $description,
       date: $date

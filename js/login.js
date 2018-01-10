@@ -4,9 +4,19 @@ $(document).ready(function() {
 
   $('#login').click(function() {
     firebase.auth().signInWithPopup(provider).then(function(result) {
-      window.localStorage.setItem('storageUID', result.user.uid);
+      
      
       guardaDatos(result.user);
+      window.localStorage.setItem('storageUID',result.user.uid );
+      console.log(result.user);
+
+
+      var UID = window.localStorage.getItem('storageUID');
+      console.log(UID);
+    // Creando el código de usuario en la rama de posts 
+      firebase.database().ref('posts').set({UID});
+      
+      window.location.href = 'perfil.html';
     }); 
   });
   /* funcion guardar datos */
@@ -20,13 +30,11 @@ $(document).ready(function() {
     
     firebase.database().ref('bd/ ' + user.uid)
       .set(usuario);
+      
+          
   }
-
-  var UID = window.localStorage.getItem('storageUID');
-  console.log(UID);
-// Creando el código de usuario en la rama de posts 
-  firebase.database().ref('posts').set({UID});
-  
+ 
+ 
   
 });
 
