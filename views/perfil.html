@@ -9,11 +9,25 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/perfil.css">
+  <link rel="stylesheet" type="text/css" href="../css/perfil.css">
+    <link rel="stylesheet" href="../css/nivo-slider.css">
 </head>
 <body>
 <!--Navbar-->
-	<div class="container-img">    
+	<div >    
+  <div id="slider" class="nivoSlider">
+    <img class="img-responsive" src="../assets/img/apurimacchica.jpg" alt="">
+    <img class="img-responsive" src="../assets/img/baletchico.jpg" alt="" title="#htmlcaption" />
+    <img class="img-responsive" src="../assets/img/cuzcochico.jpg" alt="" title="" />
+    <img class="img-responsive" src="../assets/img/huarazchico.jpg" alt="" title="" />
+  <!--  <img class="img-responsive" src="../assets/img/cuzco.jpg" alt="" title="" />
+    <img class="img-responsive" src="../assets/img/balet.jpg" alt="" title="" />-->
+  </div>
+  <div id="htmlcaption" class="nivo-html-caption">
+   
+  </div>
+
+
       <nav class="navbar-default navbar-fixed-top background-nav" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">				
@@ -34,7 +48,7 @@
           </div>
         </div><br><br>
       </nav>
-
+<main>
     <div class="col-xs-12">
       <div class="form-fondo-one visible-xs-block">       
         <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1><br>
@@ -51,30 +65,9 @@
           </div>
       </div>
     </div>
-  <main>
+  
       <!---->
-        <div class="container-fluid">
-          <div class="row ">
-            <div class="col-sm-12 ">             
-              <div class="form-fondo-one-sm visible-sm-block visible-md-block visible-lg-block">
-                <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1>
-                  <br>
-                  <h1 class="text-center"> Great Destination for first time travellers</h1>
-                    <div>
-                      <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
-                    </div>
-                      <div class="input-group center-block">
-                        <div class="input-group-addon">
-                      </div>
-                      <select class="form-control" id="select-ciudad">
-                        <option value="fem">Lima </option>
-                        <option value="man">Arequipa</option>
-                      </select>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>   
+   
   </main>
 </div>
 <!--1rea seccion Formulario de Perfil y Post-->
@@ -130,8 +123,28 @@
           </div>       
       </div>
       <div class="col-sm-4 col-md-4  col-lg-4">
-        <h2> Noticias</h2>
-
+        
+                <div class="container-fluid container-img">
+                  <div class="row ">
+                    <div class="col-sm-12 ">
+                      <div class="form-fondo-one-sm visible-sm-block visible-md-block visible-lg-block">
+                        <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1>
+                        <br>
+                           <div>
+                          <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+                        </div>
+                        <div class="input-group center-block">
+                          <div class="input-group-addon">
+                          </div>
+                          <select class="form-control" id="select-ciudad">
+                            <option value="fem">Lima </option>
+                            <option value="man">Arequipa</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
       </div>
     </div>
@@ -289,12 +302,19 @@
   </div>
 </footer>
 </main>
+ 
 
-<div class="container-fluid">
+
 	    <!-- Js de bootstrap-->
 	<script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Js para la página-->
-    <!-- <script type="text/javascript" src="../js/app.js"></script> -->
+
+<script src="../js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+  $(window).on('load', function () {
+    $('#slider').nivoSlider();
+  });
+</script>
+<div class="container-fluid">
 </body>
 </html>  

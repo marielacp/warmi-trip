@@ -5,20 +5,27 @@
 	padding: 0px;
 	box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  
+  color: white;  
 }
-
-.container-img {
- 
+/*
+.container-img { 
   background-image: url(../assets/img/puntasal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-   height: 100vh;
+  height: 70vh;
   background-position: bottom;
-  /*me posiciona la imagen en el bottom*/
-}
+  
+}*/
 
+.container-img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-color: pink;
+}
+*/ .container-img {
+}
 
 /*--------------NAV-----------------*/
 
@@ -105,7 +112,7 @@ margin: 0 4rem 4rem 4rem;
   margin: 0;
 }
 .form-fondo-one {
-  margin-top: 40%;
+  margin-top:50%;
   width:100%;
   height: auto;
   padding: 2%;
@@ -242,10 +249,11 @@ background-color:pink;
 
 .form-fondo-one-sm {
 
-  margin-top: 15%;
+  margin-top: 0%;
   width: 100%;
   height: auto;
   padding: 2%;
   display: inline-block;
+  z-index: 1000;
 
 }
