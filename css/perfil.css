@@ -46,10 +46,10 @@ h3{
 .style-main{
 margin-top: 0;
 }
-
+/*
 .text{
 color: blue;
-}
+}*/
 
 .border-post{
   border-radius: 5rem;
@@ -225,4 +225,10 @@ background-color:pink;
     border: 1px solid #ece9eb;
     padding: 2rem;
     color: black;
+}
+/* Perfil de amigos*/
+
+.widht-img-header{
+width: 30rem;
+position:absolute;
 }

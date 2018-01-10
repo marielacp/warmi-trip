@@ -16,16 +16,16 @@
 <body>
 <!--Navbar-->
 	<div >    
-  <div id="slider" class="nivoSlider">
-    <img class="img-responsive" src="../assets/img/apurimacchica.jpg" alt="">
-    <img class="img-responsive" src="../assets/img/baletchico.jpg" alt="" title="#htmlcaption" />
-    <img class="img-responsive" src="../assets/img/cuzcochico.jpg" alt="" title="" />
-    <img class="img-responsive" src="../assets/img/huarazchico.jpg" alt="" title="" />
-  <!--  <img class="img-responsive" src="../assets/img/cuzco.jpg" alt="" title="" />
-    <img class="img-responsive" src="../assets/img/balet.jpg" alt="" title="" />-->
-  </div>
+    <div id="slider" class="nivoSlider">
+      <img class="img-responsive" src="../assets/img/apurimacchica.jpg" alt="">
+      <img class="img-responsive" src="../assets/img/baletchico.jpg" alt="" title="#htmlcaption" />
+      <img class="img-responsive" src="../assets/img/cuzcochico.jpg" alt="" title="" />
+      <img class="img-responsive" src="../assets/img/huarazchico.jpg" alt="" title="" />
+    <!--  <img class="img-responsive" src="../assets/img/cuzco.jpg" alt="" title="" />
+      <img class="img-responsive" src="../assets/img/balet.jpg" alt="" title="" />-->
+    </div>
   <div id="htmlcaption" class="nivo-html-caption">   
-  </div>
+    </div>
       <nav class="navbar-default navbar-fixed-top background-nav" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header ">				
@@ -46,32 +46,35 @@
           </div>
         </div><br><br>
       </nav>
-<main>
-    <div class="col-xs-12">
-      <div class="form-fondo-one visible-xs-block">       
-        <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1><br>
-        <h1 class="text-center"> Great Destination for first time travellers</h1>
-          <div>
-            <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+              <div class="form-fondo-one visible-xs-block">       
+                <h1 class="text-logo text-center"> WARMI TRIP .....Disfruta, viaja, vive....!!! </h1><br>
+                <h1 class="text-center"> Great Destination for first time travellers</h1>
+                  <div>
+                    <button class="btn btn-lg background-nav text-center style-btn" type="text"> Planifica tu viaje</button>
+                  </div>
+                  <div class="input-group center-block">
+                    <div class="input-group-addon"></div>
+                      <select class="form-control" id="select-ciudad">
+                      <option value="fem">Lima </option>
+                      <option value="man">Arequipa</option>
+                      </select>
+                  </div>
+              </div>
+            </div>
           </div>
-          <div class="input-group center-block">
-            <div class="input-group-addon"></div>
-              <select class="form-control" id="select-ciudad">
-              <option value="fem">Lima </option>
-              <option value="man">Arequipa</option>
-              </select>
-          </div>
-      </div>
-    </div>
-  </main>
-</div>
+        </div>
 <!--1rea seccion Formulario de Perfil y Post-->
 <section class=" main-fondo style-main">
   <br><br>
-<div class="container text main-fondo">
-    <div class="row">             
-      <div class="col-sm-2 col-md-2 col-lg-2 visible-sm-block visible-md-block visible-lg-block  form-registro"> 
-        <h4 class="text-center">Login</h4>
+    <div class="container text main-fondo">
+    <div class="row">   
+      <!--LISTA LOGIN-->          
+      <div class="col-sm-3 col-md-2 col-lg-2 visible-sm-block visible-md-block visible-lg-block  form-registro"> 
+          <h4 class="text-center">Login</h4>
         <div class="display">
           <img class="img-responsive width-icono-login center-block" src="../assets/img/user-female-icon.png" alt="">
         </div>
@@ -101,8 +104,9 @@
             <button type="submit" class="btn btn-default">Cerrar Sesiòn</button>
           </div>
       </div>
+      <!--POSTEAR-->
        <div class="col-sm-1 col-md-1 col-lg-1 " ></div>
-        <div class="col-sm-5 col-xs-12 col-md-5  col-lg-5 visible-xs-block visible-sm-block visible-md-block visible-lg-block">
+        <div class="col-sm-4 col-md-5  col-lg-5 visible-xs-block visible-sm-block visible-md-block visible-lg-block">
           <div>
           <!--  <img class="img-responsive width-icono-login center-block" src="../assets/img/postea.png" alt="">-->
           </div>
@@ -115,63 +119,12 @@
           <div class="container-post">
             <textarea name="" id="" class="post"></textarea>
           </div> 
-       <!-- <div class="col-sm-5 col-md-5  col-lg-5 visible-sm-block visible-md-block visible-lg-block">-->
+          </div>
+             <!-- <div class="col-sm-5 col-md-5  col-lg-5 visible-sm-block visible-md-block visible-lg-block">-->
                         
-          <!--Carrusel de imagenes -->
-          <div col-xs-12 visible-xs-block>
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel slider">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="../assets/img/Cusco.jpg" alt="cusco">
-                <div class="carousel-caption">
-                  ...
-                </div>
-              </div>
-              <div class="item">
-                <img src="../assets/img/ica1.jpg" alt="Ica">
-                <div class="carousel-caption">
-                  ...
-                </div>
-              </div>
-              ...
-            </div>
-          
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>    
-        </div>    
-        </div>
-         
-  <!--Galeria de Imagenes-->
-  <div>
-    <figure>
-      <img src="" alt="">
-    </figure>
-    <figure>
-      <img src="" alt="">
-    </figure>
-    <figure>
-      <img src="" alt="">
-    </figure>
-  </div>
-  <!--Fin--><!--fin slider-->
-  <!--Lugares turisticos donde visitar-->
+     <!--Lugares turisticos donde visitar-->
   <div class="col-sm-1 col-md-1 col-lg-1 "></div>
-      <div class="col-sm-3 col-md-3 col-lg-3 form-registro">        
+            <div class ="col-sm-4 col-md-3 col-lg-3 form-registro">        
                 <div class="container-fluid container-img">
                   <div class="row ">
                     <div class="col-sm-12 ">
@@ -211,12 +164,8 @@
                   <img class=" width-logo img-responsive width-logo" src="../assets/img/montalvo.jpg" alt="">
                 </a>
                </div>
-      </div>
-    </div>
-  </div>
+           </div>
 </section>  
-
-
   <!--seccion amigos-->
 <section class="container-img3">
  <div class="container-fluid ">
@@ -354,7 +303,7 @@
               </li>
             </ul>
             <hr class="visible-sm-block visible-md-block visible-lg-block">
-            <h4 class=" footer-date visible-sm-block visible-md-block visible-lg-block">@ 2017 Labcar Tecnology Inc</h4>
+            <h4 class=" footer-date visible-sm-block visible-md-block visible-lg-block">@ 2018  Tecnology Inc</h4>
             <div class="img-footer visible-xs-block">
               <img class="img-responsive" src="../assets/img/enBadgeWebGeneric.png" alt="">
             </div>
@@ -367,17 +316,14 @@
     </div>
   </div>
 </footer>
-
 	    <!-- Js de bootstrap-->
 	<script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-
-<script src="../js/jquery.nivo.slider.js"></script>
-<script type="text/javascript">
-  $(window).on('load', function () {
-    $('#slider').nivoSlider();
-  });
-</script>
-<div class="container-fluid">
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
 </body>
 </html>  
