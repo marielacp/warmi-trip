@@ -18,8 +18,7 @@
 
 .icon{
   width:3rem;
-  height:3rem;
-  outline: solid 1px red;
+  
 }
 
 .small-font { 
@@ -39,9 +38,6 @@
   padding-top:0.5em;
 }
 
-.outline{
-  outline: solid 1px red;
-}
 
 
 .modal-content {

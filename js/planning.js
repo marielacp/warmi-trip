@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   // Obtenemos la ciudad elegida
   var $city = window.localStorage.getItem('city');
+  var $UID = window.localStorage.getItem('storageUID');
   // Cargando los platos tipicos en el popover
   firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
     var $tipicalFood = Object.keys(snap.val()['platetypic']);
@@ -105,4 +106,16 @@ $(document).ready(function() {
       }
     });
   });
+
+  $('#btn-save').click(function() {
+
+    console.log($('#txt-budget').val());
+    /*firebase.database().ref('trips/' + $UID).push
+    {
+      budget:$('txt-budget').val(); 
+      
+    }
+  );*/
+  });
+
 }); 
