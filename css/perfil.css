@@ -29,16 +29,27 @@
 	background-color: #F9088A;
 	margin: 5px;
 }
+/*  Se cambio colores de navbar */ 
 
 .color-button-menu{
-  color: white;
-  border-radius: 3rem;
-  background-color: #F9088A;
-  size: 9rem;
+  color: black!important;
+  border-radius: 100%;
+  border: 2px solid white;
+  background-color: white;
+  opacity: 0.9;
+  margin: 0.3em 0.3em 0em  0em;
+  size: 4em;
+}
+
+span {
+  color: black;
+  font-family: 'Leckerli One', cursive;
+  font-size: 1em;
 }
  .color-button-menu:hover {
   color: #ffffff; 
 }
+ /* fin cambio de colores de navbar */
 
 h3{
 	font-size: 1.5em;
