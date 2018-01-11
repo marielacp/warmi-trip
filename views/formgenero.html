@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Css de Bootstrap-->
   <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
   <!--Css de Fuente externa-->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <!--Css para perfil--> 
+  <!--Css para perfil-->
   <link rel="stylesheet" href="../css/perfil.css">
-  <title>Warmi Trip</title>  
+  <title>Warmi Trip</title>
 </head>
-<body class="main-fondo"> 
-  <div> 
-  <div class="container-fluid ">
-    <div class="row">
-      <div class="col-xs-12 col-sm-offset-4 col-sm-4">
-        <!--Logo--> 
-      <div>
-        <img src="../assets/img/logomujerchica.png " class="widht-img-heade img-responsive" alt="">
-      </div>
-      <!--Formulario de género--> 
-        <form class="">          
+
+<body class="main-fondo">
+  <div>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-4 col-sm-4">
+          <!--Logo-->
+          <div>
+            <img src="../assets/img/logomujerchica.png " class="widht-img-heade img-responsive" alt="">
+          </div>
+          <!--Formulario de género-->
+          <form class="">
             <div class="col-xs-12 ">
               <div class="form-group">
                 <div class="input-group">
                   <div class="input-group-addon">
                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                   </div>
-                      <select class="form-control" id="select-genero">
-                        <option value="fem">Femenimo</option>
-                        <option value="man">Masculino</option>
-                      </select>                  
+                  <select class="form-control" id="select-genero">
+                    <option value="fem">Femenimo</option>
+                    <option value="man">Masculino</option>
+                  </select>
                 </div>
               </div>
               <div class="form-group">
@@ -43,24 +45,25 @@
                   <input type="text" class="form-control" id="address" placeholder="Ingrese su direcciòn" required>
                 </div>
               </div>
-          <div class="checkbox">
-            <label color="color-txt1">
-              <input type="checkbox" id="inp-check">
-              <a> Confirma tus datos.
-                <strong> Mas info click aqui </strong>
-              </a>
-            </label>
+              <div class="checkbox">
+                <label color="color-txt1">
+                  <input type="checkbox" id="inp-check">
+                  <a> Confirma tus datos.
+                    <strong> Mas info click aqui </strong>
+                  </a>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default btn-lg btn-block margin-button next-disabled" id="submit">Submit</button>
+          </form>
           </div>
-          <button type="submit" class="btn btn-default btn-lg btn-block margin-button next-disabled" id="submit">Submit</button>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!--JS de Jquery--> 
-<script src="../vendors/js/jquery-3.2.1.min.js"></script>
-<!--JS de firebase--> 
-<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-<script src="../js/formgenero.js"></script>
+    <!--JS de Jquery-->
+    <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <!--JS de firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="../js/formgenero.js"></script>
 </body>
+
 </html>

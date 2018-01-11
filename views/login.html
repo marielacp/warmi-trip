@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Hojas de estilo de Bootstrap  -->
-	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+
   <!-- Hojas de estilo personalizadas este proyecto  -->
   <link href="../css/main.css" rel="stylesheet">
-  <title>Base de datos</title>  
+  <title>Base de datos</title>
 </head>
 
-<body> 
-    <main>
-        <div class="container-fluid help">
-          <!-- Imagen superior-->
-          <div class="row">
-              <h1>Inicia Sesión</h1>
+<body>
+  <main>
+    <div class="container-fluid help">
+      <div class="row">
+        <!-- Imagen principal-->
+        <figure>
+          <div class="col-xs-12">
+            <img src="../assets/img/logomujerchica.png" alt="Logo principal de warmi-trip" class="center-block img-responsive main-image">
           </div>
-          <div class="row">
-            <!-- Imagen principal-->
-            <figure>
-              <div class="col-xs-12">
-                <img src="../assets/img/logomujerchica.png" alt="Logo principal de warmi-trip" class="center-block img-responsive main-image">
-              </div>
-            </figure>
+        </figure>
+      </div>
+      <!-- Grupo de botones-->
+        <div class="row">
+          <div class="col-xs-12 group-btn">
+            <a id="login" class="btn btn-default text-uppercase  bg-transparent text-white button-inicio" role="button">Inicia con Google</a>
           </div>
-          <div class="row">
-            <!-- Grupo de botones-->
-            <section>
-              <div class="col-xs-12 group-btn">
-                <a id="login" class="btn btn-default text-uppercase  bg-transparent text-white"  role="button">Inicia con Google</a>
-              </div>
-            </section>
-          </div>
-        </div>    
-      </main>
- <!-- Js de Jquery-->
-<script src="../vendors/js/jquery-3.2.1.min.js"></script>
- <!-- Js de Firebase-->
- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
- <script type="text/javascript" src="../js/connect.js"></script>
-<script src="../js/login.js"></script>
+        </div>
+    </div>
+  </main>
+  <!-- Js de Jquery-->
+  <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <!-- Js de Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../js/connect.js"></script>
+  <script src="../js/login.js"></script>
 </body>
+
 </html>
