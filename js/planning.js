@@ -1,10 +1,10 @@
-$(document).ready(function () {
+$(document).ready(function() {
   // result user
   // Obtenemos la ciudad elegida
   var $city = window.localStorage.getItem('city');
   var $UID = window.localStorage.getItem('storageUID');
   // Cargando los platos tipicos en el popover
-  firebase.database().ref('place/' + $city + '/').on('value', function (snap) {
+  firebase.database().ref('place/' + $city + '/').on('value', function(snap) {
     var $tipicalFood = Object.keys(snap.val()['platetypic']);
     $('#typical-food').attr('data-content', $tipicalFood);
     $('#btn-breakfast').attr('data-content', snap.val()['price']['breakfast']);
@@ -16,7 +16,7 @@ $(document).ready(function () {
   // Habilitamos los popovers
   $('[data-toggle="popover"]').popover();
   // Obtenemos la data según la ciudad elegida
-  firebase.database().ref('place/' + $city + '/hotels').on('value', function (snap) {
+  firebase.database().ref('place/' + $city + '/hotels').on('value', function(snap) {
     // console.log(snap.val());
     var $hotels = Object.keys(snap.val());
     // Cargamos los hoteles según la ciudad elegida
@@ -26,7 +26,7 @@ $(document).ready(function () {
     }
   });
   // Obtenemos transporte según la ciudad elegida
-  firebase.database().ref('transport').on('value', function (snap) {
+  firebase.database().ref('transport').on('value', function(snap) {
     var $arrayTransport = Object.keys(snap.val());
     // Cargamos los hoteles según la ciudad elegida
     for (var i = 0; i < $arrayTransport.length; i++) {
@@ -35,7 +35,7 @@ $(document).ready(function () {
     }
   });
   // Obteniendo los datos según el hotel seleccionado
-  $('#hotels').on('change', function () {
+  $('#hotels').on('change', function() {
     var $nameHotel = $(this).val();
     // Limpiando los campos cada vez que elegimos una nueva opcion 
     $('#title-modal').html('');
@@ -48,7 +48,7 @@ $(document).ready(function () {
     $('#address').html('');
     // Obteniendo costo del hotel
     $hotelPrice = 0;
-    firebase.database().ref('place/' + $city + '/hotels/' + $nameHotel).on('value', function (snap) {
+    firebase.database().ref('place/' + $city + '/hotels/' + $nameHotel).on('value', function(snap) {
       $('#title-modal').html(snap.val()['name']);
       $('#modal-map').append(snap.val()['iframe']);
       var $rating = snap.val()['rating'];
@@ -73,10 +73,10 @@ $(document).ready(function () {
     // Llamando al modal con la informacion  del hotel
     $('#modal-hotel').modal('show');
   });
-  $('#list-transport').on('change', function () {
+  $('#list-transport').on('change', function() {
     var $companyName = $(this).val();
     // Obteniendo el costo del transporte
-    firebase.database().ref('transport/' + $companyName + '/destination-place/' + $city).on('value', function (snap) {
+    firebase.database().ref('transport/' + $companyName + '/destination-place/' + $city).on('value', function(snap) {
       var $transportPrice = snap.val();
       if ($transportPrice) {
         $('#txt-price-transport').val($transportPrice);
@@ -86,7 +86,7 @@ $(document).ready(function () {
     });
   });
   // Guardando los datos del planning en la data de firebase
-  $('#btn-save').click(function () {
+  $('#btn-save').click(function() {
     firebase.database().ref('trips/' + $UID).push(
       $UID = {
         budget: $('#txt-budget').val(),
