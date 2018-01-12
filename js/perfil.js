@@ -11,6 +11,10 @@ $(document).ready(function() {
     console.log(snap.val()['photo']);
     $( "#img-perfil" ).attr( "src", snap.val()['photo'] );
     $( "#txt-user" ).attr( "value", snap.val()['name'] );
+    $( "#img-user-modal" ).attr( "src", snap.val()['photo'] );
+    $( "#txt-user-modal" ).attr( "value", snap.val()['name'] );
+    $( "#txt-mail-modal" ).attr( "value", snap.val()['email'] );
+    
 
   });
 // Alert del botón peligro

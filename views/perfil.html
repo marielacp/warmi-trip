@@ -49,9 +49,13 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right class=" color-button-menu "">
             <li class="color-button-menu list">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#modalTrips">
                 <span>Mis viajes</span>
               </a>
+
+
+
+
             </li>
             <li class="color-button-menu list">
               <a href="#">
@@ -59,16 +63,93 @@
               </a>
             </li>
             <li class="color-button-menu list">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#modalProfile">
                 <span>Perfil</span>
               </a>
             </li>
           </ul>
         </div>
+
+        
       </div>
+      
       <br>
       <br>
     </nav>
+      <!-- Modal  trips-->
+      <div class="modal fade bs-example-modal-sm" id="modalTrips" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Mis viajes</h4>
+              </div>
+              <div class="modal-body">
+                <div id="page-upload-1">
+                  <form class="text-center">
+                    <div class="form-group">
+                      <label for="message-text" class="control-label">Nuestro próximo viaje será en :</label>
+                      <p>50 dias</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">Viajaremos a :</label>
+                        <p>Cusco</p>
+                    </div>
+                    <div class="form-group">
+                        <img src="../assets/img/Cusco.jpg" alt="cusco" class="width-icono-login">
+
+
+
+                    </div>
+                  </form>
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+         <!-- Modal  profile-->
+      <div class="modal fade bs-example-modal-sm" id="modalProfile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Mi Perfil</h4>
+              </div>
+              <div class="modal-body">
+                <div id="page-upload-1">
+                  <form class="text-center">
+                    <div class="form-group">
+                      <label for="message-text" class="control-label">Nombre:</label>
+                      <input type="nombre" class="form-control text-center" id="txt-user-modal" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">email:</label>
+                        <input type="nombre" class="form-control text-center" id="txt-mail-modal" readonly>
+                    </div>
+                    <div class="form-group">
+                        <img src="" alt="cusco" class="width-icono-login" id="img-user-modal">
+
+
+
+                    </div>
+                  </form>
+                </div>
+               
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Editar</button>
+                </div>
+            </div>
+          </div>
+        </div>
     <main>
       <div class="col-xs-12">
         <div class="form-fondo-one visible-xs-block">
@@ -120,11 +201,11 @@
             <hr>
             <h3 class="text-center">Faltan..</h3>
             <hr>
-            <input type="text" placeholder="Dias" class="form-control" readonly value="50 dias">
+            <input type="text" placeholder="Dias" class="form-control text-center" readonly value="50 dias">
             <hr>
             <h3 class="text-center"> Monedero viajero</h3>
             <hr>
-            <input type="text" placeholder="$500" class="form-control" readonly value="500">
+            <input type="text" placeholder="$500" class="form-control text-center" readonly value="$500">
             <hr>
             <button id="btn-logout" type="submit" class="btn btn-default col-sm-12">Logout</button>
           </div>
@@ -178,8 +259,8 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <button id="btn-save-post" type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  <button id="btn-save-post" type="button" class="btn btn-primary">Guardar</button>
                 </div>
               </div>
             </div>
@@ -212,8 +293,8 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <button id="btn-save-file" type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  <button id="btn-save-file" type="button" class="btn btn-primary">Guardar</button>
                 </div>
               </div>
             </div>
@@ -335,14 +416,14 @@
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="border-data-friends">
             <figure>
-              <img class="img-responsive width-icono-login" src="https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg" alt="">
+              <img class="img-responsive width-icono-login" src="https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg" alt="" id="img-friend-1">
             </figure>
             <div>
               <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.5119991706756!2d-71.5390942856883!3d-16.398803242477904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a59ffae2999%3A0xc419f49d1f9cd270!2sPlaza+de+Armas+de+Arequipa!5e0!3m2!1ses!2spe!4v1515556636672"
                 frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div>
-              <button class="btn btn-sm background-nav text-center style-btn button-style-friends" type="text">Yosseline Apcho</button>
+              <button class="btn btn-sm background-nav text-center style-btn button-style-friends" type="text" id="name-friend-1">Yosseline Apcho</button>
             </div>
           </div>
         </div>
@@ -350,14 +431,14 @@
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="border-data-friends">
             <figure>
-              <img class="img-responsive width-icono-login" src="https://lh5.googleusercontent.com/-0dAI0olDOgM/AAAAAAAAAAI/AAAAAAAAB70/W10yoXc2UZ4/photo.jpg" alt="">
+              <img class="img-responsive width-icono-login" src="https://lh5.googleusercontent.com/-0dAI0olDOgM/AAAAAAAAAAI/AAAAAAAAB70/W10yoXc2UZ4/photo.jpg" alt="" id="img-friend-2">
             </figure>
             <div>
               <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7317299705314!2d-78.51968408583006!3d-7.156983272203121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25af91f263ceb%3A0xd69ad6c71bdf9075!2sPlaza+de+Armas+de+Cajamarca!5e0!3m2!1ses!2spe!4v1515557079619"
                 frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div>
-              <button class="btn btn-sm background-nav text-center style-btn button-style-friends" type="text">Mariela Deysi Cerna Peralta</button>
+              <button class="btn btn-sm background-nav text-center style-btn button-style-friends" type="text" id="name-friend-2">Mariela Deysi Cerna Peralta</button>
             </div>
           </div>
         </div>
