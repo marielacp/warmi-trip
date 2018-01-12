@@ -12,6 +12,12 @@
       "photo" : "https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg",
       "uid" : "3tFDufHxToPoETEeiyit005KIgG2"
     },
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "email" : "ayajahuanca@gmail.com",
+      "name" : "Ada Yajahuanca Chupa",
+      "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
+      "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
+    },
     "UUMuwt7Mq8aka81hWdVODRDOw6L2" : {
       "email" : "marielacernap@gmail.com",
       "name" : "Mariela Deysi Cerna Peralta",
@@ -190,79 +196,7 @@
     }
   },
   "posts" : {
-    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
-      "-L2WUGbjYh73Qt-lj873" : {
-        "date" : "2018/1/10",
-        "publish" : "dfgbsfbvsb"
-      },
-      "-L2WUKfpSkGXqOHTIjDD" : {
-        "date" : "2018/1/10",
-        "description" : "bsbsdbdsb",
-        "photo" : "credit-card.png"
-      },
-      "-L2Wj96DwQP7jEMY3M5o" : {
-        "date" : "2018/1/10",
-        "publish" : "yrjtrejhnedhn"
-      },
-      "-L2WjCDNuEoQIGuIQNrq" : {
-        "date" : "2018/1/10",
-        "description" : "",
-        "photo" : "appstore.png"
-      },
-      "-L2Wm8eq70pMdPWClr7Z" : {
-        "date" : "2018/1/10",
-        "publish" : "htdghjehetdht"
-      },
-      "-L2WmDeFhHavSVBARYe3" : {
-        "date" : "2018/1/10",
-        "description" : "wetwet",
-        "photo" : "appstore.png"
-      },
-      "-L2XCu3E8yjDib7Lq3TF" : {
-        "date" : "2018/1/10",
-        "publish" : "adfasfasf"
-      },
-      "-L2XCwLiZuirg0t-6cKY" : {
-        "date" : "2018/1/10",
-        "description" : "dddd",
-        "photo" : "coin.png"
-      }
-    },
-    "UID" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1",
-    "fOTxI7qFNFWdkFkHq1W54kGA7HR2" : {
-      "-L2XQbt3S0pV5UWAdhtE" : {
-        "date" : "2018/1/10",
-        "description" : "hnnvn",
-        "photo" : "IMG_20180104_174541.jpg"
-      },
-      "-L2XQg4SouL_hdQhryfH" : {
-        "date" : "2018/1/10",
-        "publish" : "hnbbnbn"
-      }
-    },
-    "lCJQI4xyESVfUD83FoycEyKkOxq1" : {
-      "-L2a_7KOsHfMSLEtQ51p" : {
-        "date" : "2018/1/11",
-        "description" : "",
-        "photo" : "0-fondos-escritorio-cataratas-1280[1] (1).jpg"
-      },
-      "-L2axea1TGR79aKyv4Vw" : {
-        "date" : "2018/1/11",
-        "description" : "jjkggjmvkgbk",
-        "photo" : "152.jpg"
-      }
-    },
-    "uhg6WNasj4ZE48v9MqY7J8AmV7A3" : {
-      "-L2aceuIq9wJhkfunVDE" : {
-        "date" : "2018/1/11",
-        "publish" : "Hola"
-      },
-      "-L2acuCLeuujYsiXd95Q" : {
-        "date" : "2018/1/11",
-        "description" : "imagen",
-        "photo" : "background.jpeg"
-      }
-    }
+    "UID" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
   },
   "transport" : {
     "Avianca" : {
@@ -378,31 +312,9 @@
         "hotel" : "Hotel Balcones Plaza",
         "transporte" : "Oltursa"
       }
-    },
-    "null" : {
-      "-L2ajzNTY2BCUblSLbzV" : {
-        "budget" : "",
-        "costoTransporte" : "",
-        "fechaDeLlegada" : "",
-        "fechaDePartida" : "",
-        "transporte" : "Avianca"
-      },
-      "-L2c-wy-h1rnQ3ECZB3r" : {
-        "budget" : "300",
-        "costoTransporte" : "23",
-        "fechaDeLlegada" : "01/21/2018",
-        "fechaDePartida" : "01/13/2018",
-        "hotel" : "Hotel Balcones Plaza",
-        "transporte" : "Civa"
-      },
-      "-L2dNPQdt5JJeRucPX74" : {
-        "budget" : "500.00",
-        "costoTransporte" : "28",
-        "fechaDeLlegada" : "01/12/2018",
-        "fechaDePartida" : "01/09/2018",
-        "hotel" : "Hotel Balcones Plaza",
-        "transporte" : "Tepsa"
-      }
     }
+  },
+  "users" : {
+    "sss" : "sss"
   }
 }
