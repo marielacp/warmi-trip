@@ -32,19 +32,19 @@
     
 ### USER RESEARCH: NUESTRO CLIENTE NOS INFORMO ALGUNOS PUNTOS BASICO QUE DEBE TENER UNA RED SOCIAL
 
-•	Un newsfeed donde puedes ver las actualizaciones de todos tus contactos.
-•	Un lugar donde poder escribir posts.
-•	Un lugar para subir fotos.
-•	Un espacio en el cual pueda visualizar los últimos sucesos en los que han sido victima las mujeres.
-•	Una herramienta que le permita planificar sus viajes en cuanto a presupuesto de hoteles y transporte.
+*	Un newsfeed donde puedes ver las actualizaciones de todos tus contactos.
+*	Un lugar donde poder escribir posts.
+*	Un lugar para subir fotos.
+*	Un espacio en el cual pueda visualizar los últimos sucesos en los que han sido victima las mujeres.
+*	Una herramienta que le permita planificar sus viajes en cuanto a presupuesto de hoteles y transporte.
 
 ### ¿QUÉ SE REQUIERE?
-•	Trabajar en parejas
-•	Tener una planificación
-•	La definición del diseño
-•	Diseño mobile friendly
-•	Desplegar el producto en Github Pages
-•	Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar Firebase.
+*	Trabajar en parejas
+*	Tener una planificación
+*	La definición del diseño
+*	Diseño mobile friendly
+*	Desplegar el producto en Github Pages
+*	Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar Firebase.
 
 ### PROCESOS DE DISEÑO DE LA EXPERIENCIA
 -	Se analiza el fondo un tema que creemos podría ser viable, se llega a un acuerdo y se procede a entrevistar.
