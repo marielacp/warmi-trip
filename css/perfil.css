@@ -269,3 +269,22 @@ ul li {
   border-top: solid 1px #DE806C;
   padding-top: 1rem;
 }
+
+/*Clases de footer*/
+.btn{
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background: #df017c;
+  font-size: 20px;
+  margin: 0.5rem;
+  
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover{
+  background: #fac3e1;
+}
