@@ -11,6 +11,22 @@ $(document).ready(function() {
     $('#btn-lunch').attr('data-content', snap.val()['price']['lunch']);
     $('#btn-dinner').attr('data-content', snap.val()['price']['dinner']);
   });
+
+ // Validaciòn campo presupuesto, que genero dos decimales.
+$("#txt-budget").on({
+  "focus": function (event) {
+    $(event.target).select();
+  },
+  "keyup": function (event) {
+    $(event.target).val(function (index, value) {
+      return value.replace(/\D/g, "")
+        .replace(/([0-9])([0-9]{2})$/, '$1.$2')
+        .replace(/\B(?=(\d{3})+(?!\d)\.?)/g, ",");
+    });
+  }
+});
+
+
   // Cargamos los datepickers en todos aquellos elementos que tengan la clase datepicker
   $('.datepicker').datepicker();
   // Habilitamos los popovers
