@@ -9,7 +9,7 @@ body {
 }
 
 .main-fondo {
-  height: 120vh;
+  height: 100vh;
   background-image: url(../assets/img/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,15 +20,14 @@ body {
   height: 50vh;
 }
 
-.container-flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
+.flex{
+  display:flex;
+  
+  justify-content:center;
 }
 
 .logo {
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-name: slidein;
 }
 
@@ -36,14 +35,15 @@ body {
   from {
     opacity: .5;
     margin-left: 100%;
-    width: 300%;
-    -webkit-transform: scale(1.3);
-    transform: scale(3);
+    width: 105%;
+    height:110%;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
     border-radius: 50%;
   
     box-shadow: 0px 0px 15px 15px #ec731e;
     -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-    background: red;
+    background: lightcoral;
   }
   to {
     margin-left: 0%;
@@ -51,4 +51,3 @@ body {
     opacity: 2;
   }
 }
-
