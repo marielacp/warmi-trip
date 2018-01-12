@@ -19,7 +19,7 @@
 ![Imagenes](assets/img/cronograma.png) 
 
     
-### METODOS DE LEVANTAMIENTO DE INFORMACION.
+### RESEARCH:METODOS DE LEVANTAMIENTO DE INFORMACION.
 *	Entrevista
 	-	Face to face.
 	-	Via wasap y audios.
@@ -30,13 +30,13 @@
 *	Experiencia obtenida
 	-	Muy asertiva, la experiencia salio mejor de lo que se pensó y las ideas aun mejores.
     
-### NUESTRO CLIENTE NOS INFORMO ALGUNOS PUNTOS BASICO QUE DEBE TENER UNA RED SOCIAL
+### USER RESEARCH: NUESTRO CLIENTE NOS INFORMO ALGUNOS PUNTOS BASICO QUE DEBE TENER UNA RED SOCIAL
+
 •	Un newsfeed donde puedes ver las actualizaciones de todos tus contactos.
 •	Un lugar donde poder escribir posts.
 •	Un lugar para subir fotos.
-•	Capacidad para poder tener amigos o para poder seguir a personas/marcas dentro de la red social.
-•	Ser mobile friendly.
-•	Etc.  
+•	Un espacio en el cual pueda visualizar los últimos sucesos en los que han sido victima las mujeres.
+•	Una herramienta que le permita planificar sus viajes en cuanto a presupuesto de hoteles y transporte.
 
 ### ¿QUÉ SE REQUIERE?
 •	Trabajar en parejas
@@ -67,9 +67,8 @@
 *	Login –Genero.
 *	Data Gmail. 
 *	Pag de perfil
-*	Formulario de datos
-*	Agregar Fotos
-*	Agregar mensajería on line.
+*	Formulario de planificación
+*	Agregar Fotos y publicaciones
 *	Modales de ubicación.
 *	Monedero para presupestar los viajes.
 
