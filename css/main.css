@@ -9,12 +9,9 @@
 
 /*Css para la página planning*/
 
-.help{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  align-items:center;
-}
+
+
+
 
 .icon{
   width:3rem;
@@ -52,13 +49,5 @@
   flex-direction: column;
 }
 
-.help{
-  display: flex;
-  flex-direction:column;
-}
 
-.space-between{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-}
+
