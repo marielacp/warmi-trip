@@ -6,8 +6,12 @@ $(document).ready(function() {
   var $date = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate();
 
   // Leyendo los datos del usuario
-  firebase.database().ref('bd').on('value', function(data) {
-    var user = data.val();
+  firebase.database().ref('bd/' +UID).on('value', function(snap) {
+    
+    console.log(snap.val()['photo']);
+    $( "#img-perfil" ).attr( "src", snap.val()['photo'] );
+    $( "#txt-user" ).attr( "value", snap.val()['name'] );
+
   });
 // Alert del botón peligro
   $('#btn-danger').click(function() {
@@ -24,7 +28,7 @@ $(document).ready(function() {
   // Guardando en el localstorage la ciudad que se elije
   $('.btn-plan').click(function() {
     window.localStorage.setItem('city', $('#select-ciudad').val());
-    window.location.href = 'planning.html'
+    window.location.href = 'planning.html';
     
   });
 
@@ -34,6 +38,7 @@ $(document).ready(function() {
 
     var $description = $('#txt-description').val();
     // Guardando los posts en el muro
+    $('#container-post').append('<p class="date-post">' + $date + '</p>');
     $('#container-post').append('<img class="img-responsive img-rounded post-foto center-block" src="../assets/img/' + $fileName + '">');
 
     $('#container-post').append('<p class="text-center">' + $description + '</p>');
@@ -45,19 +50,23 @@ $(document).ready(function() {
         description: $description,
         date: $date
       });
-    $(this).hide();
+      document.getElementById('txt-file').files[0]['name'].innerHTML='';
+      $('#txt-description').val('');
   });
   // Guardando los posts en la base de datos .posts
   $('#btn-save-post').click(function() {
-    var $post = $('#txt-post').val();
 
+
+    var $post = $('#txt-post').val();
+    $('#container-post').append('<p class="date-post">' + $date + '</p>');
     $('#container-post').append('<p class="text-center">' + $post + '</p>');
+  
     firebase.database().ref('posts/' + UID).push({
       publish: $post,
       date: $date
 
     });
+    $('#txt-post').val('');
 
-    $(this).hide();
   });
 }); 

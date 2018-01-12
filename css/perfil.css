@@ -128,7 +128,8 @@ h3{
 }
 
 .width-icono-login {
-  width: 20%;
+  width:10rem;
+
 }
 
 .button-style-friends{
@@ -254,4 +255,17 @@ ul li {
   .widht-img-header{
   width: 30rem;
   position:absolute;
+}
+
+/*Css de las publicaiones*/
+
+.container-post {
+  padding: 1rem;
+  border:solid 1px red;
+  margin:2rem;
+
+}
+.date-post{
+  border-top: solid 1px #DE806C;
+  padding-top: 1rem;
 }
