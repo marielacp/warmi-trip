@@ -7,6 +7,27 @@
   padding: 0; 
 }
 
+/*Css para la página login.html*/
+.margin-y{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+
+.margin-x{
+    margin-bottom: 5vh;
+}
+@media screen and (min-width : 768px) {
+  .margin-y{
+    
+    margin-top: 5vh;
+  }
+}
+
+
+
 /*Css para la página planning*/
 
 
