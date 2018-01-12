@@ -97,5 +97,12 @@ $(document).ready(function() {
         costoTransporte: $('#txt-price-transport').val()
 
       });
+
+    $('#txt-budget').val('');
+    $('#datepicker1').val('');
+    $('#datepicker2').val('');
+    $('#hotels').val('');
+    $('#list-transport').val('');
+    $('#txt-price-transport').val('');
   });
 }); 
