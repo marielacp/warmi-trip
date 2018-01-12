@@ -10,6 +10,12 @@ $(document).ready(function() {
     var user = data.val();
   });
 
+  $('#btn-danger').click(function() {
+    alert('En este momento se está enviando tu ubicación a tus contactos de confianza');
+  });
+
+ 
+
 
   // Guardando en el localstorage la ciudad que se elije
   $('.btn-plan').click(function() {
