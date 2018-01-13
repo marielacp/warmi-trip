@@ -7,25 +7,25 @@
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
-.navbar {
 
+.navbar-inverse .navbar-nav>li>a{
+color : #d55454 !important;
 font-size: 20px;
- 
 }
-
-.navMain ul li a{
-color: blue !important;
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: white;
+  font-size: 23px;
 }
 .opaque-navbar {
   background-color: rgba(0, 0, 0, 0.5);
-  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  Transparent:rgba(0,0,0,0);
+  Translucent: rgba(0,0,0,0.5);  
   height: 60px;
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
   
   }
-
-  
+ 
 .user{
   width: 20%;
   border-radius: 180%;
@@ -44,8 +44,6 @@ color: blue !important;
 
 ul.dropdown-menu {
   background-color: black;
-  font-size: 23px;
-
 }
 
 @media (max-width: 360px) {
