@@ -32,11 +32,9 @@ $(document).ready(function() {
   });
 
   // Creando el código de usuario en la rama de posts 
-  //firebase.database().ref('posts/').set({ UID });
+  // firebase.database().ref('posts/').set({ UID });
 
-  //Cargando imagenes del localstorage según el id de usuario
-
-
+  // Cargando imagenes del localstorage según el id de usuario
 
 
   // Obteniendo imagenes del input file
@@ -52,33 +50,35 @@ $(document).ready(function() {
     var $description = $('#txt-description').val();
 
     var $uploadTask = $storageRef.child('img/' + $fileName).put(document.getElementById('txt-file').files[0]);
-
+    
     $uploadTask.on('state_changed', function(snapshot) {
 
     }, function(error) {
       alert('Hubo un error en la carga de imágenes');
-
     }, function() {
-      var $downloadURL=$uploadTask.snapshot.downloadURL;
+      var $downloadURL = $uploadTask.snapshot.downloadURL;
+      alert('Se subio la imagen con la url  :' + $downloadURL);
+      console.log($downloadURL);
+
+       
+      // Guardando los posts en la base de datos - fotos
+      firebase.database().ref('posts/' + UID).push(
       
+        {
+          photo: $downloadURL,
+          description: $description,
+          date: $date
+        });
+      document.getElementById('txt-file').files[0]['name'].innerHTML = '';
+      $('#txt-description').val('');
+      // Insertando los posts en el muro
+      $('#container-post').append('<p class="date-post">' + $date + '</p>');
+      $('#container-post').append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
+  
+      $('#container-post').append('<p class="text-center">' + $description + '</p>');
     });
-
-    // Guardando los posts en el muro
-    $('#container-post').append('<p class="date-post">' + $date + '</p>');
-    $('#container-post').append('<img class="img-responsive img-rounded post-foto center-block" src="../assets/img/' + $fileName + '">');
-
-    $('#container-post').append('<p class="text-center">' + $description + '</p>');
-    // Guardando los posts en la base de datos - fotos
-    firebase.database().ref('posts/' + UID).push(
-
-      {
-        photo: $fileName,
-        description: $description,
-        date: $date
-      });
-    document.getElementById('txt-file').files[0]['name'].innerHTML = '';
-    $('#txt-description').val('');
   });
+
 
   // Guardando los posts en la base de datos .posts
   $('#btn-save-post').click(function() {
