@@ -7,7 +7,15 @@
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
+.navbar {
 
+font-size: 20px;
+ 
+}
+
+.navMain ul li a{
+color: blue !important;
+}
 .opaque-navbar {
   background-color: rgba(0, 0, 0, 0.5);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -15,28 +23,35 @@
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
   
-}
+  }
 
+  
+.user{
+  width: 20%;
+  border-radius: 180%;
+  margin-top:-2rem;
+}
 .navbar-header img{
   width: 20%;
   margin-top:-2%;
-}
+ }
 .opaque-navbar.opaque {
   background-color: transparent;
   height: 60px;
   transition: background-color .5s ease 0s;
+
 }
 
 ul.dropdown-menu {
   background-color: black;
   font-size: 23px;
- 
+
 }
 
 @media (max-width: 360px) {
   body {
     font-size: 11px;
-    background: rgb(240, 208, 208);
+    background: rgb(245, 214, 214);
   }
   .opaque-navbar {
     background-color: black;
@@ -50,8 +65,8 @@ ul.dropdown-menu {
     background: rgb(240, 208, 208);
   }
   .opaque-navbar {
-    background-color: black;
-    height: 60px;
+    background-color: rgb(15, 1, 1);
+    height: 120px;
     transition: background-color .5s ease 0s;
   }
 }
