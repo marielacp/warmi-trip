@@ -9,7 +9,7 @@
 ***********************************************************************/
 
 .navbar-inverse .navbar-nav>li>a{
-color : #d55454 !important;
+color : #aa3939 !important;
 font-size: 20px;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -49,7 +49,7 @@ ul.dropdown-menu {
 @media (max-width: 360px) {
   body {
     font-size: 11px;
-    background: rgb(245, 214, 214);
+   
   }
   .opaque-navbar {
     background-color: black;
@@ -60,7 +60,7 @@ ul.dropdown-menu {
 
 @media (max-width: 1380px) {
   body {
-    background: rgb(240, 208, 208);
+    
   }
   .opaque-navbar {
     background-color: rgb(15, 1, 1);
@@ -74,6 +74,10 @@ slider css
 .col-xs-12{
   margin: 0;
   padding: 0;
+}
+
+h2{
+  color: #550000
 }
 .slider{
   width: 100%;
@@ -130,6 +134,14 @@ slider css
   padding: 2rem;
   margin-top: -25%;
   color: white;
+}
+
+
+/*********icono volver a atras********/
+.position-icons{
+  position: absolute;
+  top:3rem;
+  z-index: 1000;
 }
 /************************ICONOS REDES************************/
 
