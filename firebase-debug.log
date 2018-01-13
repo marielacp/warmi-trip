@@ -1,0 +1,27 @@
+[debug] [2018-01-12T19:36:25.228Z] ----------------------------------------------------------------------
+[debug] [2018-01-12T19:36:25.228Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pollex\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase open
+[debug] [2018-01-12T19:36:25.228Z] CLI Version:   3.16.0
+[debug] [2018-01-12T19:36:25.228Z] Platform:      win32
+[debug] [2018-01-12T19:36:25.228Z] Node Version:  v8.9.4
+[debug] [2018-01-12T19:36:25.228Z] Time:          Fri Jan 12 2018 14:36:25 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-01-12T19:36:25.228Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-12T19:36:25.248Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-01-12T19:36:25.248Z] > authorizing via signed-in user
+[debug] [2018-01-12T19:36:25.248Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-12T19:36:25.248Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/VUP1Cc4qmce-OEpKb8O54-Y9RVgt1_5ocvx7t5-POZy-QHUk1rvILUeDXBF-SUWR',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jan 12 2018 14:36:25 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-01-12T19:36:25.787Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-12T19:36:25.817Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/warmi-trip-17f9d  
+  
+ Fri Jan 12 2018 14:36:25 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-01-12T19:36:26.636Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-12T19:36:26.637Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/warmi-trip-17f9d/tokens  
+  
+ Fri Jan 12 2018 14:36:26 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] [2018-01-12T19:36:27.419Z] <<< HTTP RESPONSE 200
