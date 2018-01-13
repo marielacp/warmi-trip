@@ -128,14 +128,14 @@
                 clearInterval(timer);
                 timer = '';
                 vars.currentSlide -= 2;
-                nivoRun(slider, kids, settings, 'prev');
+                nivoRun(slider, kids, settings, '');
             });
             
             $(slider).on('click', 'a.nivo-nextNav', function(){
                 if(vars.running) { return false; }
                 clearInterval(timer);
                 timer = '';
-                nivoRun(slider, kids, settings, 'next');
+                nivoRun(slider, kids, settings, '');
             });
         }
         
@@ -305,10 +305,10 @@
             if(!nudge){
                 sliderImg.attr('src', vars.currentImage.attr('src'));
             } else {
-                if(nudge === 'prev'){
+                if(nudge === ''){
                     sliderImg.attr('src', vars.currentImage.attr('src'));
                 }
-                if(nudge === 'next'){
+                if(nudge === ''){
                     sliderImg.attr('src', vars.currentImage.attr('src'));
                 }
             }
@@ -647,8 +647,8 @@
         controlNavThumbs: false,
         pauseOnHover: true,
         manualAdvance: false,
-        prevText: 'Prev',
-        nextText: 'Next',
+        prevText: '',
+        nextText: '',
         randomStart: false,
         beforeChange: function(){},
         afterChange: function(){},

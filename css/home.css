@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+
+.opaque-navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  height: 60px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+  
+}
+
+.navbar-header img{
+  width: 20%;
+  margin-top:-2%;
+}
+.opaque-navbar.opaque {
+  background-color: transparent;
+  height: 60px;
+  transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+  background-color: black;
+  font-size: 23px;
+ 
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 11px;
+    background: rgb(240, 208, 208);
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+  }
+}
+
+@media (max-width: 1380px) {
+  body {
+    background: rgb(240, 208, 208);
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+  }
+}
+/***********************************************************************
+slider css
+***********************************************************************/
+.col-xs-12{
+  margin: 0;
+  padding: 0;
+}
+.slider{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 500%;
+
+  animation: cambio 20s infinite;
+  animation-timing-function: ease-in;
+}
+
+.slider li{
+  display: inline-block;
+  list-style: none;
+  width: 100%;
+  
+  outline-color: 2px solid red;
+}
+
+.slider img{
+  width: 99%;
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+ /* opacity: 0.7;*/
+}
+
+@keyframes cambio{
+  0% { margin-left: 0;}
+  10% { margin-left: 0;}
+  20%{ margin-left:-100%;}
+  30% { margin-left: -100%}
+
+  40%{ margin-left:-200%;}
+  50% { margin-left: -200%}
+
+  58%{ margin-left:-300%;}
+  77% { margin-left: -300%}
+
+  85% { margin-left: -400%;}
+  100%{ margin-left:-400%;}
+  
+}
+
+.dateImg{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding: 2rem;
+  margin-top: -25%;
+  color: white;
+}
+/************************ICONOS REDES************************/
+
+.btn {
+  padding: .5rem 1rem .5rem 1rem;
+  background: #d55454;
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background: #fac3e1;
+}
+
+.icon-redes{
+  display:inline-block;
+  outline: 2px solid red;
+  margin-left: 15rem;
+}
+
+/*************lista fotos con ubicacion******************/
+
+.list-img-places ul {
+  list-style: none;
+  display: inline;
+ 
+  width: 100%
+}
+.list-img-places ul li{
+  float: left;
+  margin: 2rem;
+}
+.space-col{
+  margin: 2rem;
+
+}
+
+.icon-position {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding: 2rem;
+  
+}
+.text-rigth{
+  display: inline-block;
+  margin-right: 0%;
+}
