@@ -10,8 +10,7 @@ $(document).ready(function() {
       // Guardando el UID en el localstorage
       var UID = window.localStorage.getItem('storageUID');
       console.log(UID);
-      // Creando el código de usuario en la rama de posts 
-      firebase.database().ref('posts').set({ UID });
+      
       // Redireccionando al perfil
       $('#login').hide();
       $('#next').show();

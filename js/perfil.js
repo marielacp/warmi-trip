@@ -31,6 +31,14 @@ $(document).ready(function() {
     window.location.href = 'planning.html';
   });
 
+  // Creando el código de usuario en la rama de posts 
+  //firebase.database().ref('posts/').set({ UID });
+
+  //Cargando imagenes del localstorage según el id de usuario
+
+
+
+
   // Obteniendo imagenes del input file
   $('#btn-save-file').click(function() {
     // Referenciando al storage nodo raiz
@@ -45,7 +53,7 @@ $(document).ready(function() {
 
     var $uploadTask = $storageRef.child('img/' + $fileName).put(document.getElementById('txt-file').files[0]);
 
-    $uploadTask.on('', function(snapshot) {
+    $uploadTask.on('state_changed', function(snapshot) {
 
     }, function(error) {
       alert('Hubo un error en la carga de imágenes');
