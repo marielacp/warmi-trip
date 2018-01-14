@@ -41,11 +41,11 @@ $(document).ready(function() {
 
   });
   
-
+  // limpiando el texto
+    
+  // document.getElementById('txt-file').files[0]['name'].val('');
   // Obteniendo imagenes del input file
   $('#btn-save-file').click(function() {
-    // mensaje childnodes 
-    console.log($('#container-post').children(0));
     // Referenciando al storage nodo raiz
     var $storageRef = firebase.storage().ref();
 
@@ -62,30 +62,34 @@ $(document).ready(function() {
 
     }, function(error) {
       alert('Hubo un error en la carga de imágenes');
-    }, function() {
+    }, function() { 
       var $downloadURL = $uploadTask.snapshot.downloadURL;
       alert('Se subio la imagen con la url  :' + $downloadURL);
       console.log($downloadURL);
 
        
       // Guardando los posts en la base de datos - fotos
-      var postPhoto = {
-        photo: $downloadURL,
-        description: $description,
-        date: $date
-      };
+     
 
-      firebase.database().ref('posts/' + UID).push(postPhoto);
+      firebase.database().ref('posts/' + UID).push(
+
+        {
+          photo: $downloadURL,
+          description: $description,
+          date: $date
+        }
+
+      );
       document.getElementById('txt-file').files[0]['name'].innerHTML = '';
       $('#txt-description').val('');
       // Insertando los posts en el muro
-      $newDiv = $('<div class=\'post-perfil\'></div>');
-      $newDiv.append('<p class="date-post">' + $date + '</p>');
-      $newDiv.append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
+      var $newDivPhoto = $('<div class=\'post-perfil\'></div>');
+      $newDivPhoto.append('<p class="date-post">' + $date + '</p>');
+      $newDivPhoto.append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
   
-      $newDiv.append('<p class="text-center">' + $description + '</p>');
-      $($newDiv).inserBefore($('.post-perfil'));
-
+      $newDivPhoto.append('<p class="text-center">' + $description + '</p>');
+      
+      $('#container-post > div').before($newDivPhoto);
     });
   });
 
@@ -93,11 +97,16 @@ $(document).ready(function() {
   // Guardando los posts en la base de datos .posts
   $('#btn-save-post').click(function() {
     var $post = $('#txt-post').val();
-    $('#container-post').append('<p class="date-post">' + $date + '</p>');
-    $('#container-post').append('<p class="text-center">' + $post + '</p>');
+    var $newDivPost = $('<div class=\'post-perfil\'></div>');
+    $newDivPost.append('<p class="date-post">' + $date + '</p>');
+    $newDivPost.append('<p class="date-post">' + $post + '</p>');
+    //$('#container-post').children(0).before($newDivPost);
+console.log($('#container-post > div'));
+
+    $('#container-post > div').before($newDivPost);
   
     firebase.database().ref('posts/' + UID).push(
-      $date = {
+      {
         publish: $post,
         date: $date
 
