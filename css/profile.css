@@ -23,12 +23,41 @@ NAVBAR
   color: #d55454;
 }
 
+.navbar-nav .img-li{
+  width: 10%;
+  height: 10%;
+  margin-top:-2%;
+
+}
+
+.user {
+  display: inline-block;
+  width: 100%;
+  padding: 0%
+}
+
+.user1 {
+  display: inline-block;
+  width: 25%;
+  padding: 0%
+}
+.navbar-nav {
+ margin: 1rem;
+}
+
 .navbar-default .navbar-nav>li>a{
   list-style: none;
   color:#ffaaaa;
   font-size:15px;
 }
 
+.navbar-nav>li>a{
+  padding-top:1rem;;
+  margin: 0;
+}
+.btn-mobile{
+   background-color: #62474f;
+}
 .navbar-inverse .navbar-nav>li>a:hover { 
   font-size: 3vw;
 
@@ -49,11 +78,6 @@ NAVBAR
   transition: background-color .5s ease 0s;
   }
  
-.user{
-  width: 12%;
-  border-radius: 180%;
-  margin-top:-1rem;
-}
 
 .opaque-navbar.opaque {
   transition: background-color .5s ease 0s;
@@ -61,6 +85,81 @@ NAVBAR
 
 ul.dropdown-menu {
   background-color: #62474f;
+}
+
+/***********************************************************************
+slider css
+***********************************************************************/
+.col-xs-12{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  color: #ffaaaa;
+  background-color: #550000;
+}
+
+h1{
+ font-weight: bold;
+ color: #aa3939;
+}
+
+.slider{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 500%;
+  animation: cambio 20s infinite;
+  animation-timing-function: ease-in;
+}
+
+.slider li{
+  display: inline-block;
+  list-style: none;
+  width: 100%;  
+  font-size:3vw;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0;
+}
+
+.slider img{
+  width: 100%;
+  z-index: 1000;
+  padding: 0;
+  margin: 0; 
+}
+
+@keyframes cambio{
+  0% { margin-left: 0;}
+  10% { margin-left: 0;}
+  20%{ margin-left:-100%;}
+  30% { margin-left: -100%}
+
+  40%{ margin-left:-200%;}
+  50% { margin-left: -200%}
+
+  58%{ margin-left:-300%;}
+  77% { margin-left: -300%}
+
+  85% { margin-left: -400%;}
+  100%{ margin-left:-400%;}
+  
+}
+
+.dateImg{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-top: -25%;
+  color: white;
 }
 
 /*****************************************************************
@@ -81,19 +180,26 @@ Iconos redes sociales
   background-color: #aa3939;
   padding: 1rem;
   border-radius: 1rem;
+}
 
-
+.dateIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -9rem;
+  
 }
 .btna a:hover {
   background: #fac3e1;
   color: #550000;
 }
+
 .btn {
   padding: .5rem 1rem .5rem 1rem;
-  background: #550000;
+  background: #e28484;
   color: #fac3e1;
   font-size: 1vw;
-  margin: 0.5rem;
+  margin:2rem 2rem 0rem 0;
   border: none
 }
 
@@ -179,13 +285,19 @@ Footer
 }
 
 /************************/
+
+.sect-form{
+  margin-top:5%;
+}
 .section-form {
   padding: 3rem;
   margin: 3rem;
   border-radius: 2%;
   border: 1px solid #ffaaaa;
-  ;
+  
 }
+
+
 
 .section-form1 {
   padding: 1rem;
