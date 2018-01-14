@@ -8,21 +8,18 @@
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
 .navbar-default .navbar-nav>li>a{
-list-style: none;
-color:#ffaaaa;
+  list-style: none;
+  color:#ffaaaa;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover { 
   font-size: 3vw;
-
 }
 
 .navbar, .navbar-default{
-padding: 0;
-margin: 0;
-background-color:#62474f;
-
-
+  padding: 0;
+  margin: 0;
+  background-color:#62474f;
 }
 
 .opaque-navbar {
@@ -31,7 +28,7 @@ background-color:#62474f;
   Translucent: rgba(0,0,0,0.5);   
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
-  }
+}
  
 .user{
   width: 12%;
@@ -40,7 +37,6 @@ background-color:#62474f;
 }
 
 .opaque-navbar.opaque {
-/*  background-color: transparent;*/
   transition: background-color .5s ease 0s;
 }
 
@@ -60,10 +56,12 @@ h2{
   color: #ffaaaa;
   background-color: #550000;
 }
+
 h1{
  font-weight: bold;
  color: #aa3939;
 }
+
 .slider{
   width: 100%;
   margin: auto;
@@ -93,8 +91,7 @@ h1{
   width: 100%;
   z-index: 1000;
   padding: 0;
-  margin: 0;
- 
+  margin: 0; 
 }
 
 @keyframes cambio{
@@ -161,15 +158,14 @@ a {
 .title-body-home-parr {
   font-size: 1.6vw;
 }
+
 .list-img-places ul {
   list-style: none;
   display: inline; 
   width: 100%;
-  text-align: center;
- 
- 
-  
+  text-align: center;  
 }
+
 .list-img-places ul li{
   float: left;
   outline:none;
@@ -191,18 +187,20 @@ a {
 .icon-position {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-    
+  justify-content:center;    
 }
+
 .text-rigth{
   display: inline-block;
   margin-right: 0%;
 }
+
 /************************/
 .line{
   margin:2rem;
   border: 1px solid #368d2f;
 }
+
 /**************footer***************/
 
 .container-footer{
@@ -210,7 +208,6 @@ a {
   font-size: 14px;
   margin: 0 6rem 0 6rem;
   color: white;
-
 }
 
 .container-fluid{
@@ -218,8 +215,8 @@ a {
 }
 
 .list-li  {
-list-style: none;
-display: inline-block;
+  list-style: none;
+  display: inline-block;
 
 }
 .list-li li{
@@ -266,26 +263,13 @@ display: inline-block;
   list-style: none;
   color:white;
 }
+
 .actividades li a:hover {
   color: #442a2a;
   border-bottom:1px solid #550000;
 }
-/*
+/***********Usando media query**********/
 
-}*/
-/*
-@media (max-width: 360px) {
-  .list-dest h3 {
-    font-size:20rem,
-  }
-}
-*/
-
-  @media screen and (min-width:360px) {
-     .slider li {
-         font-size: 10vw,
-}
-}
 
 @media only screen 
 and (min-device-width: 350px) 
@@ -309,14 +293,3 @@ and (max-device-width: 1024px) {
   }
 }
 
-
-
-
-
-/*
-@media (min-width: 1200px) {
-  .col-lg-5ths {
-    width: 20%;
-    float: left;
-  }
-}
