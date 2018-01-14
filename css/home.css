@@ -7,53 +7,54 @@
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
-
-.navbar-inverse .navbar-nav>li>a{
-color : #aa3939 !important;
-font-size: 20px;
+.navbar-default .navbar-nav>li>a{
+font-size: 2rem;;
+list-style: none;
+color:#ffaaaa;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
-  color: white;
+
+.navbar-inverse .navbar-nav>li>a:hover { 
   font-size: 23px;
+
+}
+
+.navbar, .navbar-default{
+width: 100%;
+padding: 0;
+margin-top:1%;
+position: fixed;
+z-index: 1000;
+background: transparent;
 }
 .opaque-navbar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #62474f;
   Transparent:rgba(0,0,0,0);
-  Translucent: rgba(0,0,0,0.5);  
-  height: 60px;
+  Translucent: rgba(0,0,0,0.5);   
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
-  
   }
  
 .user{
-  width: 20%;
+  width: 12%;
   border-radius: 180%;
-  margin-top:-2rem;
+  margin-top:-1rem;
 }
-.navbar-header img{
-  width: 20%;
-  margin-top:-2%;
- }
-.opaque-navbar.opaque {
-  background-color: transparent;
-  height: 60px;
-  transition: background-color .5s ease 0s;
 
+.opaque-navbar.opaque {
+/*  background-color: transparent;*/
+  transition: background-color .5s ease 0s;
 }
 
 ul.dropdown-menu {
-  background-color: black;
+  background-color: #62474f;
 }
 
 @media (max-width: 360px) {
   body {
-    font-size: 11px;
-   
+    font-size: 11px;   
   }
   .opaque-navbar {
-    background-color: black;
-    height: 60px;
+    background-color: #62474f;
     transition: background-color .5s ease 0s;
   }
 }
@@ -63,8 +64,7 @@ ul.dropdown-menu {
     
   }
   .opaque-navbar {
-    background-color: rgb(15, 1, 1);
-    height: 120px;
+    background-color:#62474f;
     transition: background-color .5s ease 0s;
   }
 }
@@ -77,7 +77,12 @@ slider css
 }
 
 h2{
-  color: #550000
+  color: #ffaaaa;
+  background-color: #550000;
+}
+h1{
+ font-weight: bold;
+ color: #aa3939;
 }
 .slider{
   width: 100%;
@@ -89,7 +94,6 @@ h2{
   display: flex;
   padding: 0;
   width: 500%;
-
   animation: cambio 20s infinite;
   animation-timing-function: ease-in;
 }
@@ -97,17 +101,16 @@ h2{
 .slider li{
   display: inline-block;
   list-style: none;
-  width: 100%;
-  
+  width: 100%;  
   outline-color: 2px solid red;
 }
 
 .slider img{
-  width: 99%;
+  width: 100%;
   z-index: 1000;
   padding: 0;
   margin: 0;
- /* opacity: 0.7;*/
+ 
 }
 
 @keyframes cambio{
@@ -129,7 +132,7 @@ h2{
 
 .dateImg{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content:center;
   padding: 2rem;
   margin-top: -25%;
@@ -141,7 +144,7 @@ h2{
 .position-icons{
   position: absolute;
   top:3rem;
-  z-index: 1000;
+
 }
 /************************ICONOS REDES************************/
 
@@ -163,7 +166,6 @@ a {
 
 .icon-redes{
   display:inline-block;
-  outline: 2px solid red;
   margin-left: 15rem;
 }
 
@@ -171,19 +173,24 @@ a {
 
 .list-img-places ul {
   list-style: none;
-  display: inline;
- 
-  width: 100%
+  display: inline; 
+  width: 100%;
 }
 .list-img-places ul li{
   float: left;
   margin: 2rem;
+  outline:none;
 }
-.space-col{
-  margin: 2rem;
+.space-col, .space-col ul li img{
+  padding: 1.5rem;
+  border-color: 2px solid #550000;
+  text-align: center;
 
 }
+.fa-square-o {
+  background: #d55454;
 
+}
 .icon-position {
   display: flex;
   flex-direction: column;
@@ -195,3 +202,66 @@ a {
   display: inline-block;
   margin-right: 0%;
 }
+/************************/
+.line{
+  margin:2rem;
+  border: 1px solid #368d2f;
+}
+/**************footer***************/
+
+.container-footer{
+  background: #d55454;
+  font-size: 14px;
+  margin: 0 6rem 0 6rem;
+  color: white;
+
+}
+
+.container-fluid{
+   background: #d55454;
+}
+
+.list-li  {
+list-style: none;
+display: inline-block;
+
+}
+.list-li li{
+  float: left;
+  line-height: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background: #d55454;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin:0.1rem;
+  background-color: white;
+  border: none;
+  color: #f09bb4
+  
+}
+  .list-li li i{
+    background-color: white;
+    color:#550000;
+  }
+  .list-li li:hover {
+    background-color:#d55454;
+    color: white;
+    border-radius: 50%;
+  }
+   .list-li li i:hover {
+     background-color: #d55454;
+     color: white;
+   }
+   .container-fluid p{
+     color: white;
+     font-weight: bold;
+   }
+.list-dest .list-destino{
+  text-decoration: none;
+}
+
+   .list-destino li:hover{
+    color:#550000;
+   
+   }

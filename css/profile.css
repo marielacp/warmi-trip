@@ -68,8 +68,13 @@ slider css
   background: #d55454;
   font-size: 20px;
   margin: 0.5rem;
+  color:black;
 }
 
+.btn a{
+  color: white;
+   background: #d55454;
+}
 a {
   text-decoration: none;
   color: black;
@@ -85,6 +90,13 @@ a {
   margin-left: 15rem;
 }
 
+hr{
+
+  height: 20px;
+  border: 1px dashed #278e79;
+ 
+  
+}
 /*************Secction formulario******************/
 .section-form{
   padding: 3rem;
