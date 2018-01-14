@@ -165,10 +165,18 @@ a {
   list-style: none;
   display: inline; 
   width: 100%;
+  text-align: center;
+ 
+ 
+  
 }
 .list-img-places ul li{
   float: left;
   outline:none;
+  text-align: center; 
+   margin-left: 5rem;
+
+ 
 }
 .space-col, .space-col ul li img{
   padding: 1.5rem;
@@ -245,18 +253,13 @@ display: inline-block;
      color: white;
      font-weight: bold;
    }
-.list-dest .list-destino{
-  text-decoration: none;
-}
+  .list-dest .list-destino{
+    text-decoration: none;
+  }
 
   .list-destino li:hover{
   color:#550000;  
   }
-
-.btn-footer {
- 
-}
-
 
 .actividades li a{ 
   text-decoration: none;
@@ -270,12 +273,45 @@ display: inline-block;
 /*
 
 }*/
-
+/*
 @media (max-width: 360px) {
-  .slider li {
-    font-size:9px,
+  .list-dest h3 {
+    font-size:20rem,
   }
 }
+*/
+
+  @media screen and (min-width:360px) {
+     .slider li {
+         font-size: 10vw,
+}
+}
+
+@media only screen 
+and (min-device-width: 350px) 
+and (max-device-width: 767px){
+.list-img-places ul li {
+  float: left;
+  outline: none;
+  text-align: center;
+  margin-left: 8rem;
+}
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+  .list-img-places ul li {
+    float: left;
+    outline: none;
+    text-align: center;
+    margin-left: 3rem;
+  }
+}
+
+
+
+
 
 /*
 @media (min-width: 1200px) {
