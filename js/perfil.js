@@ -37,11 +37,15 @@ $(document).ready(function() {
   // Cargando imagenes del localstorage según el id de usuario
 
 
-  firebase.database().ref('posts/' + UID).on('value', function(snapshot) {
+  firebase.database().ref('photos/' + UID).on('value', function(snapshot) {
+    
     var $postArray = Object.keys(snapshot.val());
-    console.log(firebase.auth().currentUser.uid)
+    console.log(firebase.auth().currentUser.uid);
    
-    console.log($postArray);
+    console.log(snapshot.val()[$postArray[0]]);
+    console.log(snapshot.val()[$postArray[0]]['photo'])
+    console.log(snapshot.val()[$postArray[0]]['description'])
+    console.log(snapshot.val()[$postArray[0]]['date'])
   });
   
   // limpiando el texto
@@ -80,7 +84,7 @@ $(document).ready(function() {
       // Guardando los posts en la base de datos - fotos
      
 
-      firebase.database().ref('posts/' + UID).push(
+      firebase.database().ref('photos/' + UID).push(
 
         {
           photo: $downloadURL,
