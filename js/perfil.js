@@ -89,7 +89,7 @@ $(document).ready(function() {
   
       $newDivPhoto.append('<p class="text-center">' + $description + '</p>');
       
-      $('#container-post > div').before($newDivPhoto);
+      $('#container-post div:first-child').before($newDivPhoto);
     });
   });
 
@@ -103,7 +103,7 @@ $(document).ready(function() {
     //$('#container-post').children(0).before($newDivPost);
 console.log($('#container-post > div'));
 
-    $('#container-post > div').before($newDivPost);
+    $('#container-post div:first-child').before($newDivPost);
   
     firebase.database().ref('posts/' + UID).push(
       {

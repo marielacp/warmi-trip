@@ -12,11 +12,29 @@
       "photo" : "https://lh3.googleusercontent.com/-Xy-1ex_os8U/AAAAAAAAAAI/AAAAAAAAACA/e0mh5xZti84/photo.jpg",
       "uid" : "3tFDufHxToPoETEeiyit005KIgG2"
     },
+    "7RpVw7CsCpdOhdY09MLD87AAgW63" : {
+      "email" : "seguilvilchezmichelle@gmail.com",
+      "name" : "Michelle Seguil Vílchez",
+      "photo" : "https://lh6.googleusercontent.com/-TFf0YlExIIE/AAAAAAAAAAI/AAAAAAAAcKQ/bri4ViGS8Ag/photo.jpg",
+      "uid" : "7RpVw7CsCpdOhdY09MLD87AAgW63"
+    },
+    "86asmVZX0hNkPiY3VaVdaQaJVZg2" : {
+      "email" : "ai.espichan@gmail.com",
+      "name" : "Aylin Espichan (エスピチャン アイリン)",
+      "photo" : "https://lh5.googleusercontent.com/-wg8T7nY1vIA/AAAAAAAAAAI/AAAAAAAADPg/47nvsndOUoA/photo.jpg",
+      "uid" : "86asmVZX0hNkPiY3VaVdaQaJVZg2"
+    },
     "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
       "email" : "ayajahuanca@gmail.com",
       "name" : "Ada Yajahuanca Chupa",
       "photo" : "https://lh3.googleusercontent.com/-MrIGEgmP01w/AAAAAAAAAAI/AAAAAAAAAI4/IO17E3pSnxQ/photo.jpg",
       "uid" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
+    },
+    "K8vPAZTfDrODoQFR9YQpg0ZMTqU2" : {
+      "email" : "speakup1996@gmail.com",
+      "name" : "Milagros P",
+      "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "K8vPAZTfDrODoQFR9YQpg0ZMTqU2"
     },
     "UUMuwt7Mq8aka81hWdVODRDOw6L2" : {
       "email" : "marielacernap@gmail.com",
@@ -35,7 +53,22 @@
       "name" : "Edith jurado quintana",
       "photo" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
       "uid" : "lCJQI4xyESVfUD83FoycEyKkOxq1"
+    },
+    "mE32kY12ipcdQEx2I0x5qSBl3fx2" : {
+      "email" : "joalbert@laboratoria.la",
+      "name" : "Joalbert González",
+      "photo" : "https://lh4.googleusercontent.com/-mwrm3kK00mY/AAAAAAAAAAI/AAAAAAAAAAc/q6qkFpu5ysQ/photo.jpg",
+      "uid" : "mE32kY12ipcdQEx2I0x5qSBl3fx2"
+    },
+    "sdajEw9J82O9YcVFdqiWDUoQrM53" : {
+      "email" : "brendamesiasvillar@gmail.com",
+      "name" : "Brenda Mesias Villar",
+      "photo" : "https://lh3.googleusercontent.com/-7Mu-fX2lVCU/AAAAAAAAAAI/AAAAAAAAahc/jBfaVG0BVj4/photo.jpg",
+      "uid" : "sdajEw9J82O9YcVFdqiWDUoQrM53"
     }
+  },
+  "friends" : {
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : [ null, "butpRjVemeUYCcYBQzHLrVxwQyi1", "3tFDufHxToPoETEeiyit005KIgG2" ]
   },
   "place" : {
     "Cajamarca" : {
@@ -196,7 +229,27 @@
     }
   },
   "posts" : {
-    "UID" : "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1"
+    "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
+      "-L2mcyyrIeRrBighQ7jF" : {
+        "date" : "2018/1/13",
+        "publish" : "5555"
+      },
+      "-L2md3G1p1BiebbTjrD2" : {
+        "date" : "2018/1/13",
+        "description" : "444444",
+        "photo" : "https://firebasestorage.googleapis.com/v0/b/warmi-trip-17f9d.appspot.com/o/img%2FUbicacion.jpg?alt=media&token=639ef569-16d0-4a31-a912-56dbb7c800b9"
+      },
+      "-L2md4kjfoMUIX_26MzS" : {
+        "date" : "2018/1/13",
+        "publish" : "333333333333333"
+      },
+      "-L2md7mpTMgqt131qzvF" : {
+        "date" : "2018/1/13",
+        "description" : "2222222222",
+        "photo" : "https://firebasestorage.googleapis.com/v0/b/warmi-trip-17f9d.appspot.com/o/img%2F1489066973.jpg?alt=media&token=c6aedd3f-6554-466b-92fe-7c03cd60ed29"
+      }
+    },
+    "UID" : "K8vPAZTfDrODoQFR9YQpg0ZMTqU2"
   },
   "transport" : {
     "Avianca" : {
@@ -249,6 +302,16 @@
     }
   },
   "trips" : {
+    "7RpVw7CsCpdOhdY09MLD87AAgW63" : {
+      "-L2fzWZUNrFCgmttmdG3" : {
+        "budget" : "00.00",
+        "costoTransporte" : "Destino no disponible",
+        "fechaDeLlegada" : "02/03/2018",
+        "fechaDePartida" : "02/10/2018",
+        "hotel" : "Yuraq Hotel",
+        "transporte" : "Avianca"
+      }
+    },
     "HcnjZ1wd3HSRS7DdjqbMTPqZ6ix1" : {
       "-L2X2Qob7xnTIlBouJ35" : {
         "budget" : "50",
@@ -272,6 +335,62 @@
         "fechaDeLlegada" : "01/29/2018",
         "fechaDePartida" : "01/16/2018",
         "hotel" : "Hotel Balcones Plaza",
+        "transporte" : "Latam"
+      },
+      "-L2eX3VqgmV7kkwFr6gY" : {
+        "budget" : "1000",
+        "costoTransporte" : "23",
+        "fechaDeLlegada" : "02/09/2018",
+        "fechaDePartida" : "01/30/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Civa"
+      },
+      "-L2eXP5SuJ3CLVU9Pbhk" : {
+        "budget" : "30",
+        "costoTransporte" : "30",
+        "fechaDeLlegada" : "02/03/2018",
+        "fechaDePartida" : "01/22/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Latam"
+      },
+      "-L2eXXIi4qcn8yQmACbG" : {
+        "budget" : "",
+        "costoTransporte" : "",
+        "fechaDeLlegada" : "",
+        "fechaDePartida" : "",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Avianca"
+      },
+      "-L2eY1yEGv_zDRuUa0dO" : {
+        "budget" : "45",
+        "costoTransporte" : "30",
+        "fechaDeLlegada" : "02/10/2018",
+        "fechaDePartida" : "01/01/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Latam"
+      },
+      "-L2fIas_dl7V4K21_Wy1" : {
+        "budget" : "",
+        "costoTransporte" : "30",
+        "fechaDeLlegada" : "01/15/2018",
+        "fechaDePartida" : "02/02/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Latam"
+      },
+      "-L2fImsE6_GD77VP9Bry" : {
+        "budget" : "55.55",
+        "costoTransporte" : "28",
+        "fechaDeLlegada" : "01/30/2018",
+        "fechaDePartida" : "01/11/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Tepsa"
+      },
+      "-L2fIub9o-PKYUIduLcf" : {
+        "budget" : "55.55",
+        "costoTransporte" : "30",
+        "fechaDeLlegada" : "01/15/2018",
+        "fechaDePartida" : "01/18/2018",
+        "hotel" : "El Cumbe Inn",
         "transporte" : "Latam"
       }
     },
@@ -311,10 +430,49 @@
         "fechaDePartida" : "01/08/2018",
         "hotel" : "Hotel Balcones Plaza",
         "transporte" : "Oltursa"
+      },
+      "-L2ffhOcoUaWAeHpfE2B" : {
+        "budget" : "5.00",
+        "costoTransporte" : "37",
+        "fechaDeLlegada" : "01/26/2018",
+        "fechaDePartida" : "01/10/2018",
+        "hotel" : "La Posada del Viajero",
+        "transporte" : "Civa"
+      },
+      "-L2fhmMu_Q_LrMkxBznS" : {
+        "budget" : "6.00",
+        "costoTransporte" : "",
+        "fechaDeLlegada" : "01/31/2018",
+        "fechaDePartida" : "01/23/2018",
+        "hotel" : "Hotel Balcones Plaza",
+        "transporte" : "Avianca"
+      },
+      "-L2lKo4tuPTaPvRylJ4h" : {
+        "budget" : "5.00",
+        "costoTransporte" : "",
+        "fechaDeLlegada" : "01/31/2018",
+        "fechaDePartida" : "01/23/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Avianca"
+      }
+    },
+    "mE32kY12ipcdQEx2I0x5qSBl3fx2" : {
+      "-L2fCBVpxm_bW_ISGsnW" : {
+        "budget" : "500",
+        "costoTransporte" : "25",
+        "fechaDeLlegada" : "02/10/2018",
+        "fechaDePartida" : "01/30/2018",
+        "hotel" : "El Cumbe Inn",
+        "transporte" : "Oltursa"
+      },
+      "-L2fzS5edE47_AArlzwf" : {
+        "budget" : "100.00",
+        "costoTransporte" : "39",
+        "fechaDeLlegada" : "01/31/2018",
+        "fechaDePartida" : "01/19/2018",
+        "hotel" : "Hotel Sonnenthal Cusco",
+        "transporte" : "Tepsa"
       }
     }
-  },
-  "users" : {
-    "sss" : "sss"
   }
 }
