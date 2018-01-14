@@ -37,8 +37,15 @@ $(document).ready(function() {
   // Cargando imagenes del localstorage según el id de usuario
 
 
+  firebase.database().ref('posts/' + UID).on('value', function(snapshot) {
+
+  });
+  
+
   // Obteniendo imagenes del input file
   $('#btn-save-file').click(function() {
+    // mensaje childnodes 
+    console.log($('#container-post').children(0));
     // Referenciando al storage nodo raiz
     var $storageRef = firebase.storage().ref();
 
@@ -62,20 +69,23 @@ $(document).ready(function() {
 
        
       // Guardando los posts en la base de datos - fotos
-      firebase.database().ref('posts/' + UID).push(
-      
-        {
-          photo: $downloadURL,
-          description: $description,
-          date: $date
-        });
+      var postPhoto = {
+        photo: $downloadURL,
+        description: $description,
+        date: $date
+      };
+
+      firebase.database().ref('posts/' + UID).push(postPhoto);
       document.getElementById('txt-file').files[0]['name'].innerHTML = '';
       $('#txt-description').val('');
       // Insertando los posts en el muro
-      $('#container-post').append('<p class="date-post">' + $date + '</p>');
-      $('#container-post').append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
+      $newDiv = $('<div class=\'post-perfil\'></div>');
+      $newDiv.append('<p class="date-post">' + $date + '</p>');
+      $newDiv.append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
   
-      $('#container-post').append('<p class="text-center">' + $description + '</p>');
+      $newDiv.append('<p class="text-center">' + $description + '</p>');
+      $($newDiv).inserBefore($('.post-perfil'));
+
     });
   });
 
@@ -86,11 +96,12 @@ $(document).ready(function() {
     $('#container-post').append('<p class="date-post">' + $date + '</p>');
     $('#container-post').append('<p class="text-center">' + $post + '</p>');
   
-    firebase.database().ref('posts/' + UID).push({
-      publish: $post,
-      date: $date
+    firebase.database().ref('posts/' + UID).push(
+      $date = {
+        publish: $post,
+        date: $date
 
-    });
+      });
     $('#txt-post').val('');
   });
 }); 

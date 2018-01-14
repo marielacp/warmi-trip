@@ -266,8 +266,12 @@ ul li {
 
 }
 .date-post{
-  border-top: solid 1px #DE806C;
+ 
   padding-top: 1rem;
 }
 
+.post-perfil{
+  border:solid 1px blue;
+  padding: 1rem;
+}
 /*Clases de footer*/
