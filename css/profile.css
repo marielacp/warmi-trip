@@ -293,11 +293,8 @@ Footer
   padding: 3rem;
   margin: 3rem;
   border-radius: 2%;
-  border: 1px solid #ffaaaa;
-  
+  border: 1px solid #ffaaaa;  
 }
-
-
 
 .section-form1 {
   padding: 1rem;
@@ -329,6 +326,7 @@ Footer
 and (min-device-width: 350px) 
 and (max-device-width: 767px){
 
+  
 }
 
 

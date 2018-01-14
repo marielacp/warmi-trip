@@ -6,52 +6,57 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/perfil.css">
   
   <title>Form-Login</title>  
 </head>
 <body class="main-fondo"> 
-  <div> 
-  <div class="container-fluid ">
-    <div class="row">
-      <div class="col-xs-12 col-sm-offset-4 col-sm-4">
-      <div>
-        <img src="../assets/img/logomujerchica.png " class="widht-img-heade img-responsive" alt="">
-      </div>
-        <form class="">          
-            <div class="col-xs-12 ">
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  </div>
-                      <select class="form-control" id="select-genero">
-                        <option value="fem">Femenimo</option>
-                        <option value="man">Masculino</option>
-                      </select>                  
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  </div>
-                  <input type="text" class="form-control" id="address" placeholder="Ingrese su direcciòn" required>
-                </div>
-              </div>
-          <div class="checkbox">
-            <label color="color-txt1">
-              <input type="checkbox" id="inp-check">
-              <a> Confirma tus datos.
-                <strong> Mas info click aqui </strong>
-              </a>
-            </label>
+  <div>     
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-4 col-sm-4">
+           <div>
+             <a href="../views/home.html"><i class="fa fa-pencil" aria-hidden="true">IR</i></a>
+             </div>
+          <div>
+            <img src="../assets/img/logomujerchica.png " class="widht-img-heade img-responsive" alt="">
           </div>
-          <button type="submit" class="btn btn-default btn-lg btn-block margin-button next-disabled" id="submit">Submit</button>
-        </form>
+            <form class="">          
+                <div class="col-xs-12 ">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                      </div>
+                          <select class="form-control" id="select-genero">
+                            <option value="fem">Femenimo</option>
+                            <option value="man">Masculino</option>
+                          </select>                  
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                      </div>
+                      <input type="text" class="form-control" id="address" placeholder="Ingrese su direcciòn" required>
+                    </div>
+                  </div>
+              <div class="checkbox">
+                <label color="color-txt1">
+                  <input type="checkbox" id="inp-check">
+                  <a> Confirma tus datos.
+                    <strong> Mas info click aqui </strong>
+                  </a>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default btn-lg btn-block margin-button next-disabled " id="submit">Submit</button>
+            </form>
+        </div>
       </div>
+     
     </div>
-  </div>
 </div>
 
 <script src="../vendors/js/jquery-3.2.1.min.js"></script>

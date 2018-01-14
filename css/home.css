@@ -11,7 +11,9 @@
   list-style: none;
   color:#ffaaaa;
 }
-
+.img .btn-nav{
+    background-color : #aa3939;
+}
 .navbar-inverse .navbar-nav>li>a:hover { 
   font-size: 3vw;
 }
@@ -30,11 +32,25 @@
   transition: background-color .5s ease 0s;
 }
  
-.user{
+.user1{
   width: 12%;
   border-radius: 180%;
   margin-top:-1rem;
 }
+/**tamaño del usuario*/
+
+.navbar-nav .img-li {
+  width: 10%;
+  height: 10%;
+  margin-top: -2%;
+}
+
+  .user {
+  display: inline-block;
+  width: 100%;
+  padding: 0%
+}
+/***fin tamaño de usuario*/
 
 .opaque-navbar.opaque {
   transition: background-color .5s ease 0s;
@@ -268,6 +284,7 @@ a {
   color: #442a2a;
   border-bottom:1px solid #550000;
 }
+
 /***********Usando media query**********/
 
 
@@ -280,6 +297,29 @@ and (max-device-width: 767px){
   text-align: center;
   margin-left: 8rem;
 }
+.title-body-home{
+  font-size: 2rem;
+}
+.title-body-home-parr{
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: .2rem .5rem .2rem .5rem;
+  background: #d55454;
+  font-size: 12px;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background: #fac3e1;
+}
+
+.icon-redes {
+  display: inline-block;
+  margin-left: 15rem;
+}
+
 }
 
 @media only screen 
@@ -291,5 +331,30 @@ and (max-device-width: 1024px) {
     text-align: center;
     margin-left: 3rem;
   }
+
+.title-body-home {
+  font-size: 2rem;
+}
+
+.title-body-home-parr {
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: .5rem 1rem .5rem 1rem;
+  background: #d55454;
+  font-size: 15px;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background: #fac3e1;
+}
+
+.icon-redes {
+  display: inline-block;
+  margin-left: 15rem;
+}
+
 }
 
