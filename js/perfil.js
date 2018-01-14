@@ -3,7 +3,7 @@ $(document).ready(function() {
   var UID = window.localStorage.getItem('storageUID');
   // Obteniendo la fecha actual
   var d = new Date();
-  var $date = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate();
+  var $date = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
 
   // Leyendo los datos del usuario
   firebase.database().ref('bd/' + UID).on('value', function(snap) {
@@ -51,20 +51,27 @@ $(document).ready(function() {
 
     
     console.log($storageRef);
-
-    var $fileName = document.getElementById('txt-file').files[0]['name'];
+    // Asignamos nombre al archivo y le colocamos la funcion Math, en el caso que se posteen fotos con el mismo nombre
+    var $fileName = document.getElementById('txt-file').files[0]['name'] + Math.random();
 
     var $description = $('#txt-description').val();
 
     var $uploadTask = $storageRef.child('img/' + $fileName).put(document.getElementById('txt-file').files[0]);
+    // Mostrando la barra d progreso
+    $('#page-upload').removeClass('hidden');
     
     $uploadTask.on('state_changed', function(snapshot) {
-
+      // Cargando el progreso  de la barra 
+      var $progressBar = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+      console.log($progressBar);
+      $('#upload-bar').css('width','100%');
     }, function(error) {
       alert('Hubo un error en la carga de imágenes');
     }, function() { 
       var $downloadURL = $uploadTask.snapshot.downloadURL;
-      alert('Se subio la imagen con la url  :' + $downloadURL);
+      // Ocultando la barra de progreso
+      $('#page-upload').addClass('hidden');
+      alert('La imagen ha sido subida d forma exitosa');
       console.log($downloadURL);
 
        
@@ -89,7 +96,7 @@ $(document).ready(function() {
   
       $newDivPhoto.append('<p class="text-center">' + $description + '</p>');
       
-      $('#container-post div:first-child').before($newDivPhoto);
+      $('#container-photo div:first-child').before($newDivPhoto);
     });
   });
 
@@ -100,8 +107,8 @@ $(document).ready(function() {
     var $newDivPost = $('<div class=\'post-perfil\'></div>');
     $newDivPost.append('<p class="date-post">' + $date + '</p>');
     $newDivPost.append('<p class="date-post">' + $post + '</p>');
-    //$('#container-post').children(0).before($newDivPost);
-console.log($('#container-post > div'));
+    // $('#container-post').children(0).before($newDivPost);
+    console.log($('#container-post > div'));
 
     $('#container-post div:first-child').before($newDivPost);
   
