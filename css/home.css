@@ -8,7 +8,6 @@
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
 .navbar-default .navbar-nav>li>a{
-font-size: 2rem;;
 list-style: none;
 color:#ffaaaa;
 }
@@ -19,13 +18,13 @@ color:#ffaaaa;
 }
 
 .navbar, .navbar-default{
-width: 100%;
 padding: 0;
-margin-top:1%;
-position: fixed;
-z-index: 1000;
-background: transparent;
+margin: 0;
+background-color:#62474f;
+
+
 }
+
 .opaque-navbar {
   background-color: #62474f;
   Transparent:rgba(0,0,0,0);
