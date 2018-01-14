@@ -14,7 +14,7 @@ color:#ffaaaa;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover { 
-  font-size: 23px;
+  font-size: 3vw;
 
 }
 
@@ -49,25 +49,6 @@ ul.dropdown-menu {
   background-color: #62474f;
 }
 
-@media (max-width: 360px) {
-  body {
-    font-size: 11px;   
-  }
-  .opaque-navbar {
-    background-color: #62474f;
-    transition: background-color .5s ease 0s;
-  }
-}
-
-@media (max-width: 1380px) {
-  body {
-    
-  }
-  .opaque-navbar {
-    background-color:#62474f;
-    transition: background-color .5s ease 0s;
-  }
-}
 /***********************************************************************
 slider css
 ***********************************************************************/
@@ -88,6 +69,7 @@ h1{
   width: 100%;
   margin: auto;
   overflow: hidden;
+  padding: 0;
 }
 
 .slider ul{
@@ -102,7 +84,10 @@ h1{
   display: inline-block;
   list-style: none;
   width: 100%;  
-  outline-color: 2px solid red;
+  font-size:3vw;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0;
 }
 
 .slider img{
@@ -134,7 +119,6 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content:center;
-  padding: 2rem;
   margin-top: -25%;
   color: white;
 }
@@ -171,6 +155,13 @@ a {
 
 /*************lista fotos con ubicacion******************/
 
+.title-body-home{
+  font-size: 3vw;
+}
+
+.title-body-home-parr {
+  font-size: 1.6vw;
+}
 .list-img-places ul {
   list-style: none;
   display: inline; 
@@ -178,7 +169,6 @@ a {
 }
 .list-img-places ul li{
   float: left;
-  margin: 2rem;
   outline:none;
 }
 .space-col, .space-col ul li img{
@@ -195,8 +185,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  padding: 2rem;
-  
+    
 }
 .text-rigth{
   display: inline-block;
@@ -261,7 +250,38 @@ display: inline-block;
   text-decoration: none;
 }
 
-   .list-destino li:hover{
-    color:#550000;
-   
-   }
+  .list-destino li:hover{
+  color:#550000;  
+  }
+
+.btn-footer {
+ 
+}
+
+
+.actividades li a{ 
+  text-decoration: none;
+  list-style: none;
+  color:white;
+}
+.actividades li a:hover {
+  color: #442a2a;
+  border-bottom:1px solid #550000;
+}
+/*
+
+}*/
+
+@media (max-width: 360px) {
+  .slider li {
+    font-size:9px,
+  }
+}
+
+/*
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
