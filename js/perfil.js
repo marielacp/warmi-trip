@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   // Leyendo los datos del usuario
   firebase.database().ref('bd/' + UID).on('value', function(snap) {
-    // console.log(snap.val()['photo']);
+ 
     $('#img-perfil').attr('src', snap.val()['photo']);
     $('#txt-user').attr('value', snap.val()['name']);
     $('#img-user-modal').attr('src', snap.val()['photo']);
@@ -38,7 +38,10 @@ $(document).ready(function() {
 
 
   firebase.database().ref('posts/' + UID).on('value', function(snapshot) {
-
+    var $postArray = Object.keys(snapshot.val());
+    console.log(firebase.auth().currentUser.uid)
+   
+    console.log($postArray);
   });
   
   // limpiando el texto
@@ -50,7 +53,7 @@ $(document).ready(function() {
     var $storageRef = firebase.storage().ref();
 
     
-    console.log($storageRef);
+ 
     // Asignamos nombre al archivo y le colocamos la funcion Math, en el caso que se posteen fotos con el mismo nombre
     var $fileName = document.getElementById('txt-file').files[0]['name'] + Math.random();
 
@@ -62,8 +65,7 @@ $(document).ready(function() {
     
     $uploadTask.on('state_changed', function(snapshot) {
       // Cargando el progreso  de la barra 
-      var $progressBar = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-      console.log($progressBar);
+    
       $('#upload-bar').css('width','100%');
     }, function(error) {
       alert('Hubo un error en la carga de imágenes');
@@ -72,7 +74,7 @@ $(document).ready(function() {
       // Ocultando la barra de progreso
       $('#page-upload').addClass('hidden');
       alert('La imagen ha sido subida d forma exitosa');
-      console.log($downloadURL);
+     
 
        
       // Guardando los posts en la base de datos - fotos
@@ -108,7 +110,7 @@ $(document).ready(function() {
     $newDivPost.append('<p class="date-post">' + $date + '</p>');
     $newDivPost.append('<p class="date-post">' + $post + '</p>');
     // $('#container-post').children(0).before($newDivPost);
-    console.log($('#container-post > div'));
+    
 
     $('#container-post div:first-child').before($newDivPost);
   
