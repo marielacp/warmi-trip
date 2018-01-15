@@ -110,7 +110,8 @@ $("#txt-budget").on({
         fechaDeLlegada: $('#datepicker2').val(),
         hotel: $('#hotels').val(),
         transporte: $('#list-transport').val(),
-        costoTransporte: $('#txt-price-transport').val()
+        costoTransporte: $('#txt-price-transport').val(),
+        place:window.localStorage.getItem('city')
 
       });
       alert('Datos guardados satisfactoriamente');
