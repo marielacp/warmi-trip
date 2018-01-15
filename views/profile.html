@@ -36,14 +36,14 @@
                     </div>                  
                     <div class="navbar-collapse collapse navbar-ex1-collapse pull-right opaque-navbar">
                         <ul class="nav navbar-nav ">
-                           <li><a href="../index.html"> <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></a></li>
-                            <li><a href="#"> Home</a></li>
-                            <li><a href="#"> <i class="fa fa-pencil" aria-hidden="true"> </i> Planea tu viaje</a></li>
-                            <li><a href="#"> <i class="fa fa-plane" aria-hidden="true"> </i> Mis Viajes</a></li>
-                            <li><a href="#"> <i class="fa fa-female" aria-hidden="true"></i> Amigas</a></li>
-                            <li><a href="#"> <i class="fa fa-sign-in" aria-hidden="true"></i> SingOut</a></li>
-                            <li class="img-li"><a href="#"> <img class= "img-responsive user" src="../assets/img/user-female-icon.png" alt=""> </a></li>
-                            <li><a href=""> <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></a></li>              
+                           <li class="menu-bar" ><a href="home.html"> <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></a></li>
+                            <li class="menu-bar" ><a  href="home.html"> Home</a></li>
+                            <li class="menu-bar" ><a  href="planning.html"> <i class="fa fa-pencil" aria-hidden="true"> </i> Planea tu viaje</a></li>
+                            <li class="menu-bar" ><a  href="#"> <i class="fa fa-plane" aria-hidden="true"> </i> Mis Viajes</a></li>
+                            <li class="menu-bar" ><a  href="#"> <i class="fa fa-female" aria-hidden="true"></i> Amigas</a></li>
+                            <li class="menu-bar" ><a  href="#"> <i class="fa fa-sign-in" aria-hidden="true"></i> Sign Out</a></li>
+                            <li  class="img-li"><a  href="profile.html"> <img id="img-perfil" class= "img-responsive user img-rounded" src="" alt=""> </a></li>
+                            <li class="menu-bar" ><a href=""> <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></a></li>              
                       </ul>
                     </div>
                   </div>
@@ -62,7 +62,7 @@
           <li><img class="img-responsive" src="../assets/img/paracas.jpg" alt=""><p class="dateImg text-center">
           Paracas full aventura..te atreverias?...</p></li>
           <li><img class="img-responsive" src="../assets/img/cusco.jpg" alt=""><p class="dateImg text-center">
-           Cusco majestuoso...atrevete a visistarlo</p></li>
+           Cusco majestuoso...atrevete a visitarlo</p></li>
           <li><img class="img-responsive" src="../assets/img/trujillo.jpg" alt=""><p class="dateImg text-center">
          Conociendo nuestras costumbres...atrevete</p></li>
            <li><img class="img-responsive" src="../assets/img/huacachina.jpg" alt="">
@@ -200,12 +200,13 @@
                    <h3 class="vw1 text-center">Que lugares te gustaria conocer?</h3>
                 </div>
                
-                <select class="form-control" id="select-ciudad">
-                  <option value="Cajamarca">Cajamarca </option>
-                  <option value="Cuzco">Cuzco</option>
-                  <option value="Ica">Ica</option>
-                </select>                
-              </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 visible-xs-block visible-sm-block visible-md-block visible-lg-block text-center">  
+                  <select  id="select-ciudad">
+                    <option value="Cajamarca">Cajamarca </option>
+                    <option value="Cuzco">Cuzco</option>
+                    <option value="Ica">Ica</option>
+                  </select>      
+                  </div>
         </div>        
       </div>    
     </div>
@@ -236,18 +237,17 @@
                       <h3 >Cuzco</h3>                                                             
                       </ul>
                     </div>
-                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">               
-                    <h3>Actividades</h3>
-                    <ul class="actividades"> 
-                        <li><a href="" title="_En construccion">Unete a nuestra comunidad</li>
-                        <li><a href="">Tips de Belleza</a></li>
-                        <li><a href="">Te gusta el deporte?</a></li>  
-                        <li><a href="">Cursos de manualidades</a> </li>
-                        <li><a href="">Chicas Gamer</a></li> 
-                        <li><a href="">Patinaje</a> </li>
-                        <li><a href="">ONG</a></li>                
-                      </ul>
-                  </div> 
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">               
+                      <h3 class="btn">Enlaces de interés </h3>
+                      <ul class="actividades"> 
+                          <li><a href="" title="_En construccion">Unete a nuestra comunidad</li>
+                          <li><a href="https://www.alanxelmundo.com/" target="_blank">Alan x el mundo</a></li>
+                          <li><a href="http://misiasperoviajeras.com/" target="_blank">Misias y viajeras</a></li>  
+                          <li><a href="https://www.redbus.pe/?gclid=Cj0KCQiAv_HSBRCkARIsAGaSsrBjOUwFh429eslBpdc1prNP9M1qyUVs7maxCxGS4MaWS8zclEhglRsaAti_EALw_wcB"  target="_blank">Red Bus</a> </li>
+                          <li><a href="https://www.tripadvisor.com.pe/" target="_blank">Trip Advisor</a></li> 
+                                        
+                        </ul>
+                    </div> 
   <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12"> 
@@ -275,7 +275,10 @@
 <!-- Js de bootstrap-->
 <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="../js/home.js"></script>
+<script src="../js/profile.js"></script>
+ <!-- Js de Firebase-->
+ <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+ <script type="text/javascript" src="../js/connect.js"></script>
 
 </body>
 </html>  

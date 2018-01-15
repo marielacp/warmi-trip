@@ -48,7 +48,8 @@
   .user {
   display: inline-block;
   width: 100%;
-  padding: 0%
+  margin-top: 1rem;
+
 }
 /***fin tamaño de usuario*/
 
@@ -58,6 +59,11 @@
 
 ul.dropdown-menu {
   background-color: #62474f;
+}
+
+/****Hover del menu******/
+.menu-bar a:hover{
+  color: white !important;
 }
 
 /***********************************************************************
