@@ -180,6 +180,7 @@ Iconos redes sociales
   background-color: #aa3939;
   padding: 1rem;
   border-radius: 1rem;
+  display: inline-block;
 }
 
 .dateIcon {
