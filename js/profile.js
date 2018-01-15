@@ -100,4 +100,24 @@ $(document).ready(function() {
       $('#myModal').modal('hide');
     });
   });
+// Guardar publicaciones 
+  $('#btn-save-post').click(function() {
+    var $post = $('#txt-post').val();
+    var $newDivPost = $('<div class=\'post-perfil\'></div>');
+    $newDivPost.append('<p class="date-post">' + $date + '</p>');
+    $newDivPost.append('<p class="date-post">' + $post + '</p>');
+    // $('#container-post').children(0).before($newDivPost);
+    
+
+    $('#container-post div:first-child').before($newDivPost);
+  
+    firebase.database().ref('posts/' + UID).push(
+      {
+        publish: $post,
+        date: $date
+
+      });
+    $('#txt-post').val('');
+    $('#myPublish').modal('hide');
+  });
 }); 

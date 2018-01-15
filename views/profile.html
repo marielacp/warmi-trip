@@ -215,7 +215,39 @@
       </div>
     </div>
   </div>
-
+    <!-- Modal  de publicaciones-->
+    <div class="modal fade bs-example-modal-sm" id="myPublish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Realizar una publicación</h4>
+            </div>
+            <div class="modal-body">
+              <div id="page-upload-1">
+                <form>
+                  <div class="form-group">
+                    <label for="message-text" class="control-label">Post:</label>
+                    <textarea class="form-control" id="txt-post"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div id="page-upload-2" class="hide">
+                <h4>Uploading...</h4>
+                <div class="progress progress-striped active">
+                  <div class="bar" style="width: 0%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-sm" data-dismiss="modal">Cerrar</button>
+              <button id="btn-save-post" type="button" class="btn-sm">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
   <div id="container-post" class="container-post">
       <div class="post-perfil">
         primer post
