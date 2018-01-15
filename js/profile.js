@@ -5,6 +5,8 @@ $(document).ready(function() {
   // Leyendo los datos del usuario
   firebase.database().ref('bd/' + UID).on('value', function(snap) {
     $('#img-perfil').attr('src', snap.val()['photo']);
+    $('#img-ico-perfil').attr('src', snap.val()['photo']);
+
   });
 
 

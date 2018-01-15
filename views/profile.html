@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>warmiaap</title>
+	<title>Warmi Trip</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../vendors/bootstrap/css/bootstrap.min.css">
    <!-- Estilo para los iconos -->
@@ -86,69 +86,61 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4 Visible-xs-block">
           <div class="section-form">
-              <div class="col-xs-offset-4 col-xs-8"> <img class="img-responsive user1" src="../assets/img/user-female-icon.png" alt=""> </div>
+              <div class="col-xs-offset-3 col-xs-8"> <img id="img-ico-perfil" class="img-responsive user1" src="" alt=""> </div>
             <form class="form-horizontal">
-                <div class="form-group">
+                <div class="form-group hidden">
                     <div class="col-xs-offset-2 col-xs-10">
                     <button type="submit" class="btn1 btn-default">  Cambiar Foto de perfil </button>
                     </div>
                 </div>
               <div class="form-group">
-                <label for="nombre" class="col-sm-2 control-label text-left">Nombre</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="name" placeholder="nombre">
+                <label for="nombre" class="col-xs-4 control-label text-left">Nombre</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" id="name" placeholder="nombre" readonly>
                 </div>
               </div>
               <div class="form-group">
-                <label for="direccion" class="col-sm-2 control-label">E-mail</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="name" placeholder="Direccion">
+                <label for="direccion" class="col-xs-4 control-label">E-mail</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" id="name" placeholder="Direccion" readonly>
                 </div>
               </div>
               <div class="form-group">
-                <label for="fnac" class="col-sm-2 control-label">F.nac</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="fnac" placeholder="Fecha Nacimiento">
+                <label for="fnac" class="col-xs-4 control-label">Cumpleaños</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" id="fnac" placeholder="Fecha Nacimiento" value="27/03"readonly>
                 </div>
               </div>
               <div class="form-group">
-                <label for="hobbie" class="col-sm-2 control-label">Hobbie</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="fnac" placeholder="hobbie">
+                <label for="hobbie" class="col-xs-4 control-label">Hobbie</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" id="fnac" placeholder="Hobbie" value="Realizar trekking" readonly>
                 </div>
               </div>
               <div class="form-group">
-                <label for="hobbie" class="col-sm-2 control-label">L.F</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="fnac" placeholder="Lugar Favorito">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Confirm
-                    </label>
-                  </div>
+                <label for="hobbie" class="col-xs-4 control-label">Lugar favorito:</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" id="fnac" placeholder="Lugar Favorito" value="Cuzco" readonly>
                 </div>
               </div>
               <div class="form-group">
                   <div class="col-xs-offset-4 col-xs-8"> 
-                  <button type="Guardar" class="btn1 btn-default">Guardar</button>
+                  <button type="Guardar" class="btn1 btn-default">Editar</button>
                 </div>
               </div>
             </form>
             <div  class="section-form1">
-              <div class="sect-color" >
-                <h4 class="vw1"> Mis Viajes</h4>  
-                <p class="vw"> Loreto Viaje Finalizado - 5 al 15 de Octubre del 2017</p>
-                <p class="vw">Cuzco Viaje programado - 6 de Abril 2018</p>
+              <div class="sect-color text-center" >
+                <h4 class="text-center"> Mis Viajes</h4>  
+                <p class="">Lugar: Cusco</p>
+                <p class="">Fechas: Del lunes al martes</p>
+                
                 <hr>
               </div>
                 <div class="icon-money">
-                  <h4  class="vw1"> Quieres cambiar tu presupuesto?</h4>  
-                  <span class="btn ">
-                  <a href=""><i class="fa fa-money" aria-hidden="true"></i></a>
+                  <h4  class="text-center">Mi presupuesto para el próximo viaje es:</h4>  
+                  <span class="btn text-center">
+                  <i class="fa fa-money" aria-hidden="true"> 500</i>
                   </span>
                 </div>
               <div>
@@ -191,13 +183,13 @@
             </ol>  
           </div>
         </div>
-        <h1 class="vw2 text-center"> Warmi Trip Disfruta viaja vive....</h1>
+        <h1 class=" text-center"> Warmi Trip Disfruta viaja vive....</h1>
         <div>
           <!--BTN Planifica-->      
               <div class="input-group  text-center">
                 <div class=" btna bt ">
-                   <span id="btn-plan" class=" btna bt "><a href=""><i class="fa fa-pencil" aria-hidden="true"> Planifica tu viaje AQUI</i> </a></span>
-                   <h3 class="vw1 text-center">Que lugares te gustaria conocer?</h3>
+                   <span  class=" btna bt "><a id="btn-plan" href="#"><i class="fa fa-pencil" aria-hidden="true"> Planifica tu viaje AQUI</i> </a></span>
+                   <h3 class=" text-center">Que lugares te gustaria conocer?</h3>
                 </div>
                
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 visible-xs-block visible-sm-block visible-md-block visible-lg-block text-center">  
