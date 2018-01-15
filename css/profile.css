@@ -373,7 +373,7 @@ and (max-device-width: 1024px) {
  .vw2 {
    font-size: 2rem;
  }
-  .btn-default, .btn-danger{
+ .btn-default, .btn-danger{
   font-size: 1.7rem;
   padding: 1rem;
  }
