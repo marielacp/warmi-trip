@@ -93,7 +93,7 @@ $(document).ready(function() {
         }
 
       );
-      document.getElementById('txt-file').files[0]['name'].innerHTML = '';
+      document.getElementById('txt-file').files[0].innerHTML = '';
       $('#txt-description').val('');
       // Insertando los posts en el muro
       var $newDivPhoto = $('<div class=\'post-perfil\'></div>');

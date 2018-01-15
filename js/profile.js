@@ -1,6 +1,9 @@
 $(document).ready(function() {
   // Obteniendo el UID del localStorage
   var UID = window.localStorage.getItem('storageUID');
+  // Obteniendo la fecha actual
+  var d = new Date();
+  var $date = d.getFullYear() + '/' + (d.getMonth() + 1) + '/' + d.getDate() + ' ' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
       
   // Leyendo los datos del usuario
   firebase.database().ref('bd/' + UID).on('value', function(snap) {
@@ -15,9 +18,9 @@ $(document).ready(function() {
     arrTrip = Object.keys(snap.val());
     lastTrip = snap.val()[arrTrip[arrTrip.length - 1]];
     
-    console.log(lastTrip['transporte']);
-    $('#trip-city').html('<strong>Lugar:</strong> '+lastTrip['place']);
-    $('#trip-date').html('<strong>Del:</strong> '+lastTrip['fechaDePartida']+ ' <strong>al </strong>' + lastTrip['fechaDeLlegada']);
+    // console.log(lastTrip['transporte']);
+    $('#trip-city').html('<strong>Lugar:</strong> ' + lastTrip['place']);
+    $('#trip-date').html('<strong>Del:</strong> ' + lastTrip['fechaDePartida'] + ' <strong>al </strong>' + lastTrip['fechaDeLlegada']);
 
     /* $('#img-perfil').attr('src', snap.val()['photo']);
     $('#img-ico-perfil').attr('src', snap.val()['photo']);
@@ -40,5 +43,61 @@ $(document).ready(function() {
   // Cerrando sesión 
   $('#btn-logout').click(function() {
     window.location.href = 'login.html';
+  });
+
+  // Guardando fotos en la bd
+  $('#btn-save-file').click(function() {
+    // Referenciando al storage nodo raiz
+    var $storageRef = firebase.storage().ref();
+    console.log($storageRef);
+    
+ 
+    // Asignamos nombre al archivo y le colocamos la funcion Math, en el caso que se posteen fotos con el mismo nombre
+    var $fileName = document.getElementById('txt-file').files[0]['name'] + Math.random();
+
+    var $description = $('#txt-description').val();
+
+    var $uploadTask = $storageRef.child('img/' + $fileName).put(document.getElementById('txt-file').files[0]);
+    // Mostrando la barra d progreso
+    $('#page-upload').removeClass('hidden');
+    
+    $uploadTask.on('state_changed', function(snapshot) {
+      // Cargando el progreso  de la barra 
+    
+      $('#upload-bar').css('width', '100%');
+    }, function(error) {
+      alert('Hubo un error en la carga de imágenes');
+    }, function() { 
+      var $downloadURL = $uploadTask.snapshot.downloadURL;
+      // Ocultando la barra de progreso
+      $('#page-upload').addClass('hidden');
+      alert('La imagen ha sido subida de forma exitosa');
+
+       
+      // Guardando los posts en la base de datos - fotos
+     
+
+      firebase.database().ref('photos/' + UID).push(
+
+        {
+          photo: $downloadURL,
+          description: $description,
+          date: $date
+        }
+
+      );
+      document.getElementById('txt-file').value = '';
+      $('#txt-description').val('');
+      // Insertando los posts en el muro
+      var $newDivPhoto = $('<div class=\'post-perfil\'></div>');
+      $newDivPhoto.append('<p class="date-post">' + $date + '</p>');
+      $newDivPhoto.append('<img class="img-responsive img-rounded post-foto center-block" src="' + $downloadURL + '">');
+  
+      $newDivPhoto.append('<p class="text-center">' + $description + '</p>');
+      
+      $('#container-photo div:first-child').before($newDivPhoto);
+      // Cerrando la ventana
+      $('#myModal').modal('hide');
+    });
   });
 }); 

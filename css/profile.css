@@ -335,6 +335,24 @@ Footer
 .menu-bar a:hover{
   color: white !important;
 }
+
+/*Css de las publicaiones*/
+
+.container-post {
+  padding: 1rem;
+  border:solid 1px red;
+  margin:2rem;
+
+}
+.date-post{
+ 
+  padding-top: 1rem;
+}
+
+.post-perfil{
+  border:solid 1px blue;
+  padding: 1rem;
+}
 /***********Usando media query**********/
 
 

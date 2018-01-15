@@ -178,6 +178,57 @@
           </div>
           <div class="slider">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+ <!-- Modal  de carga de fotos-->
+ <div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Subir foto</h4>
+        </div>
+        <div class="modal-body">
+          <div id="page-upload-1">
+            <form>
+              <label>Elige la foto:</label>
+              <input id="txt-file" type="file"></input>
+              <label>Comment:</label>
+              <input id="txt-description" type="text" class="pageselector" placeholder="Describe your file"></input>
+            </form>
+          </div>
+          <div id="page-upload" class="hidden">
+            <h4>Uploading...</h4>
+            <div class="progress">
+                <div id="upload-bar" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0"
+                aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                  <span class="sr-only">70% Complete</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-sm" data-dismiss="modal">Cerrar</button>
+          <button id="btn-save-file" type="button" class="btn-sm">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="container-post" class="container-post">
+      <div class="post-perfil">
+        primer post
+      </div>
+
+    </div>
+    <div id="container-photo" class="container-post">
+        <div class="post-perfil">
+            primera foto
+        </div>
+    </div>
+
+
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
