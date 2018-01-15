@@ -344,8 +344,8 @@ and (max-device-width: 1024px) {
   .list-img-places ul li {
     float: left;
     outline: none;
-    text-align: center;
-    margin-left: 3rem;
+     width: 30%;
+    margin: .5rem;
   }
 
 .title-body-home {

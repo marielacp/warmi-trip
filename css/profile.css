@@ -312,7 +312,7 @@ Footer
 .section-form1 {
   padding: 1rem;
   margin: 1rem;
-  border: 1px solid #ffaaaa;;
+  border: 1px solid #ffaaaa;
 }
 
 .item img {
@@ -340,7 +340,7 @@ Footer
 
 .container-post {
   padding: 1rem;
-  border:solid 1px red;
+  border:solid 3px  #aa3939;
   margin:2rem;
 
 }
@@ -350,7 +350,8 @@ Footer
 }
 
 .post-perfil{
-  border:solid 1px blue;
+  margin: 1rem;
+  border:solid 2px  #ffaaaa;
   padding: 1rem;
 }
 /***********Usando media query**********/
