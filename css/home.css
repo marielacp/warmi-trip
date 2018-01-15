@@ -321,7 +321,9 @@ and (max-device-width: 767px){
   display: inline-block;
   margin-left: 15rem;
 }
-
+.btna{
+  
+}
 }
 
 @media only screen 
