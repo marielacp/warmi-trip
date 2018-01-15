@@ -6,6 +6,9 @@ $(document).ready(function() {
   firebase.database().ref('bd/' + UID).on('value', function(snap) {
     $('#img-perfil').attr('src', snap.val()['photo']);
     $('#img-ico-perfil').attr('src', snap.val()['photo']);
+    $('#txt-edit-name').attr('value', snap.val()['name']);
+    $('#txt-edit-email').attr('value', snap.val()['email']);
+
 
   });
 
