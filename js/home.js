@@ -26,4 +26,14 @@ $(document).ready(function() {
        window.location.href = 'planning.html';
       });
 
+       // Alert del botón peligro
+  $('#btn-danger').click(function() {
+    alert('En este momento se está enviando tu ubicación a tus contactos de confianza');
+  });
+
+    // Cerrando sesión 
+    $('#btn-logout').click(function() {
+        window.location.href = 'login.html';
+      });
+
 });
