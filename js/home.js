@@ -19,4 +19,11 @@ $(document).ready(function() {
        
      });
 
+     //Creando la variable city en el storage
+     $('#btn-plan').click(function() {
+        window.localStorage.setItem('city', $('#select-ciudad').val());
+        console.log( $('#select-ciudad').val());
+       window.location.href = 'planning.html';
+      });
+
 });

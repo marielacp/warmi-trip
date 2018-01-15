@@ -113,6 +113,7 @@ $("#txt-budget").on({
         costoTransporte: $('#txt-price-transport').val()
 
       });
+      alert('Datos guardados satisfactoriamente');
 
     $('#txt-budget').val('');
     $('#datepicker1').val('');
