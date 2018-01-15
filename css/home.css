@@ -18,7 +18,7 @@
   font-size: 3vw;
 }
 
-.navbar, .navbar-default{
+.navbar, .navbar-default, .navbar-header, .container-fluid{
   padding: 0;
   margin: 0;
   background-color:#62474f;
@@ -91,6 +91,8 @@ h1{
   width: 500%;
   animation: cambio 20s infinite;
   animation-timing-function: ease-in;
+  margin:0;
+  padding: 0;
 }
 
 .slider li{

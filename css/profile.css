@@ -325,14 +325,29 @@ Footer
 @media only screen 
 and (min-device-width: 350px) 
 and (max-device-width: 767px){
-
-  
+.vw1, .text{
+   font-size: 2rem;
+}
+ .vw {
+   font-size: 2rem;
+ }
+ .vw2{
+    font-size: 2rem;
+ }
 }
 
 
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
-
+.vw1, .text {
+  font-size: 2rem;
+}
+.vw {
+  font-size: 2rem;
+}
+ .vw2 {
+   font-size: 2rem;
+ }
 }
 
