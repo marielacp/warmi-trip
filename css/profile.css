@@ -83,7 +83,7 @@ NAVBAR
   transition: background-color .5s ease 0s;
 }
 
-ul.dropdown-menu {
+ul.dropdown-menu ,.navbar-header {
   background-color: #62474f;
 }
 
