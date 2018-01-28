@@ -7,7 +7,7 @@
 
 *	Ada Tatiana Yahuanca Chupa : UX  Front End
 
-	-Encargada de la calidad del producto, además de recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto céntrico donde desarrollamos la idea. Diseño básico solo papel y lápiz para dibujar los sketches.
+	- Encargada de la calidad del producto, además de recopilar información sobre las experiencias de los usuarios, analizar y llegar a un punto céntrico donde desarrollamos la idea. Diseño básico solo papel y lápiz para dibujar los sketches.
 
 *	Edit Jurado Quintana: UI. 
 	-	Desarrollo parte del diseño de la experiencia, recopilo los elementos necesarios para realizo maquetado, mejora de los sketches para una presentación profesional.
