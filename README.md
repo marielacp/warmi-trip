@@ -121,11 +121,11 @@ Todas estas páginas ofrecen las mejores experiencias de usuario, lugares a dond
 ## VIEWS RED SOCIAL WARMI-TRIP.
 ![Imagenes](assets/img/pg-splasg-genero-gogle.png) 
 
-![Imagenes](assets/img/pg-home.png) 
+![Imagenes](assets/img/pg-hom.png) 
 
-![Imagenes](assets/img/pg-profile.png) 
+![Imagenes](assets/img/pg-prof.png) 
 
-![Imagenes](assets/img/pg-planning.png) 
+![Imagenes](assets/img/pg-plan.png) 
 
 ## PRESENTACIÒN DE LA RED SOCIAL
 - Se crea un repositorio, y una rama master para web gh-pages.
