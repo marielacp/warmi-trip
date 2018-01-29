@@ -119,7 +119,7 @@ Todas estas páginas ofrecen las mejores experiencias de usuario, lugares a dond
     2. Un input  que permite  postear estados, recomendaciones, fotos y videos del lugar en el que están visitando, de esta manera la persona  que pueda ver su publicación de las expectativas que genera el lugar e interesarse por viajar
 
 ## VIEWS RED SOCIAL WARMI-TRIP.
-![Imagenes](assets/img/pg-splasg-genero-goglepng) 
+![Imagenes](assets/img/pg-splasg-genero-gogle.png) 
 
 ![Imagenes](assets/img/pg-home.png) 
 
