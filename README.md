@@ -25,8 +25,8 @@
       -  Feedback
 
 *   Research Cuantitativo
-         -  Muestra 6 personas.
-         -  Presentación de los primeros mockups
+      - Muestra 6 personas.
+      -  Presentación de los primeros mockups
 
 ### HERRAMIENTAS DE ENTREVISTAS.
 *     -  Lápiz y papel.
@@ -60,15 +60,15 @@
 -   Luego se le adiciona funcionalidad, rapidez y simpleza, que sea entendible al usuario y su experiencia sea enriquecedora.
 -   Se realizaron las pruebas de funcionalidad.
 
-### MOCUPS - PROTOTIPOS
+### MOCKUPS - PROTOTIPOS
 
 ![Imagenes](assets/img/view-splash-genero.png) 
 
-![Imagenes](assets/img/home.png) 
+![Imagenes](assets/img/view-home.png) 
 
-![Imagenes](assets/img/profile.png) 
+![Imagenes](assets/img/view-profile.png) 
 
-![Imagenes](assets/img/planning.png) 
+![Imagenes](assets/img/view-planning.png) 
 
 ### SOSTENIBILIDAD E IDEAS PRINCIPALES.
 *   Existe muchas páginas viajeras, blog, agencias de viaje, y demás, pero muy pocas en nuestro país que muestre el interés de segmentar el mercado y que el producto este destinado solo a mujeres, aquí menciono algunas páginas:
@@ -93,22 +93,22 @@ Todas estas páginas ofrecen las mejores experiencias de usuario, lugares a dond
 *   Creación de un logotipo en photoshop.
 *   Definición de paleta de colores y diseño de cada una de las views.
 *   Se utiliza una nueva herramienta de base de datos online llamado  Firebase (almacena datos en tiempo real), se implementó para el uso del formulario login, firebase tiene la ventaja de conectarse mediante redes sociales o gmail; en nuestro caso se utilizó la conexión vía gmail.
-*   Lista de vistas:
-   -   Splash.
-   -   Login – Genero.
-   -   Ingresa con Gmail. 
-   -   Home.
-   -   Profile.
-   -   Monedero para presupuestar los viajes.
-*   Modales:
-   -   Referencias.
-   -   Mapas de ubicación.
-*   Funcionalidad:
-   -   Registro de usuario.
-   -   Planificación de viaje.
-   -   Perfil de usuario.
-   -   Añade comentarios.
-   -   Subir fotos.
+    -   Lista de vistas:
+        -   Splash.
+        -   Login – Genero.
+        -   Ingresa con Gmail. 
+        -   Home.
+        -   Profile.
+        -   Monedero para presupuestar los viajes.
+    -   Modales:
+        -   Referencias.
+        -   Mapas de ubicación.
+    -   Funcionalidad:
+        -   Registro de usuario.
+        -   Planificación de viaje.
+        -   Perfil de usuario.
+        -   Añade comentarios.
+        -   Subir fotos.
 
 ## DESCRIPCION DE FUNCIONALIAD DE VIEWS
 
@@ -118,7 +118,14 @@ Todas estas páginas ofrecen las mejores experiencias de usuario, lugares a dond
     1. Cuenta con un select para seleccionar el departamento en que estas planificando viajar
     2. Un input  que permite  postear estados, recomendaciones, fotos y videos del lugar en el que están visitando, de esta manera la persona  que pueda ver su publicación de las expectativas que genera el lugar e interesarse por viajar
 
-![Imagenes](assets/img/pantallasReadme.png) 
+## VIEWS RED SOCIAL WARMI-TRIP.
+![Imagenes](assets/img/pg-splasg-genero-goglepng) 
+
+![Imagenes](assets/img/pg-home.png) 
+
+![Imagenes](assets/img/pg-profile.png) 
+
+![Imagenes](assets/img/pg-planning.png) 
 
 ## PRESENTACIÒN DE LA RED SOCIAL
 - Se crea un repositorio, y una rama master para web gh-pages.
