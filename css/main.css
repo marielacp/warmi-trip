@@ -14,7 +14,11 @@
   align-items: center;
   margin-top: 10vh;
 }
-
+.main-img{
+  width: 15%;
+  text-align: center;
+  margin-top: -5rem;
+}
 
 .margin-x{
     margin-bottom: 5vh;
@@ -26,13 +30,7 @@
   }
 }
 
-
-
 /*Css para la página planning*/
-
-
-
-
 
 .icon{
   width:3rem;
