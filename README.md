@@ -1,9 +1,14 @@
-# PROYECTO: Red Social WARMI TRIP
-# BAJO EL LEMA: Disfruta…viaja…vive.
+# WARMI TRIP
 
-![Imagenes](assets/img/logomujerchica.png) 
+Warmi Trip, es una aplicación viajera, hecha solo para mujeres, solo regístrate y planifica tu viaje.
+**Nuestro Lema: Disfruta…viaja…vive.**
 
-# NOMBRE DE PARTICIPANTES
+![Warmi Trip](https://user-images.githubusercontent.com/32305619/36449186-089896b6-1658-11e8-99b8-66d325bc7a91.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+## NOMBRE DE PARTICIPANTES
 
 *   Ada Tatiana Yahuanca Chupa: UX Designer y Front End.
     -   Como UX Designer fue encargada del research, research cualitativo y cuantitativo asimismo aplicación de métodos como entrevistas y encuestas para dar lugar al procesamiento y análisis de información. Como Front End, implemento la funcionalidad, formulario de login, planificación, profile, modales de información, manejo de base de datos en Firebase y conexión.
